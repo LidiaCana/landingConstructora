@@ -257,27 +257,54 @@
             <div class="container">
                 <!-- Right Services -->
                 <div class="row">
-                    <div class="col-sm-4">
+                    <div class="col-sm-3">
                         <div class="text-center">
-                            <img src="images/colegios/cimeqh.jpg" alt="CIMEQH">
+                            <img src="images/colegios/cimeqh.jpg" alt="CIMEQH" height="80" width="32">
                             <h4>Colegio de Ingenieros Mecánicos, Eléctricos y Químicos de Honduras</h4>
                         </div>
                     </div>
                     <!-- Left Services -->
-                    <div class="col-sm-4">
+                    <div class="col-sm-3">
                         <div class="text-center">
-                            <img src="images/colegios/CICH.png" alt="CICH">
+                            <img src="images/colegios/CICH.png" alt="CICH" height="110" width="30">
                             <h4>Colegio de Ingenieros Civiles de Honduras</h4>
                             <p></p>
                         </div>
                     </div>
 
                     <!-- Right Services -->
-                    <div class="col-sm-4">
+                    <div class="col-sm-3">
                         <div class="text-center">
-                            <img src="images/colegios/CAH.jpg" alt="CAH">
+                            <img src="images/colegios/CAH.jpg" alt="CAH" height="80" width="60">
                             <h4>Colegio de Arquitectos de Honduras</h4>
                             <p></p>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="text-center">
+                            <img src="images/colegios/CCIC.jpg" alt="CCIC" height="110" width="30">
+                            <h4>Cámara de Comercio e Industrias de Cortés</h4>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="text-center">
+                            <img src="images/colegios/IEEE.png" alt="Ieee" height="80" width="30">
+                            <h4>Institute of Electrical and Electronics Engineers</h4>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="text-center">
+                            <img src="images/colegios/OMCAE.jpg" alt="OMCAE" height="100" width="40">
+                            <h4>Oficina Normativa de Contratación y Adquisiciones del Estado de Honduras</h4>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="text-center">
+                            <img src="images/colegios/SIECA.jpg" alt="SIECA" height="100" width="40">
+                            <h4>Sistema de Integración Económica para Centroamérica</h4>
                         </div>
                     </div>
                 </div>
@@ -294,7 +321,7 @@
             <div class="row">
                 <div class="col-sm-12">
                     <div class="section-title">
-                        <h3>servicios</h3>
+                        <h3>Nuestros servicios</h3>
                         <div class="title-border"></div>
                     </div>
                 </div>
@@ -302,37 +329,41 @@
             <!--end row-->
             <div class="row">
                 <!-- START SINGLE SERVICE DESIGN AREA -->
-                <div class="col-md-3 col-sm-6">
+                <div class="col-md-4 col-sm-6">
                     <div class="single-service">
-                        <p><span class="fa fa-handshake-o service-icon"></span></p>
+                        <p><span class="fa fa-bolt service-icon"></span></p>
                         <h2 class="text-uppercase">Electricos </h2>
-                        <p>If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything
-                            embarrassing hidden.</p>
+                        <p>Se proporciona un servicio integral para el desarrollo de
+                            iniciativas industriales y de infraestructura. Ingeniería Eléctrica Conceptual, Básica y de
+                            detalles.
+                            <button type="button" class="btn btn-success" data-toggle="modal" data-target="#electicalModal">
+                                Leer mas..
+                            </button>
                     </div>
                 </div>
-                <div class="col-md-3 col-sm-6">
+                <div class="col-md-4 col-sm-6">
                     <div class="single-service">
-                        <p><span class="fa fa-snowflake-o service-icon"></span></p>
+                        <p><span class="fa fa-cogs service-icon"></span></p>
                         <h2 class="text-uppercase">Mecanicos</h2>
-                        <p>All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as
-                            necessary, making this the first.</p>
+                        <p> Estamos comprometidos con el desarrollo sostenible de diversos proyectos de
+                            electromecanica, sistemas neumáticos y de vapor, que proporcionen un mejor estándar de vida
+                            al usuario.
+                            <button type="button" class="btn btn-success" data-toggle="modal" data-target="#mecanicModal">
+                                Leer mas..
+                            </button></p>
                     </div>
                 </div>
 
-                <div class="col-md-3 col-sm-6">
+                <div class="col-md-4 col-sm-6">
                     <div class="single-service">
-                        <p><span class="fa fa-codiepie service-icon"></span></p>
+                        <p><span class="fa fa-university service-icon"></span></p>
                         <h2 class="text-uppercase">Obras civiles</h2>
-                        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece
-                            of classical Latin literature.</p>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6">
-                    <div class="single-service">
-                        <p><span class="fa fa-umbrella service-icon"></span></p>
-                        <h2 class="text-uppercase">wordpress</h2>
-                        <p> It has survived not only five centuries, but also the leap into electronic typesetting,
-                            remaining essentially unchanged.</p>
+                        <p>Nuestros profesionales están capacitados para realizar un trabajo de alto nivel de calidad,
+                            realizando obras de un modo eficiente y seguro para nuestro personal y las instalaciones de
+                            nuestros clientes.
+                            <button type="button" class="btn btn-success" data-toggle="modal" data-target="#builModal">
+                                Leer mas..
+                            </button></p>
                     </div>
                 </div>
             </div>
@@ -349,7 +380,7 @@
             <div class="row">
                 <div class="col-md-12 col-xs-12">
                     <div class="section-title-1">
-                        <h2 class="">Portfolio</h2>
+                        <h2 class="text-center">Portfolio</h2>
                         <div class="title-border"></div>
                     </div>
                 </div>
@@ -458,7 +489,7 @@
             <div class="row">
                 <div class="col-sm-12">
                     <div class="section-title">
-                        <h2>Happy Clients</h2>
+                        <h2 class="text-uppercase" style="color:white">Referencias</h2>
                         <div class="title-border"></div>
                     </div>
                 </div>
@@ -651,7 +682,136 @@
         <!--end container-->
     </section>
     <!--  END contect-->
+    <!-- Modal section -->
+    <!-- Modal -->
+    <div class="modal fade" id="electicalModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="exampleModalLabel">ÁREA ELÉCTRICA</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-5">
+                                <img src="images/electrica.jpg" alt="servicios electricos">
+                            </div>
+                            <div class="col-md-7">
+                                <p>Se proporciona un servicio integral para el desarrollo de iniciativas industriales y
+                                    de infraestructura. Ingeniería Eléctrica Conceptual, Básica y de detalles.</p>
 
+                            </div>
+                        </div>
+                        <div class="row">
+                            <br>
+                            <ul>
+                                <li>1.Diseño, construcción y supervisión. </li>
+                                <li>2.Estudios e integración de soluciones para eficiencia y ahorro energético.</li>
+                                <li>3.Gestión de proyectos de Energía Renovable.</li>
+                                <li>4.Sistemas integrados en media y alta tensión aéreo y subterráneo.</li>
+                                <li>5.Sistemas de control y automatización</li>
+                                <li>6.Sistemas datos, cámaras de seguridad, accesos integrados y Data Center.</li>
+                                <li>7.Sistema de fuerza, subestaciones eléctricas, alimentadores y cuartos
+                                    eléctricos, etc.</li>
+                                <li>8.Sistemas de iluminación, tomacorrientes, AA.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Mecanic section -->
+    <div class="modal fade" id="mecanicModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="exampleModalLabel">ÁREA MECÁNICA</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-5">
+                                <img src="images/mecanica.jpg" alt="servicios Mecanicos">
+                            </div>
+                            <div class="col-md-7">
+                                <p>Estamos comprometidos con el desarrollo sostenible de diversos proyectos de
+                                    electromecanica, sistemas neumáticos y de vapor, que proporcionen un mejor estándar
+                                    de vida al usuario. </p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <ul>
+                                <li>1. Diseño, construcción y supervisión.</li>
+                                <li>2. Estudios e integración de soluciones para eficiencia y ahorro energético.</li>
+                                <li>3. Sistemas de Heat Ventilation & Air Condition (HVAC).</li>
+                                <li>4. Sistemas neumáticos y de vapor. </li>
+                                <li>5. Sistemas de agua de procesos, fría o caliente.</li>
+                                <li>6. Pintura industrial para maquinarias, tanques y estructuras elevadas.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Building Section -->
+    <div class="modal fade" id="builModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="exampleModalLabel">ÁREA DE OBRAS CIVILES</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-5">
+                                <img src="images/civil.jpg" alt="servicios civil">
+                            </div>
+                            <div class="col-md-7">
+                                <p>Nuestros profesionales están capacitados para realizar un trabajo de alto nivel de
+                                    calidad, realizando obras de un modo eficiente y seguro para nuestro personal y las
+                                    instalaciones de nuestros clientes.</p>
+
+                            </div>
+                        </div>
+                        <div class="row">
+                            <ul>
+                                <li> 1. Diseño, construcción y supervisión.</li>
+                                <li>2. Estructuras metálicas y techos estructurales.</li>
+                                <li>3. Construcción de obra gris.</li>
+                                <li>4. Terracería</li>
+                                <li>5. Sistemas hidro-sanitarios.</li>
+                                <li>6. Tabla yeso interior y exterior.</li>
+                                <li>7. Pintura arquitectónica e industrial.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Ende modal section -->
     <!-- START footer -->
     <footer class="footer-area">
         <div class="container footer-shadow">
