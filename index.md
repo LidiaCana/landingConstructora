@@ -135,9 +135,9 @@
                                     <div class="social-links header-links">
                                         <ul>
                                             <li><a href=""><i class="fa fa-facebook"></i></a></li>
-                                            <li><a href=""><i class="fa fa-twitter"></i></a></li>
+                                            <li><a href=""><i class="fa fa-instagram"></i></a></li>
                                             <li><a href=""><i class="fa fa-google-plus"></i></a></li>
-                                            <li><a href=""><i class="fa fa-dribbble"></i></a></li>
+                                            <li><a href=""><i class="fa fa-whatsapp"></i></a></li>
                                         </ul>
                                     </div>
                                     <a class="btn btn-custom smoth-scroll" href="#contact">Contactanos</a>
@@ -160,7 +160,7 @@
             <div class="row">
                 <div class="col-sm-12">
                     <div class="section-title-1">
-                        <h2 class="text-center">Acerca de nosotros</h2>
+                        <h2 class="text-center">ACERCA DE NOSOTROS</h2>
                         <div class="title-border"></div>
                     </div>
                 </div>
@@ -186,7 +186,24 @@
                         </p>
 
                         <div class="presonal-inform">
+                            <p><b>Segmento de mercado</b></p>
 
+                            <ul>
+                                <li style="margin-bottom: 5px;">+ Gestión de proyectos de Energía Renovable.</li>
+                                <li style="margin-bottom: 5px;">+ Industria Textil.</li>
+                                <li style="margin-bottom: 5px;">+ Hilanderías.</li>
+                                <li style="margin-bottom: 5px;">+ Manufactureras.</li>
+                                <li style="margin-bottom: 5px;">+ Industria de Fibrocemento.</li>
+                                <li style="margin-bottom: 5px;">+ Plantas de Biomasa.</li>
+                                <li style="margin-bottom: 5px;">+ Hidroeléctricas.</li>
+                                <li style="margin-bottom: 5px;">+ Industria Farmacéutica.</li>
+                                <li style="margin-bottom: 5px;">+ Gasolineras y planta de gas.</li>
+                                <li style="margin-bottom: 5px;">+ Proyectos residenciales y comerciales.</li>
+                                <li style="margin-bottom: 5px;">+ Condominios de apartamentos.</li>
+                                <li style="margin-bottom: 5px;">+ Industria alimenticia, bebidas y similares.</li>
+                                <li style="margin-bottom: 5px;">+ Industria de concentrado para animales.</li>
+                                <li style="margin-bottom: 5px;">+ Banca privada.</li>
+                            </ul>
                         </div>
                     </div>
                 </div>
@@ -259,14 +276,14 @@
                 <div class="row">
                     <div class="col-sm-3">
                         <div class="text-center">
-                            <img src="images/colegios/cimeqh.jpg" alt="CIMEQH" height="80" width="32">
+                            <img src="images/colegios/cimeqh.jpg" class="img-thumbnail" alt="CIMEQH">
                             <h4>Colegio de Ingenieros Mecánicos, Eléctricos y Químicos de Honduras</h4>
                         </div>
                     </div>
                     <!-- Left Services -->
                     <div class="col-sm-3">
                         <div class="text-center">
-                            <img src="images/colegios/CICH.png" alt="CICH" height="110" width="30">
+                            <img src="images/colegios/CICH.png" class="img-thumbnail" alt="CICH">
                             <h4>Colegio de Ingenieros Civiles de Honduras</h4>
                             <p></p>
                         </div>
@@ -275,14 +292,14 @@
                     <!-- Right Services -->
                     <div class="col-sm-3">
                         <div class="text-center">
-                            <img src="images/colegios/CAH.jpg" alt="CAH" height="80" width="60">
+                            <img src="images/colegios/CAH.jpg" class="img-thumbnail" alt="CAH">
                             <h4>Colegio de Arquitectos de Honduras</h4>
                             <p></p>
                         </div>
                     </div>
                     <div class="col-sm-3">
                         <div class="text-center">
-                            <img src="images/colegios/CCIC.jpg" alt="CCIC" height="110" width="30">
+                            <img src="images/colegios/CCIC.jpg" class="img-thumbnail" alt="CCIC">
                             <h4>Cámara de Comercio e Industrias de Cortés</h4>
                             <p></p>
                         </div>
@@ -291,19 +308,19 @@
                 <div class="row">
                     <div class="col-sm-4">
                         <div class="text-center">
-                            <img src="images/colegios/IEEE.png" alt="Ieee" height="80" width="30">
+                            <img src="images/colegios/IEEE.png" class="img-thumbnail" alt="Ieee">
                             <h4>Institute of Electrical and Electronics Engineers</h4>
                         </div>
                     </div>
                     <div class="col-sm-4">
                         <div class="text-center">
-                            <img src="images/colegios/OMCAE.jpg" alt="OMCAE" height="100" width="40">
+                            <img src="images/colegios/OMCAE.jpg" class="img-thumbnail" alt="OMCAE">
                             <h4>Oficina Normativa de Contratación y Adquisiciones del Estado de Honduras</h4>
                         </div>
                     </div>
                     <div class="col-sm-4">
                         <div class="text-center">
-                            <img src="images/colegios/SIECA.jpg" alt="SIECA" height="100" width="40">
+                            <img src="images/colegios/SIECA.jpg" class="img-thumbnail" alt="SIECA">
                             <h4>Sistema de Integración Económica para Centroamérica</h4>
                         </div>
                     </div>
@@ -321,7 +338,7 @@
             <div class="row">
                 <div class="col-sm-12">
                     <div class="section-title">
-                        <h3>Nuestros servicios</h3>
+                        <h3>NUESTROS SERVICIOS</h3>
                         <div class="title-border"></div>
                     </div>
                 </div>
@@ -380,7 +397,7 @@
             <div class="row">
                 <div class="col-md-12 col-xs-12">
                     <div class="section-title-1">
-                        <h2 class="text-center">Portfolio</h2>
+                        <h2 class="text-center">PORTAFOLIO</h2>
                         <div class="title-border"></div>
                     </div>
                 </div>
@@ -390,56 +407,56 @@
                 <div class="col-xs-12">
                     <div class="lrs-divider-3"></div>
                     <ul class="list-unstyled list-inline lrs-list-protfolio" id="filter">
-                        <li class="active fil-cat" data-rel="all">All</li>
-                        <li class="fil-cat" data-rel="web">Html / CSS</li>
-                        <li class="fil-cat" data-rel="js">JavaScript</li>
-                        <li class="fil-cat" data-rel="wordpress">Wordpress</li>
+                        <li class="active fil-cat" data-rel="all">Todos</li>
+                        <li class="fil-cat" data-rel="electrical">Electricos</li>
+                        <li class="fil-cat" data-rel="mecanic">Mecanica</li>
+                        <li class="fil-cat" data-rel="build">Obras civiles</li>
                     </ul>
                 </div>
                 <div class="col-md-12 col-xs-12">
                     <div class="lrs-projects">
-                        <div class="lrs-project scale-anm web js all" data-toggle="modal" data-target="#one">
+                        <div class="lrs-project scale-anm electrical all" data-toggle="modal" data-target="#one">
                             <div class="lrs-project-image">
-                                <img src="images/port/1.jpg" class="img-responsive" alt="Resume / CV" />
+                                <img src="images/tabacalera2.jpg" class="img-responsive" alt="Resume / CV" />
                                 <div class="lrs-project-content">
-                                    <h6 class="lrs-project-title">Lorem ipsum dolor</h6>
-                                    <p class="lrs-project-client"><b>GOOGLE</b></p>
+                                    <h6 class="lrs-project-title"> Sistema eléctrico, Obras civiles y Mecanica</h6>
+                                    <p class="lrs-project-client"><b>TABACALERA HONDUREÑA S.A. DE C.V.</b></p>
                                 </div>
                             </div>
                         </div>
-                        <div class="lrs-project scale-anm js html all" data-toggle="modal" data-target="#one">
+                        <div class="lrs-project scale-anm mecanic all" data-toggle="modal" data-target="#one">
                             <div class="lrs-project-image">
-                                <img src="images/port/2.jpg" class="img-responsive" alt="Resume / CV" />
+                                <img src="images/banrural.jpg" class="img-responsive" alt="Resume / CV" />
                                 <div class="lrs-project-content">
                                     <h6 class="lrs-project-title">Lorem ipsum dolor</h6>
-                                    <p class="lrs-project-client"><b>YAHOO</b></p>
+                                    <p class="lrs-project-client"><b>BANRURAL</b></p>
                                 </div>
                             </div>
                         </div>
-                        <div class="lrs-project scale-anm js web all" data-toggle="modal" data-target="#one">
+                        <div class="lrs-project scale-anm  all" data-toggle="modal" data-target="#one">
                             <div class="lrs-project-image">
-                                <img src="images/port/3.jpg" class="img-responsive" alt="Resume / CV" />
+                                <img src="images/cigraph.jpg" class="img-responsive" alt="Resume / CV" />
                                 <div class="lrs-project-content">
                                     <h6 class="lrs-project-title">Lorem ipsum dolor</h6>
-                                    <p class="lrs-project-client"><b>MICROSOFT</b></p>
+                                    <p class="lrs-project-client"><b>CIGRAH / MERCON</b></p>
                                 </div>
                             </div>
                         </div>
-                        <div class="lrs-project scale-anm js wordpress all" data-toggle="modal" data-target="#one">
+                        <div class="lrs-project scale-anm build all" data-toggle="modal" data-target="#one">
                             <div class="lrs-project-image">
                                 <img src="images/port/4.jpg" class="img-responsive" alt="Resume / CV" />
                                 <div class="lrs-project-content">
                                     <h6 class="lrs-project-title">Lorem ipsum dolor</h6>
-                                    <p class="lrs-project-client"><b>INTEL</b></p>
+                                    <p class="lrs-project-client"><b>PLYCEM CONSTRUSISTEMAS HONDURAS</b></p>
                                 </div>
                             </div>
                         </div>
-                        <div class="lrs-project scale-anm web all" data-toggle="modal" data-target="#one">
+                        <div class="lrs-project scale-anm mecanic all" data-toggle="modal" data-target="#one">
                             <div class="lrs-project-image">
                                 <img src="images/port/5.jpg" class="img-responsive" alt="Resume / CV" />
                                 <div class="lrs-project-content">
                                     <h6 class="lrs-project-title">Lorem ipsum dolor</h6>
-                                    <p class="lrs-project-client"><b>FACEBOOK</b></p>
+                                    <p class="lrs-project-client"><b>PETROLEOS AMERICANOS DE HONDURAS</b></p>
                                 </div>
                             </div>
                         </div>
@@ -449,7 +466,7 @@
                                 <img src="images/port/6.jpg" class="img-responsive" alt="Resume / CV" />
                                 <div class="lrs-project-content">
                                     <h6 class="lrs-project-title">Lorem ipsum dolor</h6>
-                                    <p class="lrs-project-client"><b>FACEBOOK</b></p>
+                                    <p class="lrs-project-client"><b>ITALIAN INDUSTRIAL AGENCY</b></p>
                                 </div>
                             </div>
                         </div>
@@ -459,7 +476,7 @@
                                 <img src="images/port/7.jpg" class="img-responsive" alt="Resume / CV" />
                                 <div class="lrs-project-content">
                                     <h6 class="lrs-project-title">Lorem ipsum dolor</h6>
-                                    <p class="lrs-project-client"><b>FACEBOOK</b></p>
+                                    <p class="lrs-project-client"><b>CORPORACION DINANT</b></p>
                                 </div>
                             </div>
                         </div>
@@ -469,7 +486,7 @@
                                 <img src="images/port/8.jpg" class="img-responsive" alt="Resume / CV" />
                                 <div class="lrs-project-content">
                                     <h6 class="lrs-project-title">Lorem ipsum dolor</h6>
-                                    <p class="lrs-project-client"><b>FACEBOOK</b></p>
+                                    <p class="lrs-project-client"><b>GMG</b></p>
                                 </div>
                             </div>
                         </div>
@@ -820,9 +837,9 @@
                     <div class="social-links">
                         <ul>
                             <li><a href=""><i class="fa fa-facebook footer-link"></i></a></li>
-                            <li><a href=""><i class="fa fa-twitter footer-link"></i></a></li>
+                            <li><a href=""><i class="fa fa-instagram footer-link"></i></a></li>
                             <li><a href=""><i class="fa fa-google-plus footer-link"></i></a></li>
-                            <li><a href=""><i class="fa fa-dribbble footer-link"></i></a></li>
+                            <li><a href=""><i class="fa fa-whatsapp footer-link"></i></a></li>
                         </ul>
                     </div>
                     <p class="copyright">© 2020 Edit Lidia Canales</p>
