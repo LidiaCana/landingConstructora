@@ -171,18 +171,20 @@
                     <div class="introduce">
                         <h2 class="title">Nuestra historia</h2>
 
-                        <p>Somos RUIZ & BETANCOURT CONSTRUCTORES S.A. DE C.V. Una empresa de multi-operaciones,
-                            dedicada a la integración de soluciones de ingeniería en las áreas eléctrica, mecánica y
-                            obras civiles. Inicia operaciones en la ciudad de San Pedro Sula en el año 2010 como una
-                            empresa de soluciones integrales a las necesidades del mercado, destacando desde sus
-                            inicios en sistemas electromecánicos, de energía renovables y obras civiles, industriales
-                            comerciales y residenciales. Desarrollando proyectos como ser: redes de media y baja
-                            tensión, energías renovables, sistemas de ventilación, protección contra descargas
-                            atmosféricas y trascientes, medición y calidad de energía para eficiencia energética,
-                            sistemas de control y automatización, sistemas de datos (Data Center), sistemas de HVAC,
-                            sistemas neumáticos y de vapor, pintura arquitectónica, industrial en estructuras elevadas,
-                            obra gris, tabla yeso, estructuras metálicas, sistemas hidrosanitarios, terracería entre
-                            otros.
+                        <p>Somos RUIZ & BETANCOURT CONSTRUCTORES S.A. DE C.V. , Una empresa multi-operaciones, dedicada
+                            a la integración de soluciones de ingeniería en las áreas eléctrica, mecánica y obras
+                            civiles.</p>
+
+                        <p>Fundada en la ciudad de San Pedro Sula en el año 2010, como una empresa de soluciones
+                            integrales a las necesidades del mercado, destacando desde sus inicios en calidad y
+                            servicio de sistemas electromecánicos, energía renovables, obras arquitectónicas y civiles,
+                            industriales, comerciales, residenciales y otros.
+                        </p>
+
+                        <p>En R&BCO, disfrutamos de lo que hacemos, día a día nuestro equipo de trabajo entrega sus
+                            competencias en cada uno de los proyectos, con los mas altos estándares de seguridad
+                            ocupacional, regidos bajo nuestra filosofía empresarial “ecologicamente amigables” y la
+                            integración de la “Agenda 2030 para el Desarrollo Sostenible”.
                         </p>
 
                         <div class="presonal-inform">
@@ -234,10 +236,10 @@
                         </div>
                     </div>
                     <div class="single-service">
-                        <p> Ser la empresa líder en ingeniería de la construcción de obras civiles,
-                            electromecánicas y energías renovables, altamente reconocida a nivel nacional e
-                            internacional por su compromiso, capacidad, calidad, respaldo y cumplimiento de
-                            las normas de seguridad.
+                        <p> Realizar de manera sostenible con el medio ambiente, multi-operaciones de ingeniería,
+                            integrando tecnología de punta en el desarrollo de nuestros proyectos, creando alianzas de
+                            mutuo beneficio con nuestros asociados, para el desarrollo y fortalecimiento de nuestros
+                            colaboradores, clientes, y comunidades.
                         </p>
                     </div>
                 </div>
@@ -247,10 +249,9 @@
                         <div class="title-border" style="margin-bottom: 10px;"> </div>
                     </div>
                     <div class="single-service">
-                        <p>Realizar de manera sostenible con el medio ambiente, proyectos de construcción,
-                            integrando de manera permanente tecnología de punta que sirva al crecimiento de
-                            nuestros clientes, creando alianzas de mutuo beneficio con nuestros asociados, para
-                            el desarrollo y fortalecimiento de nuestros proyectos.
+                        <p>Ser la empresa puntera en ingeniería de la construcción de obras civiles, electromecánicas y
+                            energías renovables, altamente reconocida a nivel nacional e internacional por su
+                            compromiso, capacidad, calidad y respaldo, dejando una huella positiva en nuestro entorno.
                         </p>
                     </div>
                 </div>
@@ -276,7 +277,7 @@
                 <div class="row">
                     <div class="col-sm-3">
                         <div class="text-center">
-                            <img src="images/colegios/cimeqh.jpg" class="img-thumbnail" alt="CIMEQH">
+                            <img src="images/colegios/cimeqh2.jpg" class="img-thumbnail" alt="CIMEQH">
                             <h4>Colegio de Ingenieros Mecánicos, Eléctricos y Químicos de Honduras</h4>
                         </div>
                     </div>
@@ -292,7 +293,7 @@
                     <!-- Right Services -->
                     <div class="col-sm-3">
                         <div class="text-center">
-                            <img src="images/colegios/CAH.jpg" class="img-thumbnail" alt="CAH">
+                            <img src="images/colegios/CAH2.jpg" class="img-thumbnail" alt="CAH">
                             <h4>Colegio de Arquitectos de Honduras</h4>
                             <p></p>
                         </div>
@@ -305,10 +306,11 @@
                         </div>
                     </div>
                 </div>
+                <br>
                 <div class="row">
                     <div class="col-sm-4">
                         <div class="text-center">
-                            <img src="images/colegios/IEEE.png" class="img-thumbnail" alt="Ieee">
+                            <img src="images/colegios/IEEE2.png" class="img-thumbnail" alt="Ieee">
                             <h4>Institute of Electrical and Electronics Engineers</h4>
                         </div>
                     </div>
@@ -320,7 +322,7 @@
                     </div>
                     <div class="col-sm-4">
                         <div class="text-center">
-                            <img src="images/colegios/SIECA.jpg" class="img-thumbnail" alt="SIECA">
+                            <img src="images/colegios/SIECA2.jpg" class="img-thumbnail" alt="SIECA">
                             <h4>Sistema de Integración Económica para Centroamérica</h4>
                         </div>
                     </div>
@@ -428,7 +430,8 @@
                             <div class="lrs-project-image">
                                 <img src="images/banrural.jpg" class="img-responsive" alt="Resume / CV" />
                                 <div class="lrs-project-content">
-                                    <h6 class="lrs-project-title">Lorem ipsum dolor</h6>
+                                    <h6 class="lrs-project-title">Diseño y construcción del sistema eléctrico, alarma y
+                                        datos</h6>
                                     <p class="lrs-project-client"><b>BANRURAL</b></p>
                                 </div>
                             </div>
@@ -437,25 +440,27 @@
                             <div class="lrs-project-image">
                                 <img src="images/cigraph.jpg" class="img-responsive" alt="Resume / CV" />
                                 <div class="lrs-project-content">
-                                    <h6 class="lrs-project-title">Lorem ipsum dolor</h6>
+                                    <h6 class="lrs-project-title">Diseño y construcción de: obra civil, estructuras
+                                        metálicas, sistema eléctrico, sistema de vigilancia, etc.</h6>
                                     <p class="lrs-project-client"><b>CIGRAH / MERCON</b></p>
                                 </div>
                             </div>
                         </div>
                         <div class="lrs-project scale-anm build all" data-toggle="modal" data-target="#one">
                             <div class="lrs-project-image">
-                                <img src="images/port/4.jpg" class="img-responsive" alt="Resume / CV" />
+                                <img src="images/plycem.jpg" class="img-responsive" alt="Resume / CV" />
                                 <div class="lrs-project-content">
-                                    <h6 class="lrs-project-title">Lorem ipsum dolor</h6>
+                                    <h6 class="lrs-project-title">Mantenimiento e instalacion de sistemas electricos</h6>
                                     <p class="lrs-project-client"><b>PLYCEM CONSTRUSISTEMAS HONDURAS</b></p>
                                 </div>
                             </div>
                         </div>
                         <div class="lrs-project scale-anm mecanic all" data-toggle="modal" data-target="#one">
                             <div class="lrs-project-image">
-                                <img src="images/port/5.jpg" class="img-responsive" alt="Resume / CV" />
+                                <img src="images/petroleos.jpg" class="img-responsive" alt="Resume / CV" />
                                 <div class="lrs-project-content">
-                                    <h6 class="lrs-project-title">Lorem ipsum dolor</h6>
+                                    <h6 class="lrs-project-title"> Diseño y construcción de nuevo sistema eléctrico de
+                                        estación de servicio</h6>
                                     <p class="lrs-project-client"><b>PETROLEOS AMERICANOS DE HONDURAS</b></p>
                                 </div>
                             </div>
@@ -463,9 +468,10 @@
 
                         <div class="lrs-project scale-anm web wordpress all" data-toggle="modal" data-target="#one">
                             <div class="lrs-project-image">
-                                <img src="images/port/6.jpg" class="img-responsive" alt="Resume / CV" />
+                                <img src="images/italian1.jpg" class="img-responsive" alt="Resume / CV" />
                                 <div class="lrs-project-content">
-                                    <h6 class="lrs-project-title">Lorem ipsum dolor</h6>
+                                    <h6 class="lrs-project-title">Diseño y construcción de controles automatizados para
+                                        sistema eléctrico de represa hidroeléctrica, etc</h6>
                                     <p class="lrs-project-client"><b>ITALIAN INDUSTRIAL AGENCY</b></p>
                                 </div>
                             </div>
@@ -473,9 +479,10 @@
 
                         <div class="lrs-project scale-anm web html all" data-toggle="modal" data-target="#one">
                             <div class="lrs-project-image">
-                                <img src="images/port/7.jpg" class="img-responsive" alt="Resume / CV" />
+                                <img src="images/dinant3.jpeg" class="img-responsive" alt="Resume / CV" />
                                 <div class="lrs-project-content">
-                                    <h6 class="lrs-project-title">Lorem ipsum dolor</h6>
+                                    <h6 class="lrs-project-title">Diseño y construcción de sistemas electricos y obras
+                                        civilesx</h6>
                                     <p class="lrs-project-client"><b>CORPORACION DINANT</b></p>
                                 </div>
                             </div>
@@ -483,10 +490,11 @@
 
                         <div class="lrs-project scale-anm web wordpress all" data-toggle="modal" data-target="#one">
                             <div class="lrs-project-image">
-                                <img src="images/port/8.jpg" class="img-responsive" alt="Resume / CV" />
+                                <img src="images/lindamar.jpg" class="img-responsive" alt="Resume / CV" />
                                 <div class="lrs-project-content">
-                                    <h6 class="lrs-project-title">Lorem ipsum dolor</h6>
-                                    <p class="lrs-project-client"><b>GMG</b></p>
+                                    <h6 class="lrs-project-title">diseño primario de alimentación, sistema de
+                                        iluminación, tomacorrientes.</h6>
+                                    <p class="lrs-project-client"><b>LINDAMAR</b></p>
                                 </div>
                             </div>
                         </div>
@@ -516,30 +524,32 @@
                 <div class="col-md-8 col-md-offset-2">
                     <div class="testimonial-list">
                         <div class="single-testimonial text-center">
-                            <img class="user-block" src="images/rev/face-1.png">
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
-                                has been the industry's standard dummy text ever since the 1500s Lorem Ipsum.</p>
-                            <h2>mark jukarbarg</h2>
-                            <h3>CEO facebook</h3>
-                            <img src="images/logos/3.png" alt="" class="client-img">
+                            <img class="user-block" src="images/logos/cliente.png">
+                            <p>Ruiz&Betancourt Constructores S.A. DE C.V. es una empresa con un alto servicio de
+                                calidad de ingeniería.</p>
+                            <h2>Cliente 1</h2>
+                            <h3>Gerente general Dinant</h3>
+                            <img src="images/logos/banrural.png" alt="" class="client-img">
                         </div>
 
                         <div class="single-testimonial text-center">
-                            <img class="user-block" src="images/rev/face-2.png">
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
-                                has been the industry's standard dummy text ever since the 1500s Lorem Ipsum.</p>
-                            <h2>mark jukarbarg</h2>
-                            <h3>CEO facebook</h3>
-                            <img src="images/logos/1.png" alt="" class="client-img">
+                            <img class="user-block" src="images/logos/cliente.png">
+                            <p> Ruiz&Betancourt Constructores S.A. DE C.V. son una empresa de primera categoría.
+                                ¡Cuidadoso, gran ética de trabajo, lo
+                                contrataría nuevamente en un abrir y cerrar de ojos! El trabajo estaba limpio. Muy útil
+                                y dispuesto a dar consejos sobre nuestros proyectos.</p>
+                            <h2>Cliente 2</h2>
+                            <h3>Cargo</h3>
+                            <img src="images/logos/dinant.png" alt="" class="client-img">
                         </div>
 
                         <div class="single-testimonial text-center">
-                            <img class="user-block" src="images/rev/face-3.png">
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
-                                has been the industry's standard dummy text ever since the 1500s Lorem Ipsum.</p>
-                            <h2>mark jukarbarg</h2>
-                            <h3>CEO facebook</h3>
-                            <img src="images/logos/2.png" alt="" class="client-img">
+                            <img class="user-block" src="images/logos/cliente.png">
+                            <p>Ruiz&Betancourt Constructores S.A. DE C.V. se aseguró de que estuviéramos felices en
+                                cada paso del camino y que el trabajo siempre fuera puntual. </p>
+                            <h2>Cliente 3</h2>
+                            <h3>Cargo</h3>
+                            <img src="images/logos/tabacalera.png" alt="" class="client-img">
                         </div>
                     </div>
                 </div>
@@ -555,8 +565,8 @@
         <div class="container area">
             <div class="row">
                 <div class="col-sm-12">
-                    <div class="section-title-1">
-                        <h2 class="hadding no-margin">Trabajos mas destacados</h2>
+                    <div class="section-title-1 text-center">
+                        <h2 class="hadding no-margin">TRABAJOS MAS DESTACADOS</h2>
                         <div class="title-border"></div>
                     </div>
                 </div>
@@ -703,25 +713,21 @@
     <!-- Modal -->
     <div class="modal fade" id="electicalModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
         aria-hidden="true">
-        <div class="modal-dialog" role="document">
+        <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h4 class="modal-title" id="exampleModalLabel">ÁREA ELÉCTRICA</h4>
+                    <h5 class="modal-title" id="exampleModalLabel">ÁREA ELÉCTRICA</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
                 <div class="modal-body">
                     <div class="container-fluid">
-                        <div class="row">
-                            <div class="col-md-5">
-                                <img src="images/electrica.jpg" alt="servicios electricos">
+                        <div class="row text-center">
+                            <div class="text-center col-md-12 ">
+                                <img src="images/electrica.jpg" class="rounded mx-auto d-block" alt="servicios electricos">
                             </div>
-                            <div class="col-md-7">
-                                <p>Se proporciona un servicio integral para el desarrollo de iniciativas industriales y
-                                    de infraestructura. Ingeniería Eléctrica Conceptual, Básica y de detalles.</p>
 
-                            </div>
                         </div>
                         <div class="row">
                             <br>
@@ -732,7 +738,7 @@
                                 <li>4.Sistemas integrados en media y alta tensión aéreo y subterráneo.</li>
                                 <li>5.Sistemas de control y automatización</li>
                                 <li>6.Sistemas datos, cámaras de seguridad, accesos integrados y Data Center.</li>
-                                <li>7.Sistema de fuerza, subestaciones eléctricas, alimentadores y cuartos
+                                <li>7.Sistema de fuerza, subestaciones eléctricas, alimentadores, cuartos
                                     eléctricos, etc.</li>
                                 <li>8.Sistemas de iluminación, tomacorrientes, AA.</li>
                             </ul>
@@ -751,7 +757,7 @@
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h4 class="modal-title" id="exampleModalLabel">ÁREA MECÁNICA</h4>
+                    <h5 class="modal-title" id="exampleModalLabel">ÁREA MECÁNICA</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
@@ -759,15 +765,11 @@
                 <div class="modal-body">
                     <div class="container-fluid">
                         <div class="row">
-                            <div class="col-md-5">
-                                <img src="images/mecanica.jpg" alt="servicios Mecanicos">
-                            </div>
-                            <div class="col-md-7">
-                                <p>Estamos comprometidos con el desarrollo sostenible de diversos proyectos de
-                                    electromecanica, sistemas neumáticos y de vapor, que proporcionen un mejor estándar
-                                    de vida al usuario. </p>
+                            <div class="col-md-12 text-center">
+                                <img src="images/mecanic.jpg" alt="servicios Mecanicos">
                             </div>
                         </div>
+                        <br>
                         <div class="row">
                             <ul>
                                 <li>1. Diseño, construcción y supervisión.</li>
@@ -791,7 +793,7 @@
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h4 class="modal-title" id="exampleModalLabel">ÁREA DE OBRAS CIVILES</h4>
+                    <h5 class="modal-title" id="exampleModalLabel">ÁREA DE OBRAS CIVILES</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
@@ -799,19 +801,14 @@
                 <div class="modal-body">
                     <div class="container-fluid">
                         <div class="row">
-                            <div class="col-md-5">
-                                <img src="images/civil.jpg" alt="servicios civil">
-                            </div>
-                            <div class="col-md-7">
-                                <p>Nuestros profesionales están capacitados para realizar un trabajo de alto nivel de
-                                    calidad, realizando obras de un modo eficiente y seguro para nuestro personal y las
-                                    instalaciones de nuestros clientes.</p>
-
+                            <div class="col-md-12 text-center">
+                                <img src="images/civil.jpeg" alt="servicios civil">
                             </div>
                         </div>
+                        <br>
                         <div class="row">
                             <ul>
-                                <li> 1. Diseño, construcción y supervisión.</li>
+                                <li>1. Diseño, construcción y supervisión.</li>
                                 <li>2. Estructuras metálicas y techos estructurales.</li>
                                 <li>3. Construcción de obra gris.</li>
                                 <li>4. Terracería</li>
