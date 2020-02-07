@@ -380,7 +380,7 @@
                         <p>Nuestros profesionales están capacitados para realizar un trabajo de alto nivel de calidad,
                             realizando obras de un modo eficiente y seguro para nuestro personal y las instalaciones de
                             nuestros clientes.
-                            <button type="button" class="btn btn-success" data-toggle="modal" data-target="#builModal">
+                            <button type="button" class="btn btn-success" data-toggle="modal" data-target="#buildModal">
                                 Leer mas..
                             </button></p>
                     </div>
@@ -417,18 +417,18 @@
                 </div>
                 <div class="col-md-12 col-xs-12">
                     <div class="lrs-projects">
-                        <div class="lrs-project scale-anm electrical all" data-toggle="modal" data-target="#one">
+                        <div class="lrs-project scale-anm electrical all" data-toggle="modal" data-target="#TAHSA">
                             <div class="lrs-project-image">
-                                <img src="images/tabacalera2.jpg" class="img-responsive" alt="Resume / CV" />
+                                <img src="images/customer/tabacalera2.jpg" class="img-responsive" alt="Resume / CV" />
                                 <div class="lrs-project-content">
                                     <h6 class="lrs-project-title"> Sistema eléctrico, Obras civiles y Mecanica</h6>
                                     <p class="lrs-project-client"><b>TABACALERA HONDUREÑA S.A. DE C.V.</b></p>
                                 </div>
                             </div>
                         </div>
-                        <div class="lrs-project scale-anm mecanic all" data-toggle="modal" data-target="#one">
+                        <div class="lrs-project scale-anm mecanic all" data-toggle="modal" data-target="#BANRURAL">
                             <div class="lrs-project-image">
-                                <img src="images/banrural.jpg" class="img-responsive" alt="Resume / CV" />
+                                <img src="images/customer/banrural.jpg" class="img-responsive" alt="Resume / CV" />
                                 <div class="lrs-project-content">
                                     <h6 class="lrs-project-title">Diseño y construcción del sistema eléctrico, alarma y
                                         datos</h6>
@@ -436,9 +436,9 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="lrs-project scale-anm  all" data-toggle="modal" data-target="#one">
+                        <div class="lrs-project scale-anm  all" data-toggle="modal" data-target="#CIGRAH">
                             <div class="lrs-project-image">
-                                <img src="images/cigraph.jpg" class="img-responsive" alt="Resume / CV" />
+                                <img src="images/customer/cigrah.jpg" class="img-responsive" alt="Resume / CV" />
                                 <div class="lrs-project-content">
                                     <h6 class="lrs-project-title">Diseño y construcción de: obra civil, estructuras
                                         metálicas, sistema eléctrico, sistema de vigilancia, etc.</h6>
@@ -446,18 +446,18 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="lrs-project scale-anm build all" data-toggle="modal" data-target="#one">
+                        <div class="lrs-project scale-anm build all" data-toggle="modal" data-target="#PLYCEM">
                             <div class="lrs-project-image">
-                                <img src="images/plycem.jpg" class="img-responsive" alt="Resume / CV" />
+                                <img src="images/customer/plycem.jpg" class="img-responsive" alt="Resume / CV" />
                                 <div class="lrs-project-content">
                                     <h6 class="lrs-project-title">Mantenimiento e instalacion de sistemas electricos</h6>
                                     <p class="lrs-project-client"><b>PLYCEM CONSTRUSISTEMAS HONDURAS</b></p>
                                 </div>
                             </div>
                         </div>
-                        <div class="lrs-project scale-anm mecanic all" data-toggle="modal" data-target="#one">
+                        <div class="lrs-project scale-anm mecanic all" data-toggle="modal" data-target="#PETROLEOSHN">
                             <div class="lrs-project-image">
-                                <img src="images/petroleos.jpg" class="img-responsive" alt="Resume / CV" />
+                                <img src="images/customer/petroleos.jpg" class="img-responsive" alt="Resume / CV" />
                                 <div class="lrs-project-content">
                                     <h6 class="lrs-project-title"> Diseño y construcción de nuevo sistema eléctrico de
                                         estación de servicio</h6>
@@ -466,9 +466,9 @@
                             </div>
                         </div>
 
-                        <div class="lrs-project scale-anm web wordpress all" data-toggle="modal" data-target="#one">
+                        <div class="lrs-project scale-anm web wordpress all" data-toggle="modal" data-target="#ITALIAN">
                             <div class="lrs-project-image">
-                                <img src="images/italian1.jpg" class="img-responsive" alt="Resume / CV" />
+                                <img src="images/customer/italian1.jpg" class="img-responsive" alt="Resume / CV" />
                                 <div class="lrs-project-content">
                                     <h6 class="lrs-project-title">Diseño y construcción de controles automatizados para
                                         sistema eléctrico de represa hidroeléctrica, etc</h6>
@@ -477,9 +477,9 @@
                             </div>
                         </div>
 
-                        <div class="lrs-project scale-anm web html all" data-toggle="modal" data-target="#one">
+                        <div class="lrs-project scale-anm web html all" data-toggle="modal" data-target="#DINANT">
                             <div class="lrs-project-image">
-                                <img src="images/dinant3.jpeg" class="img-responsive" alt="Resume / CV" />
+                                <img src="images/customer/dinant3.jpeg" class="img-responsive" alt="Resume / CV" />
                                 <div class="lrs-project-content">
                                     <h6 class="lrs-project-title">Diseño y construcción de sistemas electricos y obras
                                         civilesx</h6>
@@ -488,9 +488,9 @@
                             </div>
                         </div>
 
-                        <div class="lrs-project scale-anm web wordpress all" data-toggle="modal" data-target="#one">
+                        <div class="lrs-project scale-anm web wordpress all" data-toggle="modal" data-target="#LINDAMAR">
                             <div class="lrs-project-image">
-                                <img src="images/lindamar.jpg" class="img-responsive" alt="Resume / CV" />
+                                <img src="images/customer/lindamar.jpg" class="img-responsive" alt="Resume / CV" />
                                 <div class="lrs-project-content">
                                     <h6 class="lrs-project-title">diseño primario de alimentación, sistema de
                                         iluminación, tomacorrientes.</h6>
@@ -524,7 +524,7 @@
                 <div class="col-md-8 col-md-offset-2">
                     <div class="testimonial-list">
                         <div class="single-testimonial text-center">
-                            <img class="user-block" src="images/logos/cliente.png">
+                            <img class="user-block" src="images/logos/cliente.jpg">
                             <p>Ruiz&Betancourt Constructores S.A. DE C.V. es una empresa con un alto servicio de
                                 calidad de ingeniería.</p>
                             <h2>Cliente 1</h2>
@@ -566,7 +566,7 @@
             <div class="row">
                 <div class="col-sm-12">
                     <div class="section-title-1 text-center">
-                        <h2 class="hadding no-margin">TRABAJOS MAS DESTACADOS</h2>
+                        <h2 class="hadding no-margin">NUESTRO EQUIPO</h2>
                         <div class="title-border"></div>
                     </div>
                 </div>
@@ -578,22 +578,24 @@
                         <div class="blog-items">
                             <div class="blog-item">
                                 <div class="blog-img">
-                                    <img src="images/blog/img-1.jpg" alt="">
+                                    <img src="images/team/jorge.jpg" alt="">
                                 </div>
                                 <div class="line"></div>
                                 <div class="blog-content">
-                                    <h2 class="no-margin">Lorem ipsum dolor sit amet...</h2>
+                                    <h2 class="no-margin">Ing. Jorge Francisco Betancourt</h2>
                                     <div class="meta-box">
                                         <ul>
-                                            <li>26 mars 2016</li>
-                                            <li>by <span>admin</span></li>
-                                            <li>comment</li>
+                                            <li>Ing. Eléctrico</li>
+                                            <li><span>Gerente general</span></li>
                                         </ul>
                                     </div>
-                                    <p class="no-margin">Lorem ipsum dolor sit amet consectetur adipiscing Pellentesque
-                                        vestibulum viverra nibh et efficitur. Nullam posuere, metus in suscipit
-                                        ultrices</p>
-                                    <a class="btn btn-custom btn-sm" href="">Read More</a>
+                                    <p class="no-margin">
+                                        Con mas de <b style="color:green">10 años</b> de experiencia en el área, es un
+                                        ciudadano con una conducta intachable. Ha demostrado ser un
+                                        gran trabajador, comprometido, responsable y fiel cumplidor de sus tareas.
+                                        Tiene certificado en:.....
+                                    </p>
+                                    <p class="no-margin"><b>"A quien escuches determinará en quién te conviertas"</b></p>
                                 </div>
                             </div>
                         </div>
@@ -604,18 +606,19 @@
                         <div class="blog-items">
                             <div class="blog-item">
                                 <div class="blog-content">
-                                    <h2 class="no-margin">Lorem ipsum dolor sit amet...</h2>
+                                    <h2 class="no-margin">Ing. Jorge Francisco Betancourt</h2>
                                     <div class="meta-box">
                                         <ul>
-                                            <li>26 mars 2016</li>
-                                            <li>by <span>admin</span></li>
-                                            <li>comment</li>
+                                            <li>Ing. Eléctrico</li>
+                                            <li><span>Gerente general</span></li>
                                         </ul>
                                     </div>
-                                    <p class="no-margin">Lorem ipsum dolor sit amet consectetur adipiscing Pellentesque
-                                        vestibulum viverra nibh et efficitur. Nullam posuere, metus in suscipit
-                                        ultrices</p>
-                                    <a class="btn btn-custom btn-sm" href="">Read More</a>
+                                    <p class="no-margin">
+                                        Con mas de <b style="color:green">10 años</b> de experiencia en el área, es un
+                                        ciudadano con una conducta intachable. Ha demostrado ser un
+                                        gran trabajador, comprometido, responsable y fiel cumplidor de sus tareas.
+                                        Durante estos años se ha desempeñado como: xxxxx, encargado de xxxxx.
+                                    </p>
                                 </div>
 
                                 <div class="blog-img">
@@ -635,18 +638,20 @@
                                 </div>
                                 <div class="line"></div>
                                 <div class="blog-content">
-                                    <h2 class="no-margin">Lorem ipsum dolor sit amet...</h2>
+                                    <h2 class="no-margin">Ing. Jorge Francisco Betancourt</h2>
                                     <div class="meta-box">
                                         <ul>
-                                            <li>26 mars 2016</li>
-                                            <li>by <span>admin</span></li>
-                                            <li>comment</li>
+                                            <li>Ing. Eléctrico</li>
+                                            <li><span>Gerente general</span></li>
                                         </ul>
                                     </div>
-                                    <p class="no-margin">Lorem ipsum dolor sit amet consectetur adipiscing Pellentesque
-                                        vestibulum viverra nibh et efficitur. Nullam posuere, metus in suscipit
-                                        ultrices</p>
-                                    <a class="btn btn-custom btn-sm" href="">Read More</a>
+                                    <p class="no-margin">
+                                        Con mas de <b style="color:green">10 años</b> de experiencia en el área, es un
+                                        ciudadano con una conducta intachable. Ha demostrado ser un
+                                        gran trabajador, comprometido, responsable y fiel cumplidor de sus tareas.
+                                        Tiene certificado en:.....
+                                    </p>
+                                    <p class="no-margin"><b>"A quien escuches determinará en quién te conviertas"</b></p>
                                 </div>
                             </div>
                         </div>
@@ -665,7 +670,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="section-title">
-                        <h2>contact me</h2>
+                        <h2 style="color:white">CONTACTANOS</h2>
                         <div class="title-border"></div>
                     </div>
                 </div>
@@ -677,20 +682,20 @@
                         <form id="contact-form" method="post">
                             <div class="row">
                                 <div class="form-group col-md-4">
-                                    <input type="text" name="name" class="form-control" id="first-name" placeholder="Name"
+                                    <input type="text" name="name" class="form-control" id="first-name" placeholder="Nombre"
                                         required="required">
                                 </div>
                                 <div class="form-group col-md-4">
-                                    <input type="email" name="email" class="form-control" id="email" placeholder="Email"
+                                    <input type="email" name="email" class="form-control" id="email" placeholder="Correo electronico"
                                         required="required">
                                 </div>
                                 <div class="form-group col-md-4">
-                                    <input type="text" name="name" class="form-control" id="contect" placeholder="Phone Contect"
+                                    <input type="text" name="name" class="form-control" id="contect" placeholder="Telefono"
                                         required="required">
                                 </div>
 
                                 <div class="form-group col-md-12">
-                                    <textarea rows="6" name="message" class="form-control" id="description" placeholder="Your Message"
+                                    <textarea rows="6" name="message" class="form-control" id="description" placeholder="Tu mensaje"
                                         required="required"></textarea>
                                 </div>
                                 <div class="form-group col-md-12 text-center">
@@ -789,7 +794,7 @@
         </div>
     </div>
     <!-- Building Section -->
-    <div class="modal fade" id="builModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal fade" id="buildModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
@@ -826,6 +831,323 @@
         </div>
     </div>
     <!-- Ende modal section -->
+
+    <!-- Clients Section -->
+    <!-- TASHA -->
+    <div class="modal fade" id="TAHSA" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">TRABAJOS REALIZADOS EN TABACALERA HONDUREÑA S.A. DE
+                        C.V.</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-12 text-center">
+                                <img src="images/civil.jpeg" alt="servicios civil">
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <p>1. Sistema eléctrico en proyecto de instalación de nuevo chiller para sistema de torre
+                                de enfriamiento para unidades manejadoras de agua fría.</p>
+                            <p>2. Construcción de andén de carga y descarga de contenedores exteriores. Incluye obra
+                                civil, sistema eléctrico y sistema mecánico de equipos hidráulicos niveladores de
+                                andén.</p>
+                            <p>3. Diseño y construcción del sistema eléctrico de las nuevas oficinas de ingeniería y
+                                EHS.</p>
+                            <p>4. Diseño y construcción del sistema de HVAC de las nuevas oficinas de ingeniería y
+                                EHS.</p>
+
+                            <p>5. Diseño y construcción de la obra civil de las nuevas oficinas de ingeniería y EHS.</p>
+                            <p>6. Diseño y construcción de la obra civil para el nuevo muro frontal de protección.</p>
+                            <p>7. Diseño y construcción de nuevo parqueo vehicular en sector sur del plantel.</p>
+                            <p>8. Suministro e instalación de puerta automatizada de acceso rápido certificada de
+                                NERGECO en área de bodega de materiales de secundario.</p>
+                            <p> 9. Reparación de todas las galeras de parqueo vehicular. Incluye desmontaje completo,
+                                soldadura y pintado con acabado industrial especializado.</p>
+                            <p>10. Trabajos de remodelación varias de obras menores al interior de plantas.</p>
+                            <p>11. Construcción sistema de andenes de carga y descargas para bodegas 4 y 5 en patio de
+                                maniobras.</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- BANRURAL -->
+    <div class="modal fade" id="BANRURAL" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">BANRURAL</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-12 text-center">
+                                <img src="images/civil.jpeg" alt="servicios civil">
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <p>Diseño y construcción del sistema eléctrico de agencia central de abastos y mercados en
+                                la ciudad de San Pedro Sula.</p>
+                            <p>Diseño y construcción del sistema de datos de agencia central de abastos y mercados en
+                                la ciudad de San Pedro Sula.</p>
+                            <p>Diseño y construcción del sistema de alarmas de agencia central de abastos y mercados en
+                                la ciudad de San Pedro Sula.</p>
+                            <p>Diseño y construcción del sistema eléctrico de agencia Mega Mall en la ciudad de San
+                                Pedro Sula.</p>
+                            <p>Diseño y construcción del sistema de datos de agencia Mega Mall en la ciudad de San
+                                Pedro Sula.</p>
+                            <p>Diseño y construcción del sistema de alarmas de agencia Mega Mall en la ciudad de San
+                                Pedro Sula.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- CIGRAH -->
+    <div class="modal fade" id="CIGRAH" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">CIGRAH/MERCON</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-12 text-center">
+                                <img src="images/civil.jpeg" alt="servicios civil">
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <p>Restauración de elevadores verticales de canjilones de café, incluye sand-blasteado, y
+                                pintado con acabado industrial especializado.</p>
+                            <p> Diseño y construcción de palomeras en elevadores de canjilones.</p>
+                            <p>Construcción y remodelación de caseta de vigilancia. Incluye obra civil, estructuras
+                                metálicas, sistema eléctrico y sistema de vigilancia.</p>
+                            <p>Construcción y remodelación de muro perimetral en costado sur. Incluye cimentaciones y
+                                obra civil en general.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- PLYCEM -->
+    <div class="modal fade" id="PLYCEM" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">PLYCEM CONSTRUSISTEMAS HONDURAS</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-12 text-center">
+                                <img src="images/civil.jpeg" alt="servicios civil">
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <p>Mantenimientos de media tensión en 34.5 KV. Incluye revisiones de medición en alta
+                                tensión, cuchillas tripolares, conos de alivio, cable XLPE, estructuras H y derivación,
+                                4 sub-estaciones de 1 MVA cada una, switchgear, entre otros.</p>
+                            <p>Cambio sistema de medición de energía en 34.5 KV coordinando y enlazando actividades en
+                                conjunto con personal de Plycem y ENEE.</p>
+                            <p>Cambios de estructuras derivación en sistema de acometidas subterráneas XLPE en dos
+                                sub-estaciones de 1MVA cada una.</p>
+                            <p>Construcción de sistema eléctrico (fuerza y control) para nuevo PULPER DE ALTA
+                                CONSISTENCIA.</p>
+                            <p>Construcción de sistema eléctrico (fuerza y control) para nueva AREA DE ACABADO.</p>
+                            <p> Instalación de red de medidores de energía modelos ION-6200, enlazados en red interna
+                                RS485 y visualización centralizada con software ENTERPRISE.</p>
+                            <p>Construcción de nuevo sistema de visualización con equipo de DATA STATION DE RED-LION
+                                para proceso de fabricación de lámina de fibrocemento en MAQUINA DE PLACAS 1.</p>
+                            <p>Modificaciones varias en sistema eléctrico de fuerza para HORNOS de placa de
+                                fibrocemento.</p>
+                            <p>Pintado industrial de máquina de placas MP2 con pintura industrial para uso marino,
+                                acabado a 5 capas con su respectivo prime, intermedios y pintura epóxica de acabado
+                                final. Se realizó limpieza y preparación previa del área de trabajo con sistema sand
+                                blasting, wáter blast y sistema mecánico con equipo neumático para esta aplicación.</p>
+                            <p>Pintado industrial de tina de 80 M3 en proceso de máquina de placas MP2 con pintura
+                                industrial para uso marino, acabado a 5 capas con su respectivo prime, intermedios y
+                                pintura epóxica de acabado final. Se realizó limpieza y preparación previa del área de
+                                trabajo con sistema sand blasting, wáter blast y sistema mecánico con equipo neumático
+                                para esta aplicación.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Petroleos de Hn -->
+    <div class="modal fade" id="PETROLEOSHN" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">PETROLEOS AMERICANOS DE HONDURAS</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-12 text-center">
+                                <img src="images/civil.jpeg" alt="servicios civil">
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <p>32. Diseño y construcción de nuevo sistema eléctrico de estación de servicio AMERICAN
+                                DOS CAMINOS (Gasolinera), DOS CAMINOS VILLANUEVA, CORTES.
+                                33. Diseño y construcción de nuevo sistema eléctrico de estación de servicio AMERICAN
+                                GUANACASTE (Gasolinera), LA ENTRADA COPAN.
+                                34. Diseño y construcción de nuevo sistema eléctrico de estación de servicio AMERICAN
+                                SANTA ANITA (Gasolinera), LA ENTRADA COPAN.
+                                35. Diseño y construcción de nuevo sistema eléctrico de estación de servicio AMERICAN
+                                SANTA RITA (Gasolinera), COPAN RUINAS.
+                                36. Diseño y construcción de nuevo sistema para enfriamiento de tanques de gas AMERICAN
+                                DOS CAMINOS (Planta de gas), DOS CAMINOS VILLANUEVA, CORTES.
+                                37. Diseño de aprobación y recepción (ENEE), así como la construcción de nuevos
+                                transformadores para estaciones de servicio GUANACASTE Y SANTA ANITA en LA ENTRADA
+                                COPAN.
+                                38. Diseño y construcción de nuevo sistema eléctrico en bodega. Incluye: sistema de
+                                media y baja tensión, alimentadores subterráneos, sistema de medición de cargas
+                                (balanzas digitales), sistemas de iluminación y tomacorrientes, protectores de
+                                trascientes y sistema contra descargas atmosféricas. PLAYA EL FARO, PUERTO CORTES,
+                                CORTES.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ITALIAN -->
+    <div class="modal fade" id="ITALIAN" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">ITALIAN</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-12 text-center">
+                                <img src="images/civil.jpeg" alt="servicios civil">
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row">
+
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- DINANT -->
+    <div class="modal fade" id="DINANT" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">DINANT</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-12 text-center">
+                                <img src="images/civil.jpeg" alt="servicios civil">
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row">
+
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- LINDAMAR -->
+    <div class="modal fade" id="LINDAMAR" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">LINDAMAR</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-12 text-center">
+                                <img src="images/civil.jpeg" alt="servicios civil">
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row">
+
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Ende modal section -->
+
+
     <!-- START footer -->
     <footer class="footer-area">
         <div class="container footer-shadow">
