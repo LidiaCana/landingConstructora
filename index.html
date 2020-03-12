@@ -39,7 +39,7 @@
 
     <!-- MAIN STYLE CSS -->
     <link rel="stylesheet" href="css/style.css">
-
+    <link rel="stylesheet" href="css/other.css">
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -47,11 +47,7 @@
     		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
         <![endif]-->
     <style>
-        img.logo-navbar {
-    width: 11rem !important;
-    height: 7rem !important;
-    }
- 
+
     </style>
 </head>
 
@@ -71,11 +67,15 @@
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
                 <div class="container">
                     <div class="row">
-                        <div class=".col-xs-6 col-md-2 col-ms-1">
+                        <!-- <div class=".col-xs-6 col-md-2 col-ms-1"> -->
+                        <div class="col-md-3 col-sm-12">
                             <!-- START LOGO -->
-                            <a href="index.html">
+                            <!-- <a href="index.html">
                                 <img class="logo-navbar" src="images/logos/empresa2.png" alt="Ruiz&Betancourt">
-                            </a>
+                            </a> -->
+                            <div class="logo">
+                                <a href="index.html"><span>R&</span>BCO</a>
+                            </div>
                             <!-- END LOGO -->
                         </div>
                         <div class="col-md-9 col-sm-12">
@@ -131,12 +131,12 @@
                                     <h2 style="color:antiquewhite; font-size: 4vw; ">RUIZ & BETANCOURT CONSTRUCTORES
                                         S.A.
                                         DE C.V.</h2>
-                                    <p><q>SOLUCIONES INTEGRALES A SUS PROYECTOS.</q> </p>
+                                    <p>SOLUCIONES INTEGRALES A SUS PROYECTOS.</p>
                                     <div class="social-links header-links">
                                         <ul>
                                             <li><a href=""><i class="fa fa-facebook"></i></a></li>
                                             <li><a href=""><i class="fa fa-instagram"></i></a></li>
-                                            <li><a href=""><i class="fa fa-google-plus"></i></a></li>
+                                            <li><a href=""><i class="fa fa-google"></i></a></li>
                                             <li><a href=""><i class="fa fa-whatsapp"></i></a></li>
                                         </ul>
                                     </div>
@@ -168,7 +168,7 @@
 
             <div class="row">
                 <div class="col-md-8 col-sm-6 col-xs-12">
-                    <div class="introduce">
+                    <div ALIGN="justify" class=" introduce">
                         <h2 class="title">Nuestra historia</h2>
 
                         <p>Somos RUIZ & BETANCOURT CONSTRUCTORES S.A. DE C.V. , Una empresa multi-operaciones, dedicada
@@ -183,41 +183,42 @@
 
                         <p>En R&BCO, disfrutamos de lo que hacemos, día a día nuestro equipo de trabajo entrega sus
                             competencias en cada uno de los proyectos, con los mas altos estándares de seguridad
-                            ocupacional, regidos bajo nuestra filosofía empresarial “ecologicamente amigables” y la
+                            ocupacional, regidos bajo nuestra filosofía empresarial “ecológicamente amigables” y la
                             integración de la “Agenda 2030 para el Desarrollo Sostenible”.
                         </p>
-
-                        <div class="presonal-inform">
-                            <p><b>Segmento de mercado</b></p>
-
-                            <ul>
-                                <li style="margin-bottom: 5px;">+ Gestión de proyectos de Energía Renovable.</li>
-                                <li style="margin-bottom: 5px;">+ Industria Textil.</li>
-                                <li style="margin-bottom: 5px;">+ Hilanderías.</li>
-                                <li style="margin-bottom: 5px;">+ Manufactureras.</li>
-                                <li style="margin-bottom: 5px;">+ Industria de Fibrocemento.</li>
-                                <li style="margin-bottom: 5px;">+ Plantas de Biomasa.</li>
-                                <li style="margin-bottom: 5px;">+ Hidroeléctricas.</li>
-                                <li style="margin-bottom: 5px;">+ Industria Farmacéutica.</li>
-                                <li style="margin-bottom: 5px;">+ Gasolineras y planta de gas.</li>
-                                <li style="margin-bottom: 5px;">+ Proyectos residenciales y comerciales.</li>
-                                <li style="margin-bottom: 5px;">+ Condominios de apartamentos.</li>
-                                <li style="margin-bottom: 5px;">+ Industria alimenticia, bebidas y similares.</li>
-                                <li style="margin-bottom: 5px;">+ Industria de concentrado para animales.</li>
-                                <li style="margin-bottom: 5px;">+ Banca privada.</li>
-                            </ul>
-                        </div>
+                    </div>
+                    <div class="presonal-inform list-links">
+                        <p><b>Segmento de mercado</b></p>
+                        <div class="row"></div>
+                        <ul>
+                            <li style="margin-bottom: 5px;" data-toggle="modal" data-target="#GestionER"><a href="#about">1.
+                                    Gestión de proyectos de Energía
+                                    Renovable.</a></li>
+                            <li style="margin-bottom: 5px;" data-toggle="modal" data-target="#Industry"><a href="#about">2.
+                                    Industria.</a></li>
+                            <li style="margin-bottom: 5px;" data-toggle="modal" data-target="#Business"><a href="#about">3.
+                                    Comercio.</a></li>
+                            <li style="margin-bottom: 5px;" data-toggle="modal" data-target="#Residence"><a href="#about">4.
+                                    Residencia</a></li>
+                        </ul>
                     </div>
                 </div>
-
+                <br>
+                <br>
+                <br>
                 <div class="col-md-4 col-sm-6 col-xs-12">
-                    <div class="about-img">
-                        <img src="images/9.jpg" class="img-responsive img-thumbnail" alt="About-us">
-                    </div>
+                    <!-- <div class="about-img"> -->
+                    <img src="images/frontend.jpg" class="img-responsive img-thumbnail" alt="About-us" title="Integramos soluciones de ingeniería en las áreas eléctrica, mecánica y obras civiles">
+                    <!-- </div> -->
+                    <br>
+                    <br>
+                    <img src="images/ods2.png" class="img-responsive img-thumbnail" alt="ODS" title="Agenda 2030 para el Desarrollo Sostenible">
                 </div>
             </div>
             <!--end row-->
+
         </div>
+
         <!--end container-->
     </section>
     <!--  END ABOUT-->
@@ -351,38 +352,41 @@
                 <div class="col-md-4 col-sm-6">
                     <div class="single-service">
                         <p><span class="fa fa-bolt service-icon"></span></p>
-                        <h2 class="text-uppercase">Electricos </h2>
-                        <p>Se proporciona un servicio integral para el desarrollo de
+                        <h2 class="text-uppercase">eléctrico</h2>
+                        <p style="text-align:justify;">Se proporciona un servicio integral para el
+                            desarrollo de
                             iniciativas industriales y de infraestructura. Ingeniería Eléctrica Conceptual, Básica y de
                             detalles.
-                            <button type="button" class="btn btn-success" data-toggle="modal" data-target="#electicalModal">
+                            <a data-toggle="modal" data-target="#electicalModal" style="color:#41b548">
                                 Leer mas..
-                            </button>
+                            </a>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6">
                     <div class="single-service">
                         <p><span class="fa fa-cogs service-icon"></span></p>
-                        <h2 class="text-uppercase">Mecanicos</h2>
-                        <p> Estamos comprometidos con el desarrollo sostenible de diversos proyectos de
+                        <h2 class="text-uppercase">Mecánicos</h2>
+                        <p style="text-align:justify;"> Estamos comprometidos con el desarrollo sostenible de diversos
+                            proyectos de
                             electromecanica, sistemas neumáticos y de vapor, que proporcionen un mejor estándar de vida
                             al usuario.
-                            <button type="button" class="btn btn-success" data-toggle="modal" data-target="#mecanicModal">
+                            <a data-toggle="modal" data-target="#mecanicModal" style="color:#41b548">
                                 Leer mas..
-                            </button></p>
+                            </a></p>
                     </div>
                 </div>
 
                 <div class="col-md-4 col-sm-6">
                     <div class="single-service">
                         <p><span class="fa fa-university service-icon"></span></p>
-                        <h2 class="text-uppercase">Obras civiles</h2>
-                        <p>Nuestros profesionales están capacitados para realizar un trabajo de alto nivel de calidad,
+                        <h2 class="text-uppercase">Obras civiles y arquitectura</h2>
+                        <p style="text-align:justify;">Nuestros profesionales están capacitados para realizar un
+                            trabajo de alto nivel de calidad,
                             realizando obras de un modo eficiente y seguro para nuestro personal y las instalaciones de
                             nuestros clientes.
-                            <button type="button" class="btn btn-success" data-toggle="modal" data-target="#buildModal">
+                            <a data-toggle="modal" data-target="#buildModal" style="color:#41b548">
                                 Leer mas..
-                            </button></p>
+                            </a></p>
                     </div>
                 </div>
             </div>
@@ -410,8 +414,8 @@
                     <div class="lrs-divider-3"></div>
                     <ul class="list-unstyled list-inline lrs-list-protfolio" id="filter">
                         <li class="active fil-cat" data-rel="all">Todos</li>
-                        <li class="fil-cat" data-rel="electrical">Electricos</li>
-                        <li class="fil-cat" data-rel="mecanic">Mecanica</li>
+                        <li class="fil-cat" data-rel="electrical">eléctrico</li>
+                        <li class="fil-cat" data-rel="mecanic">Mecánica</li>
                         <li class="fil-cat" data-rel="build">Obras civiles</li>
                     </ul>
                 </div>
@@ -419,16 +423,16 @@
                     <div class="lrs-projects">
                         <div class="lrs-project scale-anm electrical all" data-toggle="modal" data-target="#TAHSA">
                             <div class="lrs-project-image">
-                                <img src="images/customer/tabacalera2.jpg" class="img-responsive" alt="Resume / CV" />
+                                <img src="images/port/1.jpg" class="img-responsive" alt="Resume / CV" />
                                 <div class="lrs-project-content">
                                     <h6 class="lrs-project-title"> Sistema eléctrico, Obras civiles y Mecanica</h6>
-                                    <p class="lrs-project-client"><b>TABACALERA HONDUREÑA S.A. DE C.V.</b></p>
+                                    <p class="lrs-project-client"><b>TAHSA</b></p>
                                 </div>
                             </div>
                         </div>
                         <div class="lrs-project scale-anm mecanic all" data-toggle="modal" data-target="#BANRURAL">
                             <div class="lrs-project-image">
-                                <img src="images/customer/banrural.jpg" class="img-responsive" alt="Resume / CV" />
+                                <img src="images/port/2.jpg" class="img-responsive" alt="Resume / CV" />
                                 <div class="lrs-project-content">
                                     <h6 class="lrs-project-title">Diseño y construcción del sistema eléctrico, alarma y
                                         datos</h6>
@@ -438,7 +442,7 @@
                         </div>
                         <div class="lrs-project scale-anm  all" data-toggle="modal" data-target="#CIGRAH">
                             <div class="lrs-project-image">
-                                <img src="images/customer/cigrah.jpg" class="img-responsive" alt="Resume / CV" />
+                                <img src="images/port/2.jpg" class="img-responsive" alt="Resume / CV" />
                                 <div class="lrs-project-content">
                                     <h6 class="lrs-project-title">Diseño y construcción de: obra civil, estructuras
                                         metálicas, sistema eléctrico, sistema de vigilancia, etc.</h6>
@@ -448,7 +452,7 @@
                         </div>
                         <div class="lrs-project scale-anm build all" data-toggle="modal" data-target="#PLYCEM">
                             <div class="lrs-project-image">
-                                <img src="images/customer/plycem.jpg" class="img-responsive" alt="Resume / CV" />
+                                <img src="images/port/2.jpg" class="img-responsive" alt="Resume / CV" />
                                 <div class="lrs-project-content">
                                     <h6 class="lrs-project-title">Mantenimiento e instalacion de sistemas electricos</h6>
                                     <p class="lrs-project-client"><b>PLYCEM CONSTRUSISTEMAS HONDURAS</b></p>
@@ -457,7 +461,7 @@
                         </div>
                         <div class="lrs-project scale-anm mecanic all" data-toggle="modal" data-target="#PETROLEOSHN">
                             <div class="lrs-project-image">
-                                <img src="images/customer/petroleos.jpg" class="img-responsive" alt="Resume / CV" />
+                                <img src="images/port/2.jpg" class="img-responsive" alt="Resume / CV" />
                                 <div class="lrs-project-content">
                                     <h6 class="lrs-project-title"> Diseño y construcción de nuevo sistema eléctrico de
                                         estación de servicio</h6>
@@ -468,7 +472,7 @@
 
                         <div class="lrs-project scale-anm web wordpress all" data-toggle="modal" data-target="#ITALIAN">
                             <div class="lrs-project-image">
-                                <img src="images/customer/italian1.jpg" class="img-responsive" alt="Resume / CV" />
+                                <img src="images/port/2.jpg" class="img-responsive" alt="Resume / CV" />
                                 <div class="lrs-project-content">
                                     <h6 class="lrs-project-title">Diseño y construcción de controles automatizados para
                                         sistema eléctrico de represa hidroeléctrica, etc</h6>
@@ -479,7 +483,7 @@
 
                         <div class="lrs-project scale-anm web html all" data-toggle="modal" data-target="#DINANT">
                             <div class="lrs-project-image">
-                                <img src="images/customer/dinant3.jpeg" class="img-responsive" alt="Resume / CV" />
+                                <img src="images/port/2.jpg" class="img-responsive" alt="Resume / CV" />
                                 <div class="lrs-project-content">
                                     <h6 class="lrs-project-title">Diseño y construcción de sistemas electricos y obras
                                         civilesx</h6>
@@ -490,7 +494,7 @@
 
                         <div class="lrs-project scale-anm web wordpress all" data-toggle="modal" data-target="#LINDAMAR">
                             <div class="lrs-project-image">
-                                <img src="images/customer/lindamar.jpg" class="img-responsive" alt="Resume / CV" />
+                                <img src="images/port/2.jpg" class="img-responsive" alt="Resume / CV" />
                                 <div class="lrs-project-content">
                                     <h6 class="lrs-project-title">diseño primario de alimentación, sistema de
                                         iluminación, tomacorrientes.</h6>
@@ -679,7 +683,7 @@
                 <div class="col-md-12 col-xs-12">
                     <!-- START contect -->
                     <div class="contact-form">
-                        <form id="contact-form" method="post">
+                        <form id="contact-form" method="">
                             <div class="row">
                                 <div class="form-group col-md-4">
                                     <input type="text" name="name" class="form-control" id="first-name" placeholder="Nombre"
@@ -700,7 +704,7 @@
                                 </div>
                                 <div class="form-group col-md-12 text-center">
                                     <div class="actions">
-                                        <input type="submit" value="Submit now" name="submit" id="submitButton" class="btn btn-custom"
+                                        <input type="submit" value="Enviar " name="submit" id="submitButton" class="btn btn-custom"
                                             title="Submit Your Message!">
                                     </div>
                                 </div>
@@ -834,8 +838,9 @@
 
     <!-- Clients Section -->
     <!-- TASHA -->
-    <div class="modal fade" id="TAHSA" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog" role="document">
+    <div class="modal fade bd-example-modal-lg" id="TAHSA" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content">
                 <div class="modal-header">
                     <h5 class="modal-title" id="exampleModalLabel">TRABAJOS REALIZADOS EN TABACALERA HONDUREÑA S.A. DE
@@ -847,12 +852,94 @@
                 <div class="modal-body">
                     <div class="container-fluid">
                         <div class="row">
-                            <div class="col-md-12 text-center">
-                                <img src="images/civil.jpeg" alt="servicios civil">
+                            <!-- <div class="col-md-6 text-center">
+                                <img src="images/blog/img-2.jpg" alt="servicios civil" width="600" height="400">
+                            </div> -->
+                            <div class="col-md-12">
+                                <div class="row">
+                                    <div class="text-center" id="myBtnContainer">
+                                        <button class="btn active" onclick="filterSelection('electrical_tahsa')">Electricos</button>
+                                        <button class="btn" onclick="filterSelection('mecanic_tahsa')">Mecanicos</button>
+                                        <button class="btn" onclick="filterSelection('build_tahsa')">Obras civiles</button>
+                                    </div>
+
+                                    <div class="container">
+                                        <!-- <div class="filterDiv electrical_tahsa">Electricos -->
+                                        <!-- <p>
+                                                Instalación de nuevo chiller para sistema de torre de
+                                                enfriamiento a unidades manejadoras de agua fría, San Pedro
+                                                Sula, Cortes.
+                                                Diseño y construcción del sistema eléctrico.
+                                            </p>
+                                            <p>
+                                                Diseños de mejora de sistemas de iluminación para diferentes
+                                                sites, San Pedro Sula, Cortes.
+                                                Diseños de sistema eléctrico.
+                                            </p> -->
+                                        <!-- </div>
+                                        <div class="filterDiv mecanic_tahsa">Mecanicos</div>
+                                        <div class="filterDiv build">Obras civiles</div> -->
+                                    </div>
+                                </div>
+                                <!-- <div class="row">
+                                    <div class="col-xs-12">e
+                                        <div class="lrs-divider-3"></div>
+                                        <ul class="list-unstyled list-inline lrs-list-protfolio" id="filter_tahsa">
+                                            <li class="fil-cat" data-rel="electrical_tahsa">Eléctrico</li>
+                                            <li class="fil-cat" data-rel="mecanic_tahsa">Mecánica</li>
+                                            <li class="fil-cat" data-rel="build_tahsa">Obras civiles</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-12 col-xs-12">
+                                        <div class="lrs-projects">
+                                            <div class="lrs-project scale-anm electrical_tahsa" data-toggle="modal"
+                                                data-target="#TAHSA">
+                                                <div class="lrs-project-image">
+                                                   
+                                                </div>
+                                            </div>
+                                            <div class="lrs-project scale-anm mecanic_tahsa" data-toggle="modal"
+                                                data-target="#LINDAMAR">
+                                                <div class="lrs-project-image">
+                                                    <p>
+                                                        Instalación de puerta automatizada de acceso rápido en bodega
+                                                        de materiales de secundario, San Pedro Sula, Cortes.
+                                                        Suministro de puerta certificada de NERGECO, diseño y
+                                                        construccion del sistema mecanico y electrico.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="lrs-project scale-anm build_tahsa" data-toggle="modal"
+                                                data-target="#LINDAMAR">
+                                                <div class="lrs-project-image">
+                                                    <p>
+                                                        Diseño y construcción de muro frontal de protección, San Pedro
+                                                        Sula, Cortes.
+                                                        Diseño y construccion de la obra civil.
+                                                    </p>
+                                                    <p>
+                                                        Diseño y construcción de nuevas áreas de parqueo vehicular en
+                                                        sector sur del plantel, San Pedro Sula, Cortes.
+                                                        Diseño y construccion de la obra civil.
+                                                    </p>
+                                                    <p>
+                                                        Reingenieria y restauracion de areas de parqueos, oficinas y
+                                                        diferentes sites, San Pedro Sula, Cortes.
+                                                        Desmontaje completo, diseño y construccion de la obra civil.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div> -->
+                                <!--end row-->
+
+                                <!--end container-->
+                                <!-- </section> -->
                             </div>
                         </div>
                         <br>
-                        <div class="row">
+                        <!-- <div class="row">
                             <p>1. Sistema eléctrico en proyecto de instalación de nuevo chiller para sistema de torre
                                 de enfriamiento para unidades manejadoras de agua fría.</p>
                             <p>2. Construcción de andén de carga y descarga de contenedores exteriores. Incluye obra
@@ -873,8 +960,7 @@
                             <p>10. Trabajos de remodelación varias de obras menores al interior de plantas.</p>
                             <p>11. Construcción sistema de andenes de carga y descargas para bodegas 4 y 5 en patio de
                                 maniobras.</p>
-
-                        </div>
+                        </div> -->
                     </div>
                 </div>
                 <div class="modal-footer">
@@ -976,7 +1062,7 @@
                             </div>
                         </div>
                         <br>
-                        <div class="row">
+                        <div ALIGN="justify" class="row">
                             <p>Mantenimientos de media tensión en 34.5 KV. Incluye revisiones de medición en alta
                                 tensión, cuchillas tripolares, conos de alivio, cable XLPE, estructuras H y derivación,
                                 4 sub-estaciones de 1 MVA cada una, switchgear, entre otros.</p>
@@ -1145,6 +1231,214 @@
             </div>
         </div>
     </div>
+    <!-- Modal Comercial segments -->
+    <div class="modal fade" id="GestionER" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Energia Renovable</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="gallery">
+                                    <img src="images/segmento/energia/solar.jpg" alt="Cinque Terre" width="600" height="400">
+                                    <div class="desc">Energía solar.</div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="gallery">
+                                    <img src="images/segmento/energia/Eolica.jpg" alt="Cinque Terre" width="600" height="400">
+                                    <div class="desc">Energía eolica.</div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="gallery">
+                                    <img src="images/segmento/energia/Biomasa.jpg" alt="Cinque Terre" width="600"
+                                        height="400">
+                                    <div class="desc">Plantas de biomasa.</div>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="gallery">
+                                    <img src="images/segmento/energia/mareomotriz.jpg" alt="Cinque Terre" width="600"
+                                        height="400">
+                                    <div class="desc">Energía mareomotriz</div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="gallery">
+                                    <img src="images/segmento/energia/geotermica.png" alt="Cinque Terre" width="600"
+                                        height="400">
+                                    <div class="desc">Energía geotermica</div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="gallery">
+                                    <img src="images/segmento/energia/hidroelectrica2.jpg" alt="Cinque Terre" width="600"
+                                        height="400">
+                                    <div class="desc">Hidroeléctrica</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="Industry" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Industria</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="gallery">
+                                    <img src="images/segmento/Industria/Hilanderas.jpeg" alt="Cinque Terre" width="600"
+                                        height="400">
+                                    <div class="desc">Hilanderas</div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="gallery">
+                                    <img src="images/segmento/Industria/Textil.jpg" alt="Cinque Terre" width="600"
+                                        height="400">
+                                    <div class="desc">Textil.</div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="gallery">
+                                    <img src="images/segmento/Industria/alimentos.jpg" alt="Cinque Terre" width="600"
+                                        height="400">
+                                    <div class="desc">Alimentos y Bebidas.</div>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="gallery">
+                                    <img src="images/segmento/Industria/famaceuticas.jpg" alt="Cinque Terre" width="600"
+                                        height="400">
+                                    <div class="desc">Farmaceuticas.</div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="gallery">
+                                    <img src="images/segmento/Industria/hospitales.jpg" alt="Cinque Terre" width="600"
+                                        height="400">
+                                    <div class="desc">Hospitales.</div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="gallery">
+                                    <img src="images/segmento/Industria/manufacturera.jpg" alt="Cinque Terre" width="600"
+                                        height="400">
+                                    <div class="desc">Manufactureras.</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="Business" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Comercio</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="gallery">
+                                    <img src="images/segmento/Comercio/bancos.jpeg" alt="Cinque Terre" width="600"
+                                        height="400">
+                                    <div class="desc">Bancos</div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="gallery">
+                                    <img src="images/segmento/Comercio/plazas.jpg" alt="Cinque Terre" width="600"
+                                        height="400">
+                                    <div class="desc">Plazas comerciales.</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="Residence" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Residencia</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="gallery">
+                                    <img src="images/segmento/Residencia/apartamentos.jpg" alt="Cinque Terre" width="600"
+                                        height="400">
+                                    <div class="desc">Apartamentos.</div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="gallery">
+                                    <img src="images/segmento/Residencia/condominios.jpg" alt="Cinque Terre" width="600"
+                                        height="400">
+                                    <div class="desc">Condominios.</div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="gallery">
+                                    <img src="images/segmento/Residencia/residencia.jpg" alt="Cinque Terre" width="600"
+                                        height="400">
+                                    <div class="desc">Residencias.</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- Ende modal section -->
 
 
@@ -1157,7 +1451,7 @@
                         <ul>
                             <li><a href=""><i class="fa fa-facebook footer-link"></i></a></li>
                             <li><a href=""><i class="fa fa-instagram footer-link"></i></a></li>
-                            <li><a href=""><i class="fa fa-google-plus footer-link"></i></a></li>
+                            <li><a href=""><i class="fa fa-google footer-link"></i></a></li>
                             <li><a href=""><i class="fa fa-whatsapp footer-link"></i></a></li>
                         </ul>
                     </div>
@@ -1191,6 +1485,15 @@
     <script src="js/form-contact.js"></script>
     <!-- SCRIPT JS -->
     <script src="js/scripts.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="js/filter.js"> </script>
+    <script>
+        $(document).ready(function () {
+            $("submitButton").click(function () {
+                console.log('ping, ping');
+            });
+        }); 
+    </script>
 </body>
 
 </html>
