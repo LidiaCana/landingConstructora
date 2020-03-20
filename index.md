@@ -39,7 +39,77 @@
 
     <!-- MAIN STYLE CSS -->
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/other.css">
+
+    <style>
+        img.logo-navbar {
+	width: 11rem !important;
+	height: 7rem !important;
+}
+
+.list-links ul li a:hover {
+	color: #41b548;
+}
+
+div.gallery {
+	margin: 1px;
+	border: 1px solid #ccc;
+	float: left;
+	width: 180px;
+}
+
+div.gallery:hover {
+	border: 1px solid #777;
+}
+
+div.gallery img {
+	width: 100%;
+	height: auto;
+}
+
+div.desc {
+	padding: 15px;
+	text-align: center;
+}
+
+.filterDiv {
+	float: left;
+	color: #363535;
+	text-align: justify;
+	margin: 2px;
+	display: none;
+}
+
+.show {
+	display: block;
+}
+
+.container {
+	margin-top: 20px;
+	overflow: hidden;
+}
+
+/* Style the buttons */
+.btn-client {
+	border: none;
+	outline: none;
+	padding: 12px 16px;
+	background-color: #f1f1f1;
+	cursor: pointer;
+}
+
+.btn-client:hover {
+	background-color: #ddd;
+}
+
+.btn-client.active.active {
+	background-color: #666;
+	color: white;
+}
+.border-list {
+  border-left: 4px solid #41b548;
+  padding-left: 6px;
+}
+</style>
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -414,14 +484,15 @@
                     <div class="lrs-divider-3"></div>
                     <ul class="list-unstyled list-inline lrs-list-protfolio" id="filter">
                         <li class="active fil-cat" data-rel="all">Todos</li>
-                        <li class="fil-cat" data-rel="electrical">eléctrico</li>
+                        <li class="fil-cat" data-rel="electrical">Eléctrico</li>
                         <li class="fil-cat" data-rel="mecanic">Mecánica</li>
                         <li class="fil-cat" data-rel="build">Obras civiles</li>
                     </ul>
                 </div>
                 <div class="col-md-12 col-xs-12">
                     <div class="lrs-projects">
-                        <div class="lrs-project scale-anm electrical all" data-toggle="modal" data-target="#TAHSA">
+                        <div class="lrs-project scale-anm electrical all" data-toggle="modal" data-target="#TAHSA"
+                            onclick="filterSelection('electrical_tahsa')">
                             <div class="lrs-project-image">
                                 <img src="images/port/1.jpg" class="img-responsive" alt="Resume / CV" />
                                 <div class="lrs-project-content">
@@ -840,7 +911,7 @@
     <!-- TASHA -->
     <div class="modal fade bd-example-modal-lg" id="TAHSA" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
         aria-hidden="true">
-        <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-dialog " role="document">
             <div class="modal-content">
                 <div class="modal-header">
                     <h5 class="modal-title" id="exampleModalLabel">TRABAJOS REALIZADOS EN TABACALERA HONDUREÑA S.A. DE
@@ -852,115 +923,83 @@
                 <div class="modal-body">
                     <div class="container-fluid">
                         <div class="row">
-                            <!-- <div class="col-md-6 text-center">
-                                <img src="images/blog/img-2.jpg" alt="servicios civil" width="600" height="400">
-                            </div> -->
+                            <!-- <div class="col-md-12 text-center" style="padding: 0px;">
+                                <img src="images/8.jpg" alt="servicios civil" width="400" height="400">
+                            </div>
+                            <br> -->
                             <div class="col-md-12">
                                 <div class="row">
                                     <div class="text-center" id="myBtnContainer">
-                                        <button class="btn active" onclick="filterSelection('electrical_tahsa')">Electricos</button>
-                                        <button class="btn" onclick="filterSelection('mecanic_tahsa')">Mecanicos</button>
-                                        <button class="btn" onclick="filterSelection('build_tahsa')">Obras civiles</button>
-                                    </div>
+                                        <!-- <br> -->
+                                        <!-- <button class="col-md-3 btn-client active" onclick="filterSelection('all_tahsa')">Ver
+                                            Todos</button> -->
 
-                                    <div class="container">
-                                        <!-- <div class="filterDiv electrical_tahsa">Electricos -->
-                                        <!-- <p>
-                                                Instalación de nuevo chiller para sistema de torre de
-                                                enfriamiento a unidades manejadoras de agua fría, San Pedro
-                                                Sula, Cortes.
+                                        <button class="col-md-4 btn-client" onclick="filterSelection('electrical_tahsa')"><span
+                                                class="fa fa-bolt"></span> Eléctricos</button>
+                                        <button class="col-md-4 btn-client" onclick="filterSelection('mecanic_tahsa')"><span
+                                                class="fa fa-cogs"></span> Mecánicos</button>
+                                        <button class="col-md-4 btn-client" onclick="filterSelection('build_tahsa')"><span
+                                                class="fa fa-university"></span> Obras
+                                            civiles</button>
+                                    </div><br><br>
+                                    <div class="row filterDiv electrical_tahsa all_tahsa">
+                                        <br>
+                                        <ul>
+                                            <li class="border-list">
+                                                <strong>Instalación de nuevo chiller para sistema de torre de
+                                                    enfriamiento a unidades manejadoras de agua fría, S.P.S, Cortes.</strong>
                                                 Diseño y construcción del sistema eléctrico.
-                                            </p>
-                                            <p>
-                                                Diseños de mejora de sistemas de iluminación para diferentes
-                                                sites, San Pedro Sula, Cortes.
+                                            </li>
+                                            <br>
+                                            <li class="border-list">
+                                                <strong>Diseños de mejora de sistemas de iluminación para diferentes
+                                                    sites, S.P.S, Cortes.</strong>
                                                 Diseños de sistema eléctrico.
-                                            </p> -->
-                                        <!-- </div>
-                                        <div class="filterDiv mecanic_tahsa">Mecanicos</div>
-                                        <div class="filterDiv build">Obras civiles</div> -->
-                                    </div>
-                                </div>
-                                <!-- <div class="row">
-                                    <div class="col-xs-12">e
-                                        <div class="lrs-divider-3"></div>
-                                        <ul class="list-unstyled list-inline lrs-list-protfolio" id="filter_tahsa">
-                                            <li class="fil-cat" data-rel="electrical_tahsa">Eléctrico</li>
-                                            <li class="fil-cat" data-rel="mecanic_tahsa">Mecánica</li>
-                                            <li class="fil-cat" data-rel="build_tahsa">Obras civiles</li>
+                                            </li>
+
                                         </ul>
                                     </div>
-                                    <div class="col-md-12 col-xs-12">
-                                        <div class="lrs-projects">
-                                            <div class="lrs-project scale-anm electrical_tahsa" data-toggle="modal"
-                                                data-target="#TAHSA">
-                                                <div class="lrs-project-image">
-                                                   
-                                                </div>
-                                            </div>
-                                            <div class="lrs-project scale-anm mecanic_tahsa" data-toggle="modal"
-                                                data-target="#LINDAMAR">
-                                                <div class="lrs-project-image">
-                                                    <p>
-                                                        Instalación de puerta automatizada de acceso rápido en bodega
-                                                        de materiales de secundario, San Pedro Sula, Cortes.
-                                                        Suministro de puerta certificada de NERGECO, diseño y
-                                                        construccion del sistema mecanico y electrico.
-                                                    </p>
-                                                </div>
-                                            </div>
-                                            <div class="lrs-project scale-anm build_tahsa" data-toggle="modal"
-                                                data-target="#LINDAMAR">
-                                                <div class="lrs-project-image">
-                                                    <p>
-                                                        Diseño y construcción de muro frontal de protección, San Pedro
-                                                        Sula, Cortes.
-                                                        Diseño y construccion de la obra civil.
-                                                    </p>
-                                                    <p>
-                                                        Diseño y construcción de nuevas áreas de parqueo vehicular en
-                                                        sector sur del plantel, San Pedro Sula, Cortes.
-                                                        Diseño y construccion de la obra civil.
-                                                    </p>
-                                                    <p>
-                                                        Reingenieria y restauracion de areas de parqueos, oficinas y
-                                                        diferentes sites, San Pedro Sula, Cortes.
-                                                        Desmontaje completo, diseño y construccion de la obra civil.
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div> -->
-                                <!--end row-->
+                                    <div class="filterDiv mecanic_tahsa all_tahsa"><br>
+                                        <ul>
+                                            <li class="border-list">
+                                                <strong>Instalación de puerta automatizada de acceso rápido en bodega
+                                                    de
+                                                    materiales
+                                                    de secundario, S.P.S, Cortes.</strong>
+                                                Suministro de puerta certificada de NERGECO, diseño y construccion del
+                                                sistema mecanico y electrico.
+                                            </li>
 
-                                <!--end container-->
-                                <!-- </section> -->
+                                        </ul>
+                                    </div>
+                                    <div class="filterDiv build_tahsa all_tahsa"><br>
+                                        <ul>
+                                            <li class="border-list">
+                                                <strong>Diseño y construcción de muro frontal de protección, S.P.S
+                                                    Cortes.</strong>
+                                                Diseño y construccion de la obra civil.
+                                            </li>
+                                            <br>
+                                            <li class="border-list">
+                                                <strong>Diseño y construcción de nuevas áreas de parqueo vehicular en
+                                                    sector
+                                                    sur
+                                                    del plantel, S.P.S, Cortes.</strong>
+                                                Diseño y construccion de la obra civil.
+                                            </li>
+                                            <br>
+                                            <li class="border-list">
+                                                <strong>Reingenieria y restauracion de areas de parqueos, oficinas y
+                                                    diferentes
+                                                    sites, S.P.S, Cortes.</strong>
+                                                Desmontaje completo, diseño y construccion de la obra civil.
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <br>
-                        <!-- <div class="row">
-                            <p>1. Sistema eléctrico en proyecto de instalación de nuevo chiller para sistema de torre
-                                de enfriamiento para unidades manejadoras de agua fría.</p>
-                            <p>2. Construcción de andén de carga y descarga de contenedores exteriores. Incluye obra
-                                civil, sistema eléctrico y sistema mecánico de equipos hidráulicos niveladores de
-                                andén.</p>
-                            <p>3. Diseño y construcción del sistema eléctrico de las nuevas oficinas de ingeniería y
-                                EHS.</p>
-                            <p>4. Diseño y construcción del sistema de HVAC de las nuevas oficinas de ingeniería y
-                                EHS.</p>
-
-                            <p>5. Diseño y construcción de la obra civil de las nuevas oficinas de ingeniería y EHS.</p>
-                            <p>6. Diseño y construcción de la obra civil para el nuevo muro frontal de protección.</p>
-                            <p>7. Diseño y construcción de nuevo parqueo vehicular en sector sur del plantel.</p>
-                            <p>8. Suministro e instalación de puerta automatizada de acceso rápido certificada de
-                                NERGECO en área de bodega de materiales de secundario.</p>
-                            <p> 9. Reparación de todas las galeras de parqueo vehicular. Incluye desmontaje completo,
-                                soldadura y pintado con acabado industrial especializado.</p>
-                            <p>10. Trabajos de remodelación varias de obras menores al interior de plantas.</p>
-                            <p>11. Construcción sistema de andenes de carga y descargas para bodegas 4 y 5 en patio de
-                                maniobras.</p>
-                        </div> -->
                     </div>
                 </div>
                 <div class="modal-footer">
@@ -974,7 +1013,7 @@
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">BANRURAL</h5>
+                    <h5 class="modal-title" id="exampleModalLabel">BANCO DE DESARROLLO RURAL HONDURAS, S.A.</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
@@ -982,25 +1021,78 @@
                 <div class="modal-body">
                     <div class="container-fluid">
                         <div class="row">
-                            <div class="col-md-12 text-center">
+                            <!-- <div class="col-md-12 text-center">
                                 <img src="images/civil.jpeg" alt="servicios civil">
+                            </div> -->
+                            <div class="col-md-12">
+                                <div class="row">
+                                    <div class="text-center" id="myBtnContainer_banrural">
+                                        <button class="col-md-4 btn-client" onclick="filterSelection('electrical_banrural')"><span
+                                                class="fa fa-bolt"></span> Eléctricos</button>
+                                        <button class="col-md-4 btn-client" onclick="filterSelection('mecanic_banrural')"><span
+                                                class="fa fa-cogs"></span> Eléctricos</button>
+                                        <button class="col-md-4 btn-client" onclick="filterSelection('build_banrural')"><span
+                                                class="fa fa-university"></span> Obras
+                                            civiles</button>
+                                    </div><br><br>
+                                    <div class="row filterDiv electrical_banrural all_banrural">
+                                        <br>
+                                        <ul>
+                                            <li class="border-list">
+                                                <strong>Instalación de nuevo chiller para sistema de torre de
+                                                    enfriamiento a unidades manejadoras de agua fría, S.P.S, Cortes.</strong>
+                                                Diseño y construcción del sistema eléctrico.
+                                            </li>
+                                            <br>
+                                            <li class="border-list">
+                                                <strong>Diseños de mejora de sistemas de iluminación para diferentes
+                                                    sites, S.P.S, Cortes.</strong>
+                                                Diseños de sistema eléctrico.
+                                            </li>
+
+                                        </ul>
+                                    </div>
+                                    <div class="filterDiv mecanic_banrural all_banrural"><br>
+                                        <ul>
+                                            <li class="border-list">
+                                                <strong>Instalación de puerta automatizada de acceso rápido en bodega
+                                                    de
+                                                    materiales
+                                                    de secundario, S.P.S, Cortes.</strong>
+                                                Suministro de puerta certificada de NERGECO, diseño y construccion del
+                                                sistema mecanico y electrico.
+                                            </li>
+
+                                        </ul>
+                                    </div>
+                                    <div class="filterDiv build_banrural all_banrural"><br>
+                                        <ul>
+                                            <li class="border-list">
+                                                <strong>Diseño y construcción de muro frontal de protección, S.P.S
+                                                    Cortes.</strong>
+                                                Diseño y construccion de la obra civil.
+                                            </li>
+                                            <br>
+                                            <li class="border-list">
+                                                <strong>Diseño y construcción de nuevas áreas de parqueo vehicular en
+                                                    sector
+                                                    sur
+                                                    del plantel, S.P.S, Cortes.</strong>
+                                                Diseño y construccion de la obra civil.
+                                            </li>
+                                            <br>
+                                            <li class="border-list">
+                                                <strong>Reingenieria y restauracion de areas de parqueos, oficinas y
+                                                    diferentes
+                                                    sites, S.P.S, Cortes.</strong>
+                                                Desmontaje completo, diseño y construccion de la obra civil.
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <br>
-                        <div class="row">
-                            <p>Diseño y construcción del sistema eléctrico de agencia central de abastos y mercados en
-                                la ciudad de San Pedro Sula.</p>
-                            <p>Diseño y construcción del sistema de datos de agencia central de abastos y mercados en
-                                la ciudad de San Pedro Sula.</p>
-                            <p>Diseño y construcción del sistema de alarmas de agencia central de abastos y mercados en
-                                la ciudad de San Pedro Sula.</p>
-                            <p>Diseño y construcción del sistema eléctrico de agencia Mega Mall en la ciudad de San
-                                Pedro Sula.</p>
-                            <p>Diseño y construcción del sistema de datos de agencia Mega Mall en la ciudad de San
-                                Pedro Sula.</p>
-                            <p>Diseño y construcción del sistema de alarmas de agencia Mega Mall en la ciudad de San
-                                Pedro Sula.</p>
-                        </div>
+
                     </div>
                 </div>
                 <div class="modal-footer">
@@ -1022,20 +1114,79 @@
                 <div class="modal-body">
                     <div class="container-fluid">
                         <div class="row">
-                            <div class="col-md-12 text-center">
+                            <!-- <div class="col-md-12 text-center">
                                 <img src="images/civil.jpeg" alt="servicios civil">
+                            </div> -->
+                            <div class="col-md-12">
+                                <div class="row">
+                                    <div class="text-center" id="myBtnContainer_mercon">
+                                        <button class="col-md-4 btn-client" onclick="filterSelection('electrical_mercon')"><span
+                                                class="fa fa-bolt"></span> Eléctricos</button>
+                                        <button class="col-md-4 btn-client" onclick="filterSelection('mecanic_mercon')"><span
+                                                class="fa fa-cogs"></span> Eléctricos</button>
+                                        <button class="col-md-4 btn-client" onclick="filterSelection('build_mercon')"><span
+                                                class="fa fa-university"></span> Obras
+                                            civiles</button>
+                                    </div><br><br>
+                                    <div class="row filterDiv electrical_mercon all_mercon">
+                                        <br>
+                                        <ul>
+                                            <li class="border-list">
+                                                <strong>Instalación de nuevo chiller para sistema de torre de
+                                                    enfriamiento a unidades manejadoras de agua fría, S.P.S, Cortes.</strong>
+                                                Diseño y construcción del sistema eléctrico.
+                                            </li>
+                                            <br>
+                                            <li class="border-list">
+                                                <strong>Diseños de mejora de sistemas de iluminación para diferentes
+                                                    sites, S.P.S, Cortes.</strong>
+                                                Diseños de sistema eléctrico.
+                                            </li>
+
+                                        </ul>
+                                    </div>
+                                    <div class="filterDiv mecanic_mercon all_mercon"><br>
+                                        <ul>
+                                            <li class="border-list">
+                                                <strong>Instalación de puerta automatizada de acceso rápido en bodega
+                                                    de
+                                                    materiales
+                                                    de secundario, S.P.S, Cortes.</strong>
+                                                Suministro de puerta certificada de NERGECO, diseño y construccion del
+                                                sistema mecanico y electrico.
+                                            </li>
+
+                                        </ul>
+                                    </div>
+                                    <div class="filterDiv build_mercon all_mercon"><br>
+                                        <ul>
+                                            <li class="border-list">
+                                                <strong>Diseño y construcción de muro frontal de protección, S.P.S
+                                                    Cortes.</strong>
+                                                Diseño y construccion de la obra civil.
+                                            </li>
+                                            <br>
+                                            <li class="border-list">
+                                                <strong>Diseño y construcción de nuevas áreas de parqueo vehicular en
+                                                    sector
+                                                    sur
+                                                    del plantel, S.P.S, Cortes.</strong>
+                                                Diseño y construccion de la obra civil.
+                                            </li>
+                                            <br>
+                                            <li class="border-list">
+                                                <strong>Reingenieria y restauracion de areas de parqueos, oficinas y
+                                                    diferentes
+                                                    sites, S.P.S, Cortes.</strong>
+                                                Desmontaje completo, diseño y construccion de la obra civil.
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <br>
-                        <div class="row">
-                            <p>Restauración de elevadores verticales de canjilones de café, incluye sand-blasteado, y
-                                pintado con acabado industrial especializado.</p>
-                            <p> Diseño y construcción de palomeras en elevadores de canjilones.</p>
-                            <p>Construcción y remodelación de caseta de vigilancia. Incluye obra civil, estructuras
-                                metálicas, sistema eléctrico y sistema de vigilancia.</p>
-                            <p>Construcción y remodelación de muro perimetral en costado sur. Incluye cimentaciones y
-                                obra civil en general.</p>
-                        </div>
+
                     </div>
                 </div>
                 <div class="modal-footer">
@@ -1057,38 +1208,83 @@
                 <div class="modal-body">
                     <div class="container-fluid">
                         <div class="row">
-                            <div class="col-md-12 text-center">
+                            <!-- <div class="col-md-12 text-center">
                                 <img src="images/civil.jpeg" alt="servicios civil">
+                            </div> -->
+                            <div class="col-md-12">
+                                <div class="row">
+                                    <div class="text-center" id="myBtnContainer">
+                                        <!-- <br> -->
+                                        <!-- <button class="col-md-3 btn-client active" onclick="filterSelection('all_tahsa')">Ver
+                                                Todos</button> -->
+
+                                        <button class="col-md-4 btn-client" onclick="filterSelection('electrical_tahsa')"><span
+                                                class="fa fa-bolt"></span> Eléctricos</button>
+                                        <button class="col-md-4 btn-client" onclick="filterSelection('mecanic_tahsa')"><span
+                                                class="fa fa-cogs"></span> Eléctricos</button>
+                                        <button class="col-md-4 btn-client" onclick="filterSelection('build_tahsa')"><span
+                                                class="fa fa-university"></span> Obras
+                                            civiles</button>
+                                    </div><br><br>
+                                    <div class="row filterDiv electrical_tahsa all_tahsa">
+                                        <br>
+                                        <ul>
+                                            <li class="border-list">
+                                                <strong>Instalación de nuevo chiller para sistema de torre de
+                                                    enfriamiento a unidades manejadoras de agua fría, S.P.S, Cortes.</strong>
+                                                Diseño y construcción del sistema eléctrico.
+                                            </li>
+                                            <br>
+                                            <li class="border-list">
+                                                <strong>Diseños de mejora de sistemas de iluminación para diferentes
+                                                    sites, S.P.S, Cortes.</strong>
+                                                Diseños de sistema eléctrico.
+                                            </li>
+
+                                        </ul>
+                                    </div>
+                                    <div class="filterDiv mecanic_tahsa all_tahsa"><br>
+                                        <ul>
+                                            <li class="border-list">
+                                                <strong>Instalación de puerta automatizada de acceso rápido en bodega
+                                                    de
+                                                    materiales
+                                                    de secundario, S.P.S, Cortes.</strong>
+                                                Suministro de puerta certificada de NERGECO, diseño y construccion del
+                                                sistema mecanico y electrico.
+                                            </li>
+
+                                        </ul>
+                                    </div>
+                                    <div class="filterDiv build_tahsa all_tahsa"><br>
+                                        <ul>
+                                            <li class="border-list">
+                                                <strong>Diseño y construcción de muro frontal de protección, S.P.S
+                                                    Cortes.</strong>
+                                                Diseño y construccion de la obra civil.
+                                            </li>
+                                            <br>
+                                            <li class="border-list">
+                                                <strong>Diseño y construcción de nuevas áreas de parqueo vehicular en
+                                                    sector
+                                                    sur
+                                                    del plantel, S.P.S, Cortes.</strong>
+                                                Diseño y construccion de la obra civil.
+                                            </li>
+                                            <br>
+                                            <li class="border-list">
+                                                <strong>Reingenieria y restauracion de areas de parqueos, oficinas y
+                                                    diferentes
+                                                    sites, S.P.S, Cortes.</strong>
+                                                Desmontaje completo, diseño y construccion de la obra civil.
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <br>
-                        <div ALIGN="justify" class="row">
-                            <p>Mantenimientos de media tensión en 34.5 KV. Incluye revisiones de medición en alta
-                                tensión, cuchillas tripolares, conos de alivio, cable XLPE, estructuras H y derivación,
-                                4 sub-estaciones de 1 MVA cada una, switchgear, entre otros.</p>
-                            <p>Cambio sistema de medición de energía en 34.5 KV coordinando y enlazando actividades en
-                                conjunto con personal de Plycem y ENEE.</p>
-                            <p>Cambios de estructuras derivación en sistema de acometidas subterráneas XLPE en dos
-                                sub-estaciones de 1MVA cada una.</p>
-                            <p>Construcción de sistema eléctrico (fuerza y control) para nuevo PULPER DE ALTA
-                                CONSISTENCIA.</p>
-                            <p>Construcción de sistema eléctrico (fuerza y control) para nueva AREA DE ACABADO.</p>
-                            <p> Instalación de red de medidores de energía modelos ION-6200, enlazados en red interna
-                                RS485 y visualización centralizada con software ENTERPRISE.</p>
-                            <p>Construcción de nuevo sistema de visualización con equipo de DATA STATION DE RED-LION
-                                para proceso de fabricación de lámina de fibrocemento en MAQUINA DE PLACAS 1.</p>
-                            <p>Modificaciones varias en sistema eléctrico de fuerza para HORNOS de placa de
-                                fibrocemento.</p>
-                            <p>Pintado industrial de máquina de placas MP2 con pintura industrial para uso marino,
-                                acabado a 5 capas con su respectivo prime, intermedios y pintura epóxica de acabado
-                                final. Se realizó limpieza y preparación previa del área de trabajo con sistema sand
-                                blasting, wáter blast y sistema mecánico con equipo neumático para esta aplicación.</p>
-                            <p>Pintado industrial de tina de 80 M3 en proceso de máquina de placas MP2 con pintura
-                                industrial para uso marino, acabado a 5 capas con su respectivo prime, intermedios y
-                                pintura epóxica de acabado final. Se realizó limpieza y preparación previa del área de
-                                trabajo con sistema sand blasting, wáter blast y sistema mecánico con equipo neumático
-                                para esta aplicación.</p>
-                        </div>
+
                     </div>
                 </div>
                 <div class="modal-footer">
@@ -1111,31 +1307,83 @@
                 <div class="modal-body">
                     <div class="container-fluid">
                         <div class="row">
-                            <div class="col-md-12 text-center">
+                            <!-- <div class="col-md-12 text-center">
                                 <img src="images/civil.jpeg" alt="servicios civil">
+                            </div> -->
+                            <div class="col-md-12">
+                                <div class="row">
+                                    <div class="text-center" id="myBtnContainer">
+                                        <!-- <br> -->
+                                        <!-- <button class="col-md-3 btn-client active" onclick="filterSelection('all_tahsa')">Ver
+                                                Todos</button> -->
+
+                                        <button class="col-md-4 btn-client" onclick="filterSelection('electrical_tahsa')"><span
+                                                class="fa fa-bolt"></span> Eléctricos</button>
+                                        <button class="col-md-4 btn-client" onclick="filterSelection('mecanic_tahsa')"><span
+                                                class="fa fa-cogs"></span> Eléctricos</button>
+                                        <button class="col-md-4 btn-client" onclick="filterSelection('build_tahsa')"><span
+                                                class="fa fa-university"></span> Obras
+                                            civiles</button>
+                                    </div><br><br>
+                                    <div class="row filterDiv electrical_tahsa all_tahsa">
+                                        <br>
+                                        <ul>
+                                            <li class="border-list">
+                                                <strong>Instalación de nuevo chiller para sistema de torre de
+                                                    enfriamiento a unidades manejadoras de agua fría, S.P.S, Cortes.</strong>
+                                                Diseño y construcción del sistema eléctrico.
+                                            </li>
+                                            <br>
+                                            <li class="border-list">
+                                                <strong>Diseños de mejora de sistemas de iluminación para diferentes
+                                                    sites, S.P.S, Cortes.</strong>
+                                                Diseños de sistema eléctrico.
+                                            </li>
+
+                                        </ul>
+                                    </div>
+                                    <div class="filterDiv mecanic_tahsa all_tahsa"><br>
+                                        <ul>
+                                            <li class="border-list">
+                                                <strong>Instalación de puerta automatizada de acceso rápido en bodega
+                                                    de
+                                                    materiales
+                                                    de secundario, S.P.S, Cortes.</strong>
+                                                Suministro de puerta certificada de NERGECO, diseño y construccion del
+                                                sistema mecanico y electrico.
+                                            </li>
+
+                                        </ul>
+                                    </div>
+                                    <div class="filterDiv build_tahsa all_tahsa"><br>
+                                        <ul>
+                                            <li class="border-list">
+                                                <strong>Diseño y construcción de muro frontal de protección, S.P.S
+                                                    Cortes.</strong>
+                                                Diseño y construccion de la obra civil.
+                                            </li>
+                                            <br>
+                                            <li class="border-list">
+                                                <strong>Diseño y construcción de nuevas áreas de parqueo vehicular en
+                                                    sector
+                                                    sur
+                                                    del plantel, S.P.S, Cortes.</strong>
+                                                Diseño y construccion de la obra civil.
+                                            </li>
+                                            <br>
+                                            <li class="border-list">
+                                                <strong>Reingenieria y restauracion de areas de parqueos, oficinas y
+                                                    diferentes
+                                                    sites, S.P.S, Cortes.</strong>
+                                                Desmontaje completo, diseño y construccion de la obra civil.
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <br>
-                        <div class="row">
-                            <p>32. Diseño y construcción de nuevo sistema eléctrico de estación de servicio AMERICAN
-                                DOS CAMINOS (Gasolinera), DOS CAMINOS VILLANUEVA, CORTES.
-                                33. Diseño y construcción de nuevo sistema eléctrico de estación de servicio AMERICAN
-                                GUANACASTE (Gasolinera), LA ENTRADA COPAN.
-                                34. Diseño y construcción de nuevo sistema eléctrico de estación de servicio AMERICAN
-                                SANTA ANITA (Gasolinera), LA ENTRADA COPAN.
-                                35. Diseño y construcción de nuevo sistema eléctrico de estación de servicio AMERICAN
-                                SANTA RITA (Gasolinera), COPAN RUINAS.
-                                36. Diseño y construcción de nuevo sistema para enfriamiento de tanques de gas AMERICAN
-                                DOS CAMINOS (Planta de gas), DOS CAMINOS VILLANUEVA, CORTES.
-                                37. Diseño de aprobación y recepción (ENEE), así como la construcción de nuevos
-                                transformadores para estaciones de servicio GUANACASTE Y SANTA ANITA en LA ENTRADA
-                                COPAN.
-                                38. Diseño y construcción de nuevo sistema eléctrico en bodega. Incluye: sistema de
-                                media y baja tensión, alimentadores subterráneos, sistema de medición de cargas
-                                (balanzas digitales), sistemas de iluminación y tomacorrientes, protectores de
-                                trascientes y sistema contra descargas atmosféricas. PLAYA EL FARO, PUERTO CORTES,
-                                CORTES.</p>
-                        </div>
+
                     </div>
                 </div>
                 <div class="modal-footer">
@@ -1157,14 +1405,82 @@
                 <div class="modal-body">
                     <div class="container-fluid">
                         <div class="row">
-                            <div class="col-md-12 text-center">
+                            <!-- <div class="col-md-12 text-center">
                                 <img src="images/civil.jpeg" alt="servicios civil">
+                            </div> -->
+                            <div class="col-md-12">
+                                <div class="row">
+                                    <div class="text-center" id="myBtnContainer">
+                                        <!-- <br> -->
+                                        <!-- <button class="col-md-3 btn-client active" onclick="filterSelection('all_tahsa')">Ver
+                                                Todos</button> -->
+
+                                        <button class="col-md-4 btn-client" onclick="filterSelection('electrical_tahsa')"><span
+                                                class="fa fa-bolt"></span> Eléctricos</button>
+                                        <button class="col-md-4 btn-client" onclick="filterSelection('mecanic_tahsa')"><span
+                                                class="fa fa-cogs"></span> Eléctricos</button>
+                                        <button class="col-md-4 btn-client" onclick="filterSelection('build_tahsa')"><span
+                                                class="fa fa-university"></span> Obras
+                                            civiles</button>
+                                    </div><br><br>
+                                    <div class="row filterDiv electrical_tahsa all_tahsa">
+                                        <br>
+                                        <ul>
+                                            <li class="border-list">
+                                                <strong>Instalación de nuevo chiller para sistema de torre de
+                                                    enfriamiento a unidades manejadoras de agua fría, S.P.S, Cortes.</strong>
+                                                Diseño y construcción del sistema eléctrico.
+                                            </li>
+                                            <br>
+                                            <li class="border-list">
+                                                <strong>Diseños de mejora de sistemas de iluminación para diferentes
+                                                    sites, S.P.S, Cortes.</strong>
+                                                Diseños de sistema eléctrico.
+                                            </li>
+
+                                        </ul>
+                                    </div>
+                                    <div class="filterDiv mecanic_tahsa all_tahsa"><br>
+                                        <ul>
+                                            <li class="border-list">
+                                                <strong>Instalación de puerta automatizada de acceso rápido en bodega
+                                                    de
+                                                    materiales
+                                                    de secundario, S.P.S, Cortes.</strong>
+                                                Suministro de puerta certificada de NERGECO, diseño y construccion del
+                                                sistema mecanico y electrico.
+                                            </li>
+
+                                        </ul>
+                                    </div>
+                                    <div class="filterDiv build_tahsa all_tahsa"><br>
+                                        <ul>
+                                            <li class="border-list">
+                                                <strong>Diseño y construcción de muro frontal de protección, S.P.S
+                                                    Cortes.</strong>
+                                                Diseño y construccion de la obra civil.
+                                            </li>
+                                            <br>
+                                            <li class="border-list">
+                                                <strong>Diseño y construcción de nuevas áreas de parqueo vehicular en
+                                                    sector
+                                                    sur
+                                                    del plantel, S.P.S, Cortes.</strong>
+                                                Diseño y construccion de la obra civil.
+                                            </li>
+                                            <br>
+                                            <li class="border-list">
+                                                <strong>Reingenieria y restauracion de areas de parqueos, oficinas y
+                                                    diferentes
+                                                    sites, S.P.S, Cortes.</strong>
+                                                Desmontaje completo, diseño y construccion de la obra civil.
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <br>
-                        <div class="row">
-
-                        </div>
                     </div>
                 </div>
                 <div class="modal-footer">
@@ -1186,14 +1502,82 @@
                 <div class="modal-body">
                     <div class="container-fluid">
                         <div class="row">
-                            <div class="col-md-12 text-center">
+                            <!-- <div class="col-md-12 text-center">
                                 <img src="images/civil.jpeg" alt="servicios civil">
+                            </div> -->
+                            <div class="col-md-12">
+                                <div class="row">
+                                    <div class="text-center" id="myBtnContainer">
+                                        <!-- <br> -->
+                                        <!-- <button class="col-md-3 btn-client active" onclick="filterSelection('all_tahsa')">Ver
+                                                Todos</button> -->
+
+                                        <button class="col-md-4 btn-client" onclick="filterSelection('electrical_tahsa')"><span
+                                                class="fa fa-bolt"></span> Eléctricos</button>
+                                        <button class="col-md-4 btn-client" onclick="filterSelection('mecanic_tahsa')"><span
+                                                class="fa fa-cogs"></span> Eléctricos</button>
+                                        <button class="col-md-4 btn-client" onclick="filterSelection('build_tahsa')"><span
+                                                class="fa fa-university"></span> Obras
+                                            civiles</button>
+                                    </div><br><br>
+                                    <div class="row filterDiv electrical_tahsa all_tahsa">
+                                        <br>
+                                        <ul>
+                                            <li class="border-list">
+                                                <strong>Instalación de nuevo chiller para sistema de torre de
+                                                    enfriamiento a unidades manejadoras de agua fría, S.P.S, Cortes.</strong>
+                                                Diseño y construcción del sistema eléctrico.
+                                            </li>
+                                            <br>
+                                            <li class="border-list">
+                                                <strong>Diseños de mejora de sistemas de iluminación para diferentes
+                                                    sites, S.P.S, Cortes.</strong>
+                                                Diseños de sistema eléctrico.
+                                            </li>
+
+                                        </ul>
+                                    </div>
+                                    <div class="filterDiv mecanic_tahsa all_tahsa"><br>
+                                        <ul>
+                                            <li class="border-list">
+                                                <strong>Instalación de puerta automatizada de acceso rápido en bodega
+                                                    de
+                                                    materiales
+                                                    de secundario, S.P.S, Cortes.</strong>
+                                                Suministro de puerta certificada de NERGECO, diseño y construccion del
+                                                sistema mecanico y electrico.
+                                            </li>
+
+                                        </ul>
+                                    </div>
+                                    <div class="filterDiv build_tahsa all_tahsa"><br>
+                                        <ul>
+                                            <li class="border-list">
+                                                <strong>Diseño y construcción de muro frontal de protección, S.P.S
+                                                    Cortes.</strong>
+                                                Diseño y construccion de la obra civil.
+                                            </li>
+                                            <br>
+                                            <li class="border-list">
+                                                <strong>Diseño y construcción de nuevas áreas de parqueo vehicular en
+                                                    sector
+                                                    sur
+                                                    del plantel, S.P.S, Cortes.</strong>
+                                                Diseño y construccion de la obra civil.
+                                            </li>
+                                            <br>
+                                            <li class="border-list">
+                                                <strong>Reingenieria y restauracion de areas de parqueos, oficinas y
+                                                    diferentes
+                                                    sites, S.P.S, Cortes.</strong>
+                                                Desmontaje completo, diseño y construccion de la obra civil.
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <br>
-                        <div class="row">
-
-                        </div>
                     </div>
                 </div>
                 <div class="modal-footer">
@@ -1215,14 +1599,82 @@
                 <div class="modal-body">
                     <div class="container-fluid">
                         <div class="row">
-                            <div class="col-md-12 text-center">
+                            <!-- <div class="col-md-12 text-center">
                                 <img src="images/civil.jpeg" alt="servicios civil">
+                            </div> -->
+                            <div class="col-md-12">
+                                <div class="row">
+                                    <div class="text-center" id="myBtnContainer">
+                                        <!-- <br> -->
+                                        <!-- <button class="col-md-3 btn-client active" onclick="filterSelection('all_tahsa')">Ver
+                                                Todos</button> -->
+
+                                        <button class="col-md-4 btn-client" onclick="filterSelection('electrical_tahsa')"><span
+                                                class="fa fa-bolt"></span> Eléctricos</button>
+                                        <button class="col-md-4 btn-client" onclick="filterSelection('mecanic_tahsa')"><span
+                                                class="fa fa-cogs"></span> Eléctricos</button>
+                                        <button class="col-md-4 btn-client" onclick="filterSelection('build_tahsa')"><span
+                                                class="fa fa-university"></span> Obras
+                                            civiles</button>
+                                    </div><br><br>
+                                    <div class="row filterDiv electrical_tahsa all_tahsa">
+                                        <br>
+                                        <ul>
+                                            <li class="border-list">
+                                                <strong>Instalación de nuevo chiller para sistema de torre de
+                                                    enfriamiento a unidades manejadoras de agua fría, S.P.S, Cortes.</strong>
+                                                Diseño y construcción del sistema eléctrico.
+                                            </li>
+                                            <br>
+                                            <li class="border-list">
+                                                <strong>Diseños de mejora de sistemas de iluminación para diferentes
+                                                    sites, S.P.S, Cortes.</strong>
+                                                Diseños de sistema eléctrico.
+                                            </li>
+
+                                        </ul>
+                                    </div>
+                                    <div class="filterDiv mecanic_tahsa all_tahsa"><br>
+                                        <ul>
+                                            <li class="border-list">
+                                                <strong>Instalación de puerta automatizada de acceso rápido en bodega
+                                                    de
+                                                    materiales
+                                                    de secundario, S.P.S, Cortes.</strong>
+                                                Suministro de puerta certificada de NERGECO, diseño y construccion del
+                                                sistema mecanico y electrico.
+                                            </li>
+
+                                        </ul>
+                                    </div>
+                                    <div class="filterDiv build_tahsa all_tahsa"><br>
+                                        <ul>
+                                            <li class="border-list">
+                                                <strong>Diseño y construcción de muro frontal de protección, S.P.S
+                                                    Cortes.</strong>
+                                                Diseño y construccion de la obra civil.
+                                            </li>
+                                            <br>
+                                            <li class="border-list">
+                                                <strong>Diseño y construcción de nuevas áreas de parqueo vehicular en
+                                                    sector
+                                                    sur
+                                                    del plantel, S.P.S, Cortes.</strong>
+                                                Diseño y construccion de la obra civil.
+                                            </li>
+                                            <br>
+                                            <li class="border-list">
+                                                <strong>Reingenieria y restauracion de areas de parqueos, oficinas y
+                                                    diferentes
+                                                    sites, S.P.S, Cortes.</strong>
+                                                Desmontaje completo, diseño y construccion de la obra civil.
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <br>
-                        <div class="row">
-
-                        </div>
                     </div>
                 </div>
                 <div class="modal-footer">
