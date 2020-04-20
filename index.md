@@ -42,8 +42,8 @@
 
     <style>
         img.logo-navbar {
-	width: 11rem !important;
-	height: 7rem !important;
+	width: 20rem !important;
+	height: 10rem !important;
 }
 
 .list-links ul li a:hover {
@@ -84,7 +84,7 @@ div.desc {
 }
 
 .container {
-	margin-top: 20px;
+	margin-top: 8px;
 	overflow: hidden;
 }
 
@@ -134,18 +134,20 @@ div.desc {
     <!-- START HOMEPAGE  -->
     <header id="home" class="home-area">
         <div class="header-top-area">
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+            <nav class="navbar navbar-expand-lg navbar-white bg-white static-top">
                 <div class="container">
                     <div class="row">
                         <!-- <div class=".col-xs-6 col-md-2 col-ms-1"> -->
                         <div class="col-md-3 col-sm-12">
                             <!-- START LOGO -->
                             <!-- <a href="index.html">
-                                <img class="logo-navbar" src="images/logos/empresa2.png" alt="Ruiz&Betancourt">
+                                <img class="logo-navbar" src="images/logoV2.png" alt="Ruiz&Betancourt">
                             </a> -->
-                            <div class="logo">
-                                <a href="index.html"><span>R&</span>BCO</a>
-                            </div>
+                            <!-- <div class="logo"> -->
+                                <a href="index.html">
+                                    <img class="logo-navbar" src="images/logoV4.png" alt="Ruiz&Betancourt">
+                                </a>
+                            <!-- </div> -->
                             <!-- END LOGO -->
                         </div>
                         <div class="col-md-9 col-sm-12">
@@ -164,9 +166,9 @@ div.desc {
                                         <ul class="nav navbar-nav navbar-right">
                                             <li class="active"><a class="smoth-scroll" href="#home">Inicio <div class="ripple-wrapper"></div></a>
                                             </li>
-                                            <li><a class="smoth-scroll" href="#about">Historia</a>
+                                            <li><a class="smoth-scroll" href="#about">Quienes somos</a>
                                             </li>
-                                            <li><a class="smoth-scroll" href="#skills">Normativas</a>
+                                            <li><a class="smoth-scroll" href="#skills"></a>
                                             </li>
                                             <li><a class="smoth-scroll" href="#resume">Instituciones</a>
                                             </li>
@@ -180,6 +182,7 @@ div.desc {
                                             </li>
                                         </ul>
                                     </div>
+                                    <br>
                                 </div>
                             </div>
                             <!-- END MENU   -->
@@ -923,10 +926,10 @@ div.desc {
                 <div class="modal-body">
                     <div class="container-fluid">
                         <div class="row">
-                            <!-- <div class="col-md-12 text-center" style="padding: 0px;">
-                                <img src="images/8.jpg" alt="servicios civil" width="400" height="400">
+                            <div class="col-md-12 text-center" style="padding: 0px;">
+                                <img src="images/8.jpg" alt="servicios civil" width="400" height="300">
                             </div>
-                            <br> -->
+                            <br>
                             <div class="col-md-12">
                                 <div class="row">
                                     <div class="text-center" id="myBtnContainer">
