@@ -109,16 +109,25 @@ div.desc {
   border-left: 4px solid #41b548;
   padding-left: 6px;
 }
-</style>
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-    		  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-    		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-        <![endif]-->
-    <style>
 
-    </style>
+.dropdown li:hover
+{
+    background: #555;
+    color: #fff;
+}
+.open>.nav-Sub:active{
+    background: #555;
+    color: rgb(99, 10, 10);  
+}
+
+.open>.dropdown-toggle{
+    color: rgb(252, 252, 252) !important;
+    background-color: #314050 !important;
+    border-color: #adadad !important;
+}
+
+</style>
+
 </head>
 
 <body>
@@ -163,20 +172,39 @@ div.desc {
                                         </button>
                                     </div>
                                     <div class="navbar-collapse collapse">
-                                        <ul class="nav navbar-nav navbar-right">
+                                        <ul class="nav navbar-nav navbar-right" >
                                             <li class="active"><a class="smoth-scroll" href="#home">Inicio <div class="ripple-wrapper"></div></a>
                                             </li>
-                                            <li><a class="smoth-scroll" href="#about">Quienes somos</a>
+                                            <li role="presentation" class="dropdown" >
+                                                <a class="smoth-scroll dropdown-toggle " data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                                                    Quienes somos <span class="caret"></span></a>
+                                                <ul class="dropdown-menu" >
+                                                    <li><a style="padding: 10px 5px; color: #41b548;" href="#">Acera de Nosotros </a></li>
+                                                    <li><a style="padding: 10px 5px; color: #41b548;" href="#">Mision y Vision</a></li>
+                                                </ul>
                                             </li>
-                                            <li><a class="smoth-scroll" href="#skills"></a>
+                                            <li role="presentation" class="dropdown"
+                                            ><a class="smoth-scroll dropdown-toggle " data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Normativas<span class="caret"></span></a>
+                                            <ul class="dropdown-menu" >
+                                                    <li><a style="padding: 10px 5px; color: #41b548;" href="#">Instituciones a las que pertenecemos </a></li>
+                                                    <li><a style="padding: 10px 5px; color: #41b548;" href="#">Normativas aplicables a nuestros procesos</a></li>
+                                                </ul>    
+                                        </li>
+                                            <li role="presentation" class="dropdown">
+                                                <a class="smoth-scroll dropdown-toggle " data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Servicios <span class="caret"></span></a>
+                                                <ul class="dropdown-menu" >
+                                                        <li><a style="padding: 10px 5px; color: #41b548;" href="#">Segmentos de mercado </a></li>
+                                                        <li><a style="padding: 10px 5px; color: #41b548;" href="#">Areas de desarrollo</a></li>
+                                                    </ul>
                                             </li>
-                                            <li><a class="smoth-scroll" href="#resume">Instituciones</a>
+                                            <li> <a class="smoth-scroll" href="#work">Proyectos</a>
                                             </li>
-                                            <li><a class="smoth-scroll" href="#service">Servicios</a>
-                                            </li>
-                                            <li><a class="smoth-scroll" href="#work">Proyectos</a>
-                                            </li>
-                                            <li><a class="smoth-scroll" href="#blog">Clientes</a>
+                                            <li role="presentation" class="dropdown">
+                                                <a class="smoth-scroll dropdown-toggle " data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Clientes <span class="caret"></span></a>
+                                                <ul class="dropdown-menu">
+                                                        <li><a style="padding: 10px 5px; color: #41b548;" href="#">Clientes </a></li>
+                                                        <li><a style="padding: 10px 5px; color: #41b548;" href="#">Referencias</a></li>
+                                                    </ul>
                                             </li>
                                             <li><a class="smoth-scroll" href="#contact">Contactanos</a>
                                             </li>

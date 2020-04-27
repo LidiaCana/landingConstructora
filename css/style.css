@@ -33,7 +33,7 @@ body {
 	font-size: 15px;
 	line-height: 24px;
 	height: 100%;
-	font-family: 'Raleway', sans-serif;
+	font-family: "Raleway", sans-serif;
 	color: #333;
 	background: #f5f5f5;
 	overflow-x: hidden;
@@ -50,7 +50,7 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: 'Raleway', sans-serif;
+	font-family: "Raleway", sans-serif;
 }
 
 a {
@@ -335,9 +335,9 @@ fieldset {
 .mainmenu .navbar-nav li a {
 	color: #fff;
 	font-size: 13px;
-	padding: 30px 15px;
-	-webkit-transition: .3s;
-	transition: .3s;
+	padding: 5px 2px;
+	-webkit-transition: 0.3s;
+	transition: 0.3s;
 	font-weight: 600;
 	text-transform: uppercase;
 }
@@ -379,8 +379,8 @@ fieldset {
 
 .menu-bg .mainmenu .navbar-nav li a {
 	padding: 20px 15px;
-	-webkit-transition: .3s;
-	transition: .3s;
+	-webkit-transition: 0.3s;
+	transition: 0.3s;
 }
 
 /*
@@ -604,8 +604,8 @@ fieldset {
 .single-service h2 {
 	font-size: 16px;
 	text-transform: uppercase;
-	-webkit-transition: .3s;
-	transition: .3s;
+	-webkit-transition: 0.3s;
+	transition: 0.3s;
 	color: white;
 	letter-spacing: 2px;
 	font-weight: 700;
@@ -722,8 +722,8 @@ fieldset {
 .single-testimonial h2 {
 	font-size: 12px;
 	text-transform: uppercase;
-	-webkit-transition: .3s;
-	transition: .3s;
+	-webkit-transition: 0.3s;
+	transition: 0.3s;
 	color: #41b548;
 	letter-spacing: 2px;
 	font-weight: 700;
@@ -1096,11 +1096,11 @@ fieldset {
 	}
 
 	.navbar-collapse {
-		background: rgba(0, 0, 0, .9);
+		background: rgba(0, 0, 0, 0.9);
 	}
 
 	.menu-bg .navbar-collapse {
-		background: rgba(0, 0, 0, .9);
+		background: rgba(0, 0, 0, 0.9);
 	}
 
 	.welcome-image-area,
