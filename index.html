@@ -42,10 +42,18 @@
 
     <style>
         img.logo-navbar {
-	width: 20rem !important;
-	height: 10rem !important;
+	width: 17rem !important;
+	height: 8rem !important;
 }
-
+body {
+	font-size: 15px;
+	line-height: 24px;
+	height: 100%;
+	font-family: "sans-serif" !important ;
+	color: #333;
+	background: #f5f5f5;
+	overflow-x: hidden;
+}
 .list-links ul li a:hover {
 	color: #41b548;
 }
@@ -126,6 +134,68 @@ div.desc {
     border-color: #adadad !important;
 }
 
+.owl-carousel span {  
+    background: #41b548 !important;
+}
+.segment1 {
+    background-image: url("images/segmento/energiasRenovables.jpg");
+    height: 300px;
+    position: relative;
+	background-repeat: repeat;
+	background-size: cover;
+	z-index: 1;
+}
+.segment2 {
+    background-image: url("images/segmento/industria.jpg");
+    height: 300px;
+    position: relative;
+	background-repeat: repeat;
+	background-size: cover;
+	z-index: 1;
+}
+.segment3 {
+    background-image: url("images/segmento/comercio.jpg");
+    height: 300px;
+    position: relative;
+	background-repeat: repeat;
+	background-size: cover;
+	z-index: 1;
+}
+.segment4 {
+    background-image: url("images/segmento/residencia.jpg");
+    height: 300px;
+    position: relative;
+	background-repeat: repeat;
+	background-size: cover;
+	z-index: 1;
+}
+.segment5 {
+    background-image: url("images/segmento/otros.jpg");
+    height: 300px;
+    position: relative;
+	background-repeat: repeat;
+	background-size: cover;
+	z-index: 1;
+}
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+.dropdown-menu>.active>a,
+.dropdown-menu>.active>a:focus,
+.dropdown-menu>.active>a:hover {
+    color: #fff;
+    text-decoration: none;
+    background-color: #535050 !important;
+    outline: 0
+}
+.mainmenu .navbar-nav li a {
+		padding: 11px 15px !important;
+	}
 </style>
 
 </head>
@@ -144,7 +214,7 @@ div.desc {
     <header id="home" class="home-area">
         <div class="header-top-area">
             <nav class="navbar navbar-expand-lg navbar-white bg-white static-top">
-                <div class="container">
+                <div class="">
                     <div class="row">
                         <!-- <div class=".col-xs-6 col-md-2 col-ms-1"> -->
                         <div class="col-md-3 col-sm-12">
@@ -176,25 +246,25 @@ div.desc {
                                             <li class="active"><a class="smoth-scroll" href="#home">Inicio <div class="ripple-wrapper"></div></a>
                                             </li>
                                             <li role="presentation" class="dropdown" >
-                                                <a class="smoth-scroll dropdown-toggle " data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                                                <a class="dropdown-toggle " data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
                                                     Quienes somos <span class="caret"></span></a>
                                                 <ul class="dropdown-menu" >
-                                                    <li><a style="padding: 10px 5px; color: #41b548;" href="#">Acera de Nosotros </a></li>
-                                                    <li><a style="padding: 10px 5px; color: #41b548;" href="#">Mision y Vision</a></li>
+                                                    <li><a style="padding: 10px 5px; color: #41b548;" href="#about">Acera de Nosotros </a></li>
+                                                    <li><a style="padding: 10px 5px; color: #41b548;" href="#mition">Misión y Visión</a></li>
                                                 </ul>
                                             </li>
                                             <li role="presentation" class="dropdown"
-                                            ><a class="smoth-scroll dropdown-toggle " data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Normativas<span class="caret"></span></a>
+                                            ><a class=" dropdown-toggle " data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Normativas de calidad<span class="caret"></span></a>
                                             <ul class="dropdown-menu" >
-                                                    <li><a style="padding: 10px 5px; color: #41b548;" href="#">Instituciones a las que pertenecemos </a></li>
-                                                    <li><a style="padding: 10px 5px; color: #41b548;" href="#">Normativas aplicables a nuestros procesos</a></li>
+                                                    <li><a style="padding: 10px 5px; color: #41b548;" href="#institutions">Instituciones a las que pertenecemos </a></li>
+                                                    <li><a style="padding: 10px 5px; color: #41b548;" href="#certificated">Normativas aplicables a nuestros procesos</a></li>
                                                 </ul>    
                                         </li>
                                             <li role="presentation" class="dropdown">
-                                                <a class="smoth-scroll dropdown-toggle " data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Servicios <span class="caret"></span></a>
+                                                <a class=" dropdown-toggle " data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Servicios <span class="caret"></span></a>
                                                 <ul class="dropdown-menu" >
-                                                        <li><a style="padding: 10px 5px; color: #41b548;" href="#">Segmentos de mercado </a></li>
-                                                        <li><a style="padding: 10px 5px; color: #41b548;" href="#">Areas de desarrollo</a></li>
+                                                        <li><a style="padding: 10px 5px; color: #41b548;" href="#segments-work">Segmentos de mercado </a></li>
+                                                        <li><a style="padding: 10px 5px; color: #41b548;" href="#development">áreas de desarrollo</a></li>
                                                     </ul>
                                             </li>
                                             <li> <a class="smoth-scroll" href="#work">Proyectos</a>
@@ -202,11 +272,11 @@ div.desc {
                                             <li role="presentation" class="dropdown">
                                                 <a class="smoth-scroll dropdown-toggle " data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Clientes <span class="caret"></span></a>
                                                 <ul class="dropdown-menu">
-                                                        <li><a style="padding: 10px 5px; color: #41b548;" href="#">Clientes </a></li>
-                                                        <li><a style="padding: 10px 5px; color: #41b548;" href="#">Referencias</a></li>
+                                                        <li><a style="padding: 10px 5px; color: #41b548;" href="#custumers">Algunos de nuestros Clientes </a></li>
+                                                        <li><a style="padding: 10px 5px; color: #41b548;" href="#reference">Referencias</a></li>
                                                     </ul>
                                             </li>
-                                            <li><a class="smoth-scroll" href="#contact">Contactanos</a>
+                                            <li><a class="smoth-scroll" href="#contact">Contactános</a>
                                             </li>
                                         </ul>
                                     </div>
@@ -241,7 +311,7 @@ div.desc {
                                             <li><a href=""><i class="fa fa-whatsapp"></i></a></li>
                                         </ul>
                                     </div>
-                                    <a class="btn btn-custom smoth-scroll" href="#contact">Contactanos</a>
+                                    <a class="btn btn-custom smoth-scroll" href="#contact">Contáctanos</a>
                                 </div>
                             </div>
                         </div>
@@ -272,36 +342,14 @@ div.desc {
                     <div ALIGN="justify" class=" introduce">
                         <h2 class="title">Nuestra historia</h2>
 
-                        <p>Somos RUIZ & BETANCOURT CONSTRUCTORES S.A. DE C.V. , Una empresa multi-operaciones, dedicada
-                            a la integración de soluciones de ingeniería en las áreas eléctrica, mecánica y obras
-                            civiles.</p>
+                        <p >Somos RUIZ & BETANCOURT CONSTRUCTORES S.A. DE C.V., Una empresa multi-operaciones, dedicada a la integración de soluciones de ingeniería en las áreas eléctrica, mecánica, obras civiles y arquitectura.</p>
 
-                        <p>Fundada en la ciudad de San Pedro Sula en el año 2010, como una empresa de soluciones
-                            integrales a las necesidades del mercado, destacando desde sus inicios en calidad y
-                            servicio de sistemas electromecánicos, energía renovables, obras arquitectónicas y civiles,
-                            industriales, comerciales, residenciales y otros.
+                        <p >Fundada en la ciudad de San Pedro Sula en el año 2010, como una empresa de soluciones integrales a las necesidades del mercado, destacando desde sus inicios en calidad y servicio de sistemas electromecánicos, energías renovables, obras civiles y arquitectónicas, industriales, comerciales, residenciales y otros.
                         </p>
 
-                        <p>En R&BCO, disfrutamos de lo que hacemos, día a día nuestro equipo de trabajo entrega sus
-                            competencias en cada uno de los proyectos, con los mas altos estándares de seguridad
-                            ocupacional, regidos bajo nuestra filosofía empresarial “ecológicamente amigables” y la
-                            integración de la “Agenda 2030 para el Desarrollo Sostenible”.
+                        <p >En R&BCO, disfrutamos de lo que hacemos, día a día nuestro equipo de trabajo entrega sus competencias en cada uno de los proyectos, con los más altos estándares de seguridad ocupacional, regidos bajo nuestra filosofía empresarial “ecológicamente amigables” y la integración de la “Agenda 2030 para el Desarrollo Sostenible”.
                         </p>
-                    </div>
-                    <div class="presonal-inform list-links">
-                        <p><b>Segmento de mercado</b></p>
-                        <div class="row"></div>
-                        <ul>
-                            <li style="margin-bottom: 5px;" data-toggle="modal" data-target="#GestionER"><a href="#about">1.
-                                    Gestión de proyectos de Energía
-                                    Renovable.</a></li>
-                            <li style="margin-bottom: 5px;" data-toggle="modal" data-target="#Industry"><a href="#about">2.
-                                    Industria.</a></li>
-                            <li style="margin-bottom: 5px;" data-toggle="modal" data-target="#Business"><a href="#about">3.
-                                    Comercio.</a></li>
-                            <li style="margin-bottom: 5px;" data-toggle="modal" data-target="#Residence"><a href="#about">4.
-                                    Residencia</a></li>
-                        </ul>
+                        
                     </div>
                 </div>
                 <br>
@@ -326,14 +374,14 @@ div.desc {
 
 
     <!-- START SKILL -->
-    <section id="skills" class="section bg-dark">
+    <section id="mition" class="section bg-dark">
         <div class="container">
 
             <!-- Skills -->
             <div class="row text-center">
                 <div class="col-sm-6">
                     <div class="section-title">
-                        <h3>Mision</h3>
+                        <h3>Misión</h3>
                         <div class="title-border" style="margin-bottom: 10px;">
                         </div>
                     </div>
@@ -347,7 +395,7 @@ div.desc {
                 </div>
                 <div class="col-sm-6">
                     <div class="section-title title-white">
-                        <h3>Vision</h3>
+                        <h3>Visión</h3>
                         <div class="title-border" style="margin-bottom: 10px;"> </div>
                     </div>
                     <div class="single-service">
@@ -363,7 +411,7 @@ div.desc {
     <!--  end Skill -->
 
     <!-- START RESUME -->
-    <section class="resume" id="resume">
+    <section class="resume" id="institutions">
         <div class="container resume-area">
             <div class="row">
                 <div class="col-md-12 col-xs-12">
@@ -435,14 +483,47 @@ div.desc {
         <!--end container-->
     </section>
     <!-- END RESUME -->
+    <!-- START RESUME -->
+    <section class="resume" id="certificated">
+        <div class="container resume-area">
+            <div class="row">
+                <div class="col-md-12 col-xs-12">
+                    <div class="section-title-1">
+                        <h2 class="text-center">NORMATIVAS APLICABLES A NUESTROS PROCESOS</h2>
+                        <div class="title-border"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">               
+                <div class="row">
+                        <div class="introduce">
+                            <div class="presonal-inform">
+                                    <ul>
+                                        <li>National Fire Protection Asociated: <b style="float: right;">NFPA 70</b></li>
+                                        <li>National Fire Protection Asociated: <b style="float: right;">NFPA 70B</b></li>
+                                        <li>National Fire Protection Asociated: <b style="float: right;">NFPA 70E</b></li>
+                                        <li>Sistemas de Gestion de Energias: <b style="float: right;">ISO 50001</b></li>
+                                        <li>Auditorias Energeticas: <b style="float: right;">ISO 50002</b></li>
+                                        <li>Seguridad Industrial y Salud Ocupacional: <b style="float: right;"> ISO 45001</b></li>
+                                    </ul>
+                                </div>          
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--end container-->
+    </section>
+    <!-- END RESUME -->
 
     <!-- START SERVICES  -->
-    <section id="service" class="section bg-dark">
+    <section id="development" class="section bg-dark">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12">
                     <div class="section-title">
-                        <h3>NUESTROS SERVICIOS</h3>
+                        <h3>ÁREAS DE DESARROLLO</h3>
                         <div class="title-border"></div>
                     </div>
                 </div>
@@ -453,7 +534,7 @@ div.desc {
                 <div class="col-md-4 col-sm-6">
                     <div class="single-service">
                         <p><span class="fa fa-bolt service-icon"></span></p>
-                        <h2 class="text-uppercase">eléctrico</h2>
+                        <h2 class="text-uppercase">Ingeniería eléctrica</h2>
                         <p style="text-align:justify;">Se proporciona un servicio integral para el
                             desarrollo de
                             iniciativas industriales y de infraestructura. Ingeniería Eléctrica Conceptual, Básica y de
@@ -466,7 +547,7 @@ div.desc {
                 <div class="col-md-4 col-sm-6">
                     <div class="single-service">
                         <p><span class="fa fa-cogs service-icon"></span></p>
-                        <h2 class="text-uppercase">Mecánicos</h2>
+                        <h2 class="text-uppercase">Ingeniría Mecánica</h2>
                         <p style="text-align:justify;"> Estamos comprometidos con el desarrollo sostenible de diversos
                             proyectos de
                             electromecanica, sistemas neumáticos y de vapor, que proporcionen un mejor estándar de vida
@@ -480,7 +561,7 @@ div.desc {
                 <div class="col-md-4 col-sm-6">
                     <div class="single-service">
                         <p><span class="fa fa-university service-icon"></span></p>
-                        <h2 class="text-uppercase">Obras civiles y arquitectura</h2>
+                        <h2 class="text-uppercase">Ingeniería civil y arquitectura</h2>
                         <p style="text-align:justify;">Nuestros profesionales están capacitados para realizar un
                             trabajo de alto nivel de calidad,
                             realizando obras de un modo eficiente y seguro para nuestro personal y las instalaciones de
@@ -496,8 +577,77 @@ div.desc {
         <!--end container-->
     </section>
     <!--  END SERVICES -->
-
-
+    <section id="segments-work" class="section" style="margin-bottom: 0px !important; padding-bottom: 0;"></section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-xs-12">
+                    <div class="section-title-1">
+                        <h2 class="text-center">SEGMENTO DE MERCADO</h2>
+                        <div class="title-border"></div>
+                    </div>
+                </div>
+            </div>
+            <!--end row-->
+            <div class="testimonial-list">
+                <div class="single-testimonial text-center">
+                    <div class="col-xs-12 col-md-6">
+                        <div class="segment1 ">
+                            <div class="bg-overlay">
+                                <div class="hero-text">
+                                    <h1 style="color:#ddd">ENERGÍAS RENOVABLES</h1>
+                                    <button class="btn btn-success btn-lg" data-toggle="modal" data-target="#GestionER">Ver</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-md-6">
+                        <div class="segment2">
+                            <div class="bg-overlay">
+                                <div class="hero-text">
+                                    <h1 style="color: #ddd">INDUSTRIA</h1>
+                                    <button class="btn btn-success btn-lg" data-toggle="modal" data-target="#Industry">Ver</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="single-testimonial text-center">
+                    <div class="col-xs-12 col-md-6">
+                        <div class="segment3">
+                            <div class="bg-overlay">
+                                <div class="hero-text">
+                                    <h1 style="color: #ddd">COMERCIO</h1>
+                                    <button class="btn btn-success btn-lg" data-toggle="modal" data-target="#Business">Ver</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-md-6">
+                        <div class="segment4">
+                            <div class="bg-overlay">
+                                <div class="hero-text">
+                                    <h1 style="color:#ddd">RESIDENCIAL</h1>
+                                    <button class="btn btn-success btn-lg" data-toggle="modal" data-target="#Residence">Ver</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="single-testimonial text-center">
+                    <div class="col-xs-12 col-md-6">
+                        <div class="segment5">
+                            <div class="bg-overlay">
+                                <div class="hero-text">
+                                    <h1 style="color:#ddd">PROYECTOS ESPECIALES</h1>
+                                    <button class="btn btn-success btn-lg" data-toggle="modal" data-target="#other">Ver</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <!-- START Portfolios -->
     <section id="work" class="section">
         <div class="container">
@@ -612,10 +762,96 @@ div.desc {
         <!--end container-->
     </section>
     <!--  END Portfolios -->
-
+    <!-- Customer -->
+    <section id="custumers" class="section" style="margin-bottom: 0px !important; padding-bottom: 0;"></section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-xs-12">
+                    <div class="section-title-1">
+                        <h2 class="text-center">ALGUNOS DE NUESTROS CLIENTES</h2>
+                        <div class="title-border"></div>
+                    </div>
+                </div>
+            </div>
+            <!--end row-->
+            <div class="testimonial-list">
+                <div class="single-testimonial text-center">
+                    <div class="col-xs-6 col-md-3">
+                        <div class="gallery">
+                            <img src="images/customer/Clientes/AcuaFinca.png" alt="AcuaFinca" width="600" height="400">
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-md-3">
+                        <div class="gallery">
+                            <img src="images/customer/Clientes/AutoLata1.jpeg" alt="AutoLata" width="600" height="400">
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-md-3">
+                        <div class="gallery">
+                            <img src="images/customer/Clientes/Azunosa.png" alt="Azunosa" width="600" height="400">
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-md-3">
+                        <div class="gallery">
+                            <img src="images/customer/Clientes/Banrural1.png" alt="BANRURAL" width="600" height="400">
+                        </div>
+                    </div>
+                </div>
+                <div class="single-testimonial text-center">
+                        <div class="col-xs-6 col-md-3">
+                            <div class="gallery">
+                                <img src="images/customer/Clientes/BelloHorizonte1.png" alt="Bello Horizonte" width="600" height="400">
+                            </div>
+                        </div>
+                        <div class="col-xs-6 col-md-3">
+                            <div class="gallery">
+                                <img src="images/customer/Clientes/CHEMITECH1.png" alt="CHEMITECH" width="600" height="400">
+                            </div>
+                        </div>
+                        <div class="col-xs-6 col-md-3">
+                            <div class="gallery">
+                                <img src="images/customer/Clientes/CIGRAMercon1.png" alt="CIGRA Mercon" width="600" height="400">
+                            </div>
+                        </div>
+                        <div class="col-xs-6 col-md-3">
+                            <div class="gallery">
+                                <img src="images/customer/Clientes/ChiquitaBanana1.png" alt="Chiquita Banana" width="600" height="400">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="single-testimonial text-center">
+                        <div class="col-xs-6 col-md-3">
+                            <div class="gallery">
+                                <img src="images/customer/Clientes/CorporacionDinant.png" alt="DINANT" width="600" height="400">
+                            </div>
+                        </div>
+                        <div class="col-xs-6 col-md-3">
+                            <div class="gallery">
+                                <img src="images/customer/Clientes/GrupoAmerican.jpg" alt="Grupo American" width="600" height="400">
+                            </div>
+                        </div>
+                        <div class="col-xs-6 col-md-3">
+                            <div class="gallery">
+                                <img src="images/customer/Clientes/GrupoFarinter.png" alt="Grupo Farinter" width="600" height="400">
+                            </div>
+                        </div>
+                        <div class="col-xs-6 col-md-3">
+                            <div class="gallery">
+                                <img src="images/customer/Clientes/DelCorral.png" alt="Del Corral" width="600" height="400">
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <br>
+            <br>
+            <br>
+            <br>
+        </div>
+    </section>
+    <!-- END Customer -->
 
     <!-- START Clients -->
-    <section id="Clients" class="section bg-dark">
+    <section id="reference" class="section bg-dark">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12">
@@ -630,32 +866,26 @@ div.desc {
                 <div class="col-md-8 col-md-offset-2">
                     <div class="testimonial-list">
                         <div class="single-testimonial text-center">
-                            <img class="user-block" src="images/logos/cliente.jpg">
-                            <p>Ruiz&Betancourt Constructores S.A. DE C.V. es una empresa con un alto servicio de
-                                calidad de ingeniería.</p>
-                            <h2>Cliente 1</h2>
-                            <h3>Gerente general Dinant</h3>
-                            <img src="images/logos/banrural.png" alt="" class="client-img">
+                            <img class="user-block" src="images/reference/GuillermoKattan.jpeg">
+                            <p>Los mejores nos rodeamos siempre de los mejores. Ruiz & Betancourt Constructores SA de CV, a través de los años ha demostrado su capacidad, responsabilidad y profesionalismo</p>
+                            <h2>Guillermo Kattan</h2>
+                            <h3>Presidente División Inmobiliaria</h3>
+                            <img src="images/customer/Clientes/KattanGroup.png" alt="Grupo Kattan" class="client-img" style="height:60px">
                         </div>
 
                         <div class="single-testimonial text-center">
-                            <img class="user-block" src="images/logos/cliente.png">
-                            <p> Ruiz&Betancourt Constructores S.A. DE C.V. son una empresa de primera categoría.
-                                ¡Cuidadoso, gran ética de trabajo, lo
-                                contrataría nuevamente en un abrir y cerrar de ojos! El trabajo estaba limpio. Muy útil
-                                y dispuesto a dar consejos sobre nuestros proyectos.</p>
-                            <h2>Cliente 2</h2>
-                            <h3>Cargo</h3>
-                            <img src="images/logos/dinant.png" alt="" class="client-img">
+                            <img class="user-block" src="images/reference/CarlosSolis.jpeg">
+                            <p> Ruiz & Betancourt Constructores SA de CV, es una empresa que aporta al desarrollo del país, generando confianza a sus clientes por su equipo de profesionales, calidad y constancia en sus actividades</p>
+                            <h2>Carlos Solis</h2>
+                            <h3>Consultor Internacional Económico y Financiero</h3>
                         </div>
 
                         <div class="single-testimonial text-center">
-                            <img class="user-block" src="images/logos/cliente.png">
-                            <p>Ruiz&Betancourt Constructores S.A. DE C.V. se aseguró de que estuviéramos felices en
-                                cada paso del camino y que el trabajo siempre fuera puntual. </p>
-                            <h2>Cliente 3</h2>
-                            <h3>Cargo</h3>
-                            <img src="images/logos/tabacalera.png" alt="" class="client-img">
+                            <img class="user-block" src="images/reference/OliverosCerrato.jpeg">
+                            <p>Desde su inicio, hemos creído en la capacidad y respaldo de Ruiz & Betancourt Constructores SA de CV, por esto seguimos manteniendo una muy beneficiosa relación de negocios, además de siempre mantenerse a la vanguardia, brindando un mejor valor agregado en nuestros proyectos </p>
+                            <h2>Oliveros Cerrato</h2>
+                            <h3>Vice Presidente Corporativo de Riesgos</h3>
+                            <img src="images/customer/Clientes/KattanGroup.png" alt="" class="client-img" style="height:60px">
                         </div>
                     </div>
                 </div>
@@ -665,125 +895,40 @@ div.desc {
         <!--end container-->
     </section>
     <!--  END Clients -->
-
-    <!-- START blog page -->
-    <section id="blog" class="blog-area section">
-        <div class="container area">
-            <div class="row">
-                <div class="col-sm-12">
-                    <div class="section-title-1 text-center">
-                        <h2 class="hadding no-margin">NUESTRO EQUIPO</h2>
-                        <div class="title-border"></div>
-                    </div>
-                </div>
-            </div>
-            <!--end row-->
-            <div class="row">
-                <div class="col-md-4 col-sm-6 colblog">
-                    <div class="blog-containes">
-                        <div class="blog-items">
-                            <div class="blog-item">
-                                <div class="blog-img">
-                                    <img src="images/team/jorge.jpg" alt="">
-                                </div>
-                                <div class="line"></div>
-                                <div class="blog-content">
-                                    <h2 class="no-margin">Ing. Jorge Francisco Betancourt</h2>
-                                    <div class="meta-box">
-                                        <ul>
-                                            <li>Ing. Eléctrico</li>
-                                            <li><span>Gerente general</span></li>
-                                        </ul>
-                                    </div>
-                                    <p class="no-margin">
-                                        Con mas de <b style="color:green">10 años</b> de experiencia en el área, es un
-                                        ciudadano con una conducta intachable. Ha demostrado ser un
-                                        gran trabajador, comprometido, responsable y fiel cumplidor de sus tareas.
-                                        Tiene certificado en:.....
-                                    </p>
-                                    <p class="no-margin"><b>"A quien escuches determinará en quién te conviertas"</b></p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 colblog">
-                    <div class="blog-containes">
-                        <div class="blog-items">
-                            <div class="blog-item">
-                                <div class="blog-content">
-                                    <h2 class="no-margin">Ing. Jorge Francisco Betancourt</h2>
-                                    <div class="meta-box">
-                                        <ul>
-                                            <li>Ing. Eléctrico</li>
-                                            <li><span>Gerente general</span></li>
-                                        </ul>
-                                    </div>
-                                    <p class="no-margin">
-                                        Con mas de <b style="color:green">10 años</b> de experiencia en el área, es un
-                                        ciudadano con una conducta intachable. Ha demostrado ser un
-                                        gran trabajador, comprometido, responsable y fiel cumplidor de sus tareas.
-                                        Durante estos años se ha desempeñado como: xxxxx, encargado de xxxxx.
-                                    </p>
-                                </div>
-
-                                <div class="blog-img">
-                                    <img src="images/blog/img-2.jpg" alt="">
-                                </div>
-                                <div class="line"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 colblog">
-                    <div class="blog-containes">
-                        <div class="blog-items">
-                            <div class="blog-item">
-                                <div class="blog-img">
-                                    <img src="images/blog/img-3.jpg" alt="">
-                                </div>
-                                <div class="line"></div>
-                                <div class="blog-content">
-                                    <h2 class="no-margin">Ing. Jorge Francisco Betancourt</h2>
-                                    <div class="meta-box">
-                                        <ul>
-                                            <li>Ing. Eléctrico</li>
-                                            <li><span>Gerente general</span></li>
-                                        </ul>
-                                    </div>
-                                    <p class="no-margin">
-                                        Con mas de <b style="color:green">10 años</b> de experiencia en el área, es un
-                                        ciudadano con una conducta intachable. Ha demostrado ser un
-                                        gran trabajador, comprometido, responsable y fiel cumplidor de sus tareas.
-                                        Tiene certificado en:.....
-                                    </p>
-                                    <p class="no-margin"><b>"A quien escuches determinará en quién te conviertas"</b></p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--end row-->
-        </div>
-        <!--end container-->
-    </section>
-    <!-- END blog page -->
-
+   
     <!-- START contect -->
     <section id="contact" class="section bg-dark">
         <div class="container area">
             <div class="row">
                 <div class="col-md-12">
                     <div class="section-title">
-                        <h2 style="color:white">CONTACTANOS</h2>
+                        <h2 style="color:white">CONTÁCTANOS</h2>
                         <div class="title-border"></div>
                     </div>
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-12 col-xs-12">
-                    <!-- START contect -->
+                <div class="col-xs-12 col-md-8 btn">
+                   <a href="https://www.google.com/maps/@15.5350102,-88.0309628,16.41z" target="_blank"><img src="images/map.png" class="img-responsive" alt="Dirección" /></a> 
+                </div>
+                <div class="col-xs-12 col-md-4" >
+                    <br>
+                    <br>
+                    <h4 style="color:#ccc">Dirección:</h4>
+                    <p style="color:#ccc; font-size:16px;">
+                        Residencial Jardines del Valle 2da. etapa, 34 calle, 10 y 11 avenida, casa #30, sector N.O. San Pedro Sula,
+                        Honduras, C.A.
+                    </p>
+                    <br>
+                    <h4 style="color:#ccc"> Teléfono:
+                    </h4>
+                    <p style="color:#ccc; font-size:16px; "> + (504) 2554-5679</p>
+                    <br>
+                    <h4 style="color:#ccc">Correo:</h4>
+                    <p style="color:#ccc; font-size:16px;">informacion@gruporybco.com </p>
+                </div>
+                <!-- <div class="col-md-12 col-xs-12">
+                   
                     <div class="contact-form">
                         <form id="contact-form" method="">
                             <div class="row">
@@ -813,7 +958,7 @@ div.desc {
                             </div>
                         </form>
                     </div>
-                </div>
+                </div> -->
             </div>
             <!--end container-->
         </div>
@@ -827,7 +972,7 @@ div.desc {
         <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">ÁREA ELÉCTRICA</h5>
+                    <h5 class="modal-title" id="exampleModalLabel">INGENIERÍA ELÉCTRICA</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
@@ -843,15 +988,16 @@ div.desc {
                         <div class="row">
                             <br>
                             <ul>
-                                <li>1.Diseño, construcción y supervisión. </li>
-                                <li>2.Estudios e integración de soluciones para eficiencia y ahorro energético.</li>
-                                <li>3.Gestión de proyectos de Energía Renovable.</li>
-                                <li>4.Sistemas integrados en media y alta tensión aéreo y subterráneo.</li>
-                                <li>5.Sistemas de control y automatización</li>
-                                <li>6.Sistemas datos, cámaras de seguridad, accesos integrados y Data Center.</li>
-                                <li>7.Sistema de fuerza, subestaciones eléctricas, alimentadores, cuartos
-                                    eléctricos, etc.</li>
-                                <li>8.Sistemas de iluminación, tomacorrientes, AA.</li>
+                                <li>1. Diseño, construcción y supervisión. </li>
+                                <li>2. Estudios e integración de soluciones para eficiencia y ahorro energético.</li>
+                                <li>3. Gestión de proyectos de Energía Renovable.</li>
+                                <li>4. Sistemas integrados en media y alta tensión aéreo y subterráneo.</li>
+                                <li>5. Sistemas de control y automatización</li>
+                                <li>6. Sistemas datos, cámaras de seguridad, accesos integrados y Data Center.</li>
+                                <li>7. Sistema de fuerza, subestaciones eléctricas, alimentadores, cuartos
+                                    eléctricos.</li>
+                                <li>8. Sistemas de iluminación, tomacorrientes, AA.</li>
+                                <li>9. Mediciones de parámetros eléctricos, salidas de energía, aislamiento en baja y media tensión, puesta tierra, termografía, etc.</li>
                             </ul>
                         </div>
                     </div>
@@ -888,7 +1034,8 @@ div.desc {
                                 <li>3. Sistemas de Heat Ventilation & Air Condition (HVAC).</li>
                                 <li>4. Sistemas neumáticos y de vapor. </li>
                                 <li>5. Sistemas de agua de procesos, fría o caliente.</li>
-                                <li>6. Pintura industrial para maquinarias, tanques y estructuras elevadas.</li>
+                                <li>6. Construcción de estructuras metálicas, plataformas, escaleras, tanques, tuberías y   ductos.</li>
+                                <li>7. Pintura industrial para maquinarias, tanques y estructuras elevadas.</li>
                             </ul>
                         </div>
                     </div>
@@ -904,7 +1051,7 @@ div.desc {
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">ÁREA DE OBRAS CIVILES</h5>
+                    <h5 class="modal-title" id="exampleModalLabel">INGENIERÍA CIVILES Y ARQUITECTURA</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
@@ -920,12 +1067,14 @@ div.desc {
                         <div class="row">
                             <ul>
                                 <li>1. Diseño, construcción y supervisión.</li>
-                                <li>2. Estructuras metálicas y techos estructurales.</li>
-                                <li>3. Construcción de obra gris.</li>
-                                <li>4. Terracería</li>
-                                <li>5. Sistemas hidro-sanitarios.</li>
-                                <li>6. Tabla yeso interior y exterior.</li>
-                                <li>7. Pintura arquitectónica e industrial.</li>
+                                <li>2. Estudios e integración de soluciones para eficiencia y ahorro energético.</li>
+                                <li>3. Terracería.</li>
+                                <li>4. Obra gris.</li>
+                                <li>5. Estructuras metálicas y techos estructurales.</li>
+                                <li>6. Sistemas hidro-sanitarios.</li>
+                                <li>7. Tabla yeso interior y exterior.</li>
+                                <li>8. Pintura arquitectónica e industrial.</li>
+                                <li>9. Arquitectura para todo tipo de edificio, etc.</li>
                             </ul>
                         </div>
                     </div>
@@ -1719,7 +1868,7 @@ div.desc {
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Energia Renovable</h5>
+                    <h5 class="modal-title" id="exampleModalLabel">ENERGÍAS RENOVABLES</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
@@ -1736,7 +1885,7 @@ div.desc {
                             <div class="col-md-4">
                                 <div class="gallery">
                                     <img src="images/segmento/energia/Eolica.jpg" alt="Cinque Terre" width="600" height="400">
-                                    <div class="desc">Energía eolica.</div>
+                                    <div class="desc">Energía eólica.</div>
                                 </div>
                             </div>
                             <div class="col-md-4">
@@ -1760,7 +1909,7 @@ div.desc {
                                 <div class="gallery">
                                     <img src="images/segmento/energia/geotermica.png" alt="Cinque Terre" width="600"
                                         height="400">
-                                    <div class="desc">Energía geotermica</div>
+                                    <div class="desc">Energía geotérmica</div>
                                 </div>
                             </div>
                             <div class="col-md-4">
@@ -1783,7 +1932,7 @@ div.desc {
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Industria</h5>
+                    <h5 class="modal-title" id="exampleModalLabel">INDUSTRIA</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
@@ -1815,20 +1964,7 @@ div.desc {
                         </div>
                         <br>
                         <div class="row">
-                            <div class="col-md-4">
-                                <div class="gallery">
-                                    <img src="images/segmento/Industria/famaceuticas.jpg" alt="Cinque Terre" width="600"
-                                        height="400">
-                                    <div class="desc">Farmaceuticas.</div>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="gallery">
-                                    <img src="images/segmento/Industria/hospitales.jpg" alt="Cinque Terre" width="600"
-                                        height="400">
-                                    <div class="desc">Hospitales.</div>
-                                </div>
-                            </div>
+                            
                             <div class="col-md-4">
                                 <div class="gallery">
                                     <img src="images/segmento/Industria/manufacturera.jpg" alt="Cinque Terre" width="600"
@@ -1849,7 +1985,7 @@ div.desc {
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Comercio</h5>
+                    <h5 class="modal-title" id="exampleModalLabel">COMERCIO</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
@@ -1884,7 +2020,7 @@ div.desc {
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Residencia</h5>
+                    <h5 class="modal-title" id="exampleModalLabel">RESIDENCIA</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
@@ -1923,6 +2059,58 @@ div.desc {
         </div>
     </div>
     <!-- Ende modal section -->
+    <div class="modal fade" id="other" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">PROYECTOS ESPECIALES</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="gallery">
+                                    <img src="images/segmento/gasPlant.jpg" alt="Cinque Terre" width="600"
+                                        height="400">
+                                    <div class="desc">Plantas de gas.</div>
+                                </div>
+                            </div>                            
+                            <div class="col-md-4">
+                                <div class="gallery">
+                                    <img src="images/segmento/Industria/famaceuticas.jpg" alt="Cinque Terre" width="600"
+                                        height="400">
+                                    <div class="desc">Farmaceuticas.</div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="gallery">
+                                    <img src="images/segmento/Industria/hospitales.jpg" alt="Cinque Terre" width="600"
+                                        height="400">
+                                    <div class="desc">Hospitales.</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-5">
+                                <div class="gallery">
+                                    <img src="images/segmento/otros.jpg" alt="Cinque Terre" width="600"
+                                        height="400">
+                                    <div class="desc">Estaciones de combustible.</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Ende modal section -->
 
 
     <!-- START footer -->
@@ -1938,7 +2126,7 @@ div.desc {
                             <li><a href=""><i class="fa fa-whatsapp footer-link"></i></a></li>
                         </ul>
                     </div>
-                    <p class="copyright">© 2020 Edit Lidia Canales</p>
+                    <p class="copyright">2020 Edit Lidia Canales</p>
                 </div>
             </div>
         </div>
