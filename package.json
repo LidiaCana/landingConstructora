@@ -1,0 +1,25 @@
+{
+  "name": "landingconstructora",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LidiaCana/landingConstructora.git"
+  },
+  "keywords": [
+    "betancourt"
+  ],
+  "author": "lidia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LidiaCana/landingConstructora/issues"
+  },
+  "homepage": "https://github.com/LidiaCana/landingConstructora#readme",
+  "devDependencies": {
+    "prettier-eslint": "^12.0.0"
+  }
+}
