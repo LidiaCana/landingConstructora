@@ -303,18 +303,6 @@ fieldset {
   font-weight: 400;
 }
 
-.header-top-area {
-  position: fixed;
-  left: 0;
-  top: 0;
-  width: 100%;
-  z-index: 999;
-  -webkit-transition: all 0.4s ease-out;
-  transition: all 0.4s ease-out;
-  background-color: #f3f3f3;
-  border-bottom: 2px solid #212b36;
-}
-
 .logo {
   padding-top: 28px;
   -webkit-transition: all 0.3s ease-out;
@@ -404,18 +392,6 @@ fieldset {
   letter-spacing: 1px;
   font-size: 20px;
   font-weight: 600;
-}
-
-.introduce p {
-  margin-bottom: 20px;
-  line-height: 30px;
-  font-size: 18px;
-}
-
-.ods p {
-  margin-bottom: 20px;
-  line-height: 30px;
-  font-size: 18px;
 }
 
 .introduce h4 {
@@ -1258,48 +1234,4 @@ fieldset {
 }
 .navbar-collapse {
   margin-top: 30px !important;
-}
-
-.ods .presonal-inform ul li {
-  width: 50%;
-  float: right;
-}
-
-.ods p {
-  margin-bottom: 30px;
-  margin-top: 20px;
-  line-height: 30px;
-  float: right;
-}
-.bg-none {
-  background-color: transparent !important;
-  border: none;
-  width: 90% !important;
-  margin-left: 10%;
-  margin-top: -20px;
-}
-
-.shading {
-  border: 1px solid #bfbfbf;
-  background-color: white;
-  box-shadow: 10px 10px 5px #aaaaaa;
-}
-
-.rotate_right {
-  float: left;
-  -ms-transform: rotate(7deg); /* IE 9 */
-  -webkit-transform: rotate(7deg); /* Safari */
-  transform: rotate(7deg);
-}
-.rotate_left {
-  float: left;
-  -ms-transform: rotate(-8deg); /* IE 9 */
-  -webkit-transform: rotate(-8deg); /* Safari */
-  transform: rotate(-8deg);
-}
-
-.shading-transparent {
-  border: 1px solid #bfbfbf;
-  background-color: transparent !important;
-  box-shadow: 10px 10px 5px #aaaaaa;
 }
