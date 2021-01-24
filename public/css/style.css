@@ -312,6 +312,7 @@ fieldset {
   -webkit-transition: all 0.4s ease-out;
   transition: all 0.4s ease-out;
   background-color: #f3f3f3;
+  border-bottom: 2px solid #212b36;
 }
 
 .logo {
@@ -408,6 +409,13 @@ fieldset {
 .introduce p {
   margin-bottom: 20px;
   line-height: 30px;
+  font-size: 18px;
+}
+
+.ods p {
+  margin-bottom: 20px;
+  line-height: 30px;
+  font-size: 18px;
 }
 
 .introduce h4 {
@@ -471,7 +479,7 @@ fieldset {
 * ----------------------------------------------------------------------------------------
 */
 .resume-area {
-  padding-top: 60px;
+  padding-top: 0px;
   padding-bottom: 60px;
 }
 
@@ -617,7 +625,7 @@ fieldset {
   color: white;
   text-align: center;
   padding: 15px 8px 0 8px;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 /*
@@ -1269,4 +1277,29 @@ fieldset {
   width: 90% !important;
   margin-left: 10%;
   margin-top: -20px;
+}
+
+.shading {
+  border: 1px solid #bfbfbf;
+  background-color: white;
+  box-shadow: 10px 10px 5px #aaaaaa;
+}
+
+.rotate_right {
+  float: left;
+  -ms-transform: rotate(7deg); /* IE 9 */
+  -webkit-transform: rotate(7deg); /* Safari */
+  transform: rotate(7deg);
+}
+.rotate_left {
+  float: left;
+  -ms-transform: rotate(-8deg); /* IE 9 */
+  -webkit-transform: rotate(-8deg); /* Safari */
+  transform: rotate(-8deg);
+}
+
+.shading-transparent {
+  border: 1px solid #bfbfbf;
+  background-color: transparent !important;
+  box-shadow: 10px 10px 5px #aaaaaa;
 }
