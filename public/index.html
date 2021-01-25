@@ -63,7 +63,6 @@ div.gallery {
 	margin: 1px;
 	border: 1px solid #ccc;
 	float: left;
-	width: 180px;
 }
 
 div.gallery:hover {
@@ -250,6 +249,11 @@ div.desc {
   border: 1px solid #bfbfbf;
   background-color: transparent !important;
   box-shadow: 10px 10px 5px #aaaaaa;
+}
+.shading-transparent-sm {
+  border: 1px solid #bfbfbf;
+  background-color: transparent !important;
+  box-shadow: 5px 5px 2px #aaaaaa;
 }
 .header-top-area {
   position: fixed;
@@ -843,8 +847,12 @@ div.desc {
   height: 34px;
   width: 34px;
 }
+.footer-links ul li a:hover {
+  color: #41b548;
+  height: 44px;
+  width: 44px;
+}
 .footer-link {
-  background: #212b36;
   height: 40px;
   width: 40px;
   border-radius: 50%;
@@ -872,12 +880,27 @@ div.desc {
   .vertical-content {
     display: inherit;
   }
+  .bg-overlay-sm {
+  position: absolute;
+  height: 100%;
+  width: 95% !important;
+  top: 0;
+  background-color: rgba(31, 33, 36, 0.55);
+}
+
 }
 
 @media only screen and (max-width: 767px) {
   .time-line {
     position: relative;
   }
+  .bg-overlay-sm {
+  position: absolute;
+  height: 100%;
+  width: 91% !important;
+  top: 0;
+  background-color: rgba(31, 33, 36, 0.55);
+}
 
   .time-line:before {
     margin-left: 52px;
@@ -1176,6 +1199,25 @@ div.desc {
 }
 .navbar-collapse {
   margin-top: 30px !important;
+}
+.modal-header{
+ align-items: center !important;
+ text-align: center !important;
+ color: #222222;
+}
+.bg-overlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  background-color: rgba(31, 33, 36, 0.55);
+}
+.bg-overlay-sm {
+  position: absolute;
+  height: 100%;
+  width: 84%;
+  top: 0;
+  background-color: rgba(31, 33, 36, 0.55);
 }
 
 </style>
@@ -1928,10 +1970,10 @@ div.desc {
         <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">INGENIERÍA ELÉCTRICA</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
+                    <h4 class="modal-title" id="exampleModalLabel">INGENIERÍA ELÉCTRICA</h4>
                 </div>
                 <div class="modal-body">
                     <div class="container-fluid">
@@ -1941,7 +1983,7 @@ div.desc {
                     </div>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                    <button type="button" class="btn btn-success btn-lg" data-dismiss="modal">Cerrar</button>
                 </div>
             </div>
         </div>
@@ -1952,10 +1994,10 @@ div.desc {
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">ÁREA MECÁNICA</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
+                    <h4 class="modal-title" id="exampleModalLabel">ÁREA MECÁNICA</h4>
                 </div>
                 <div class="modal-body">
                     <div class="container-fluid">
@@ -1965,7 +2007,7 @@ div.desc {
                     </div>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                    <button type="button" class="btn btn-success btn-lg" data-dismiss="modal">Cerrar</button>
                 </div>
             </div>
         </div>
@@ -1975,20 +2017,20 @@ div.desc {
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">INGENIERÍA CIVILES Y ARQUITECTURA</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
+                    <h4 class="modal-title" id="exampleModalLabel">INGENIERÍA CIVILES Y ARQUITECTURA</h4>
                 </div>
                 <div class="modal-body">
                     <div class="container-fluid">
-                        <div class="row">
+                        <div class="row shading-transparent">
                             <img src="images/areaCivil.png" alt="servicios civil">
                         </div>
                     </div>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                    <button type="button" class="btn btn-success btn-lg" data-dismiss="modal">Cerrar</button>
                 </div>
             </div>
         </div>
@@ -2776,62 +2818,86 @@ div.desc {
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">ENERGÍAS RENOVABLES</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
+                    <h4 class="modal-title" id="exampleModalLabel">ENERGÍAS RENOVABLES</h4>
                 </div>
                 <div class="modal-body">
                     <div class="container-fluid">
                         <div class="row">
-                            <div class="col-md-4">
-                                <div class="gallery">
-                                    <img src="images/segmento/energia/solar.jpg" alt="Cinque Terre" width="600" height="400">
-                                    <div class="desc">Energía solar.</div>
+                            <div class="col-md-4 col-sm-6 col-xs-12">
+                                <div class="bg-overlay-sm">
+                                    <div class="hero-text">
+                                        Energía solar
+                                    </div>
+                                </div>
+                                <div class="gallery">                                    
+                                    <img src="images/segmento/energia/solar.jpg" alt="Cinque Terre" >
                                 </div>
                             </div>
-                            <div class="col-md-4">
+                            <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="gallery">
+                                    <div class="bg-overlay-sm">
+                                        <div class="hero-text">
+                                            Energía eólica.
+                                        </div>
+                                    </div>
                                     <img src="images/segmento/energia/Eolica.jpg" alt="Cinque Terre" width="600" height="400">
-                                    <div class="desc">Energía eólica.</div>
                                 </div>
                             </div>
-                            <div class="col-md-4">
+                            <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="gallery">
+                                    <div class="bg-overlay-sm">
+                                        <div class="hero-text">
+                                            Plantas de biomasa
+                                        </div>
+                                    </div>
                                     <img src="images/segmento/energia/Biomasa.jpg" alt="Cinque Terre" width="600"
                                         height="400">
-                                    <div class="desc">Plantas de biomasa.</div>
                                 </div>
                             </div>
                         </div>
                         <br>
                         <div class="row">
-                            <div class="col-md-4">
+                            <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="gallery">
+                                    <div class="bg-overlay-sm">
+                                        <div class="hero-text">
+                                            Energía mareomotriz
+                                        </div>
+                                    </div>
                                     <img src="images/segmento/energia/mareomotriz.jpg" alt="Cinque Terre" width="600"
                                         height="400">
-                                    <div class="desc">Energía mareomotriz</div>
                                 </div>
                             </div>
-                            <div class="col-md-4">
+                            <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="gallery">
+                                    <div class="bg-overlay-sm">
+                                        <div class="hero-text">
+                                            Energía geotérmica
+                                        </div>
+                                    </div>
                                     <img src="images/segmento/energia/geotermica.png" alt="Cinque Terre" width="600"
                                         height="400">
-                                    <div class="desc">Energía geotérmica</div>
                                 </div>
                             </div>
-                            <div class="col-md-4">
+                            <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="gallery">
+                                    <div class="bg-overlay-sm">
+                                        <div class="hero-text">
+                                            Hidroeléctrica
+                                        </div>
+                                    </div>
                                     <img src="images/segmento/energia/hidroelectrica2.jpg" alt="Cinque Terre" width="600"
                                         height="400">
-                                    <div class="desc">Hidroeléctrica</div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                    <button type="button" class="btn btn-success btn-lg" data-dismiss="modal">Cerrar</button>
                 </div>
             </div>
         </div>
@@ -2840,51 +2906,66 @@ div.desc {
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">INDUSTRIA</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
+                    <h4 class="modal-title" id="exampleModalLabel">INDUSTRIA</h4>
                 </div>
                 <div class="modal-body">
                     <div class="container-fluid">
                         <div class="row">
-                            <div class="col-md-4">
+                            <div class="col-md-4 col-sm-6 col-xs-12">
+                                <div class="bg-overlay-sm">
+                                    <div class="hero-text">
+                                        Hilanderas
+                                    </div>
+                                </div>
                                 <div class="gallery">
                                     <img src="images/segmento/Industria/Hilanderas.jpeg" alt="Cinque Terre" width="600"
                                         height="400">
-                                    <div class="desc">Hilanderas</div>
                                 </div>
                             </div>
-                            <div class="col-md-4">
+                            <div class="col-md-4 col-sm-6 col-xs-12">
+                                <div class="bg-overlay-sm">
+                                    <div class="hero-text">
+                                        Textil
+                                    </div>
+                                </div>
                                 <div class="gallery">
                                     <img src="images/segmento/Industria/Textil.jpg" alt="Cinque Terre" width="600"
                                         height="400">
-                                    <div class="desc">Textil.</div>
                                 </div>
                             </div>
-                            <div class="col-md-4">
+                            <div class="col-md-4 col-sm-6 col-xs-12">
+                                <div class="bg-overlay-sm">
+                                    <div class="hero-text">
+                                        Alimentos y Bebidas
+                                    </div>
+                                </div>
                                 <div class="gallery">
                                     <img src="images/segmento/Industria/alimentos.jpg" alt="Cinque Terre" width="600"
                                         height="400">
-                                    <div class="desc">Alimentos y Bebidas.</div>
                                 </div>
                             </div>
                         </div>
                         <br>
                         <div class="row">
-                            
-                            <div class="col-md-4">
+                            <div class="col-md-4 col-sm-6 col-xs-12">
+                                <div class="bg-overlay-sm">
+                                    <div class="hero-text">
+                                        Manufactureras
+                                    </div>
+                                </div>
                                 <div class="gallery">
                                     <img src="images/segmento/Industria/manufacturera.jpg" alt="Cinque Terre" width="600"
                                         height="400">
-                                    <div class="desc">Manufactureras.</div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                    <button type="button" class="btn btn-success btn-lg" data-dismiss="modal">Cerrar</button>
                 </div>
             </div>
         </div>
@@ -2893,33 +2974,41 @@ div.desc {
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">COMERCIO</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
+                    <h4 class="modal-title" id="exampleModalLabel">COMERCIO</h4>
                 </div>
                 <div class="modal-body">
                     <div class="container-fluid">
                         <div class="row">
-                            <div class="col-md-4">
+                            <div class="col-md-4 col-sm-6 col-xs-12">
+                                <div class="bg-overlay-sm">
+                                    <div class="hero-text">
+                                        Bancos
+                                    </div>
+                                </div>
                                 <div class="gallery">
                                     <img src="images/segmento/Comercio/bancos.jpeg" alt="Cinque Terre" width="600"
                                         height="400">
-                                    <div class="desc">Bancos</div>
                                 </div>
                             </div>
-                            <div class="col-md-4">
+                            <div class="col-md-4 col-sm-6 col-xs-12">
+                                <div class="bg-overlay-sm">
+                                    <div class="hero-text">
+                                        Plazas comerciales
+                                    </div>
+                                </div>
                                 <div class="gallery">
                                     <img src="images/segmento/Comercio/plazas.jpg" alt="Cinque Terre" width="600"
                                         height="400">
-                                    <div class="desc">Plazas comerciales.</div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                    <button type="button" class="btn btn-success btn-lg" data-dismiss="modal">Cerrar</button>
                 </div>
             </div>
         </div>
@@ -2936,32 +3025,44 @@ div.desc {
                 <div class="modal-body">
                     <div class="container-fluid">
                         <div class="row">
-                            <div class="col-md-4">
+                            <div class="col-md-4 col-sm-6 col-xs-12">
+                                <div class="bg-overlay-sm">
+                                    <div class="hero-text">
+                                        Apartamentos
+                                    </div>
+                                </div>
                                 <div class="gallery">
                                     <img src="images/segmento/Residencia/apartamentos.jpg" alt="Cinque Terre" width="600"
                                         height="400">
-                                    <div class="desc">Apartamentos.</div>
                                 </div>
                             </div>
-                            <div class="col-md-4">
+                            <div class="col-md-4 col-sm-6 col-xs-12">
+                                <div class="bg-overlay-sm">
+                                    <div class="hero-text">
+                                        Condominios
+                                    </div>
+                                </div>
                                 <div class="gallery">
                                     <img src="images/segmento/Residencia/condominios.jpg" alt="Cinque Terre" width="600"
                                         height="400">
-                                    <div class="desc">Condominios.</div>
                                 </div>
                             </div>
-                            <div class="col-md-4">
+                            <div class="col-md-4 col-sm-6 col-xs-12">
+                                <div class="bg-overlay-sm">
+                                    <div class="hero-text">
+                                        Residencias
+                                    </div>
+                                </div>
                                 <div class="gallery">
                                     <img src="images/segmento/Residencia/residencia.jpg" alt="Cinque Terre" width="600"
                                         height="400">
-                                    <div class="desc">Residencias.</div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                    <button type="button" class="btn btn-success btn-lg" data-dismiss="modal">Cerrar</button>
                 </div>
             </div>
         </div>
@@ -2979,41 +3080,57 @@ div.desc {
                 <div class="modal-body">
                     <div class="container-fluid">
                         <div class="row">
-                            <div class="col-md-4">
+                            <div class="col-md-4 col-sm-6 col-xs-12">
+                                <div class="bg-overlay-sm">
+                                    <div class="hero-text">
+                                        Plantas de gas
+                                    </div>
+                                </div>
                                 <div class="gallery">
                                     <img src="images/segmento/gasPlant.jpg" alt="Cinque Terre" width="600"
                                         height="400">
-                                    <div class="desc">Plantas de gas.</div>
                                 </div>
                             </div>                            
-                            <div class="col-md-4">
+                            <div class="col-md-4 col-sm-6 col-xs-12">
+                                <div class="bg-overlay-sm">
+                                    <div class="hero-text">
+                                        Farmaceuticas
+                                    </div>
+                                </div>
                                 <div class="gallery">
                                     <img src="images/segmento/Industria/famaceuticas.jpg" alt="Cinque Terre" width="600"
                                         height="400">
-                                    <div class="desc">Farmaceuticas.</div>
                                 </div>
                             </div>
-                            <div class="col-md-4">
+                            <div class="col-md-4 col-sm-6 col-xs-12">
+                                <div class="bg-overlay-sm">
+                                    <div class="hero-text">
+                                        Hospitales
+                                    </div>
+                                </div>
                                 <div class="gallery">
                                     <img src="images/segmento/Industria/hospitales.jpg" alt="Cinque Terre" width="600"
                                         height="400">
-                                    <div class="desc">Hospitales.</div>
                                 </div>
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-md-5">
+                            <div class="col-md-4 col-sm-6 col-xs-12">
+                                <div class="bg-overlay-sm">
+                                    <div class="hero-text">
+                                        Estaciones de combustible
+                                    </div>
+                                </div>
                                 <div class="gallery">
                                     <img src="images/segmento/otros.jpg" alt="Cinque Terre" width="600"
                                         height="400">
-                                    <div class="desc">Estaciones de combustible.</div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                    <button type="button" class="btn btn-success btn-lg" data-dismiss="modal">Cerrar</button>
                 </div>
             </div>
         </div>
@@ -3026,7 +3143,7 @@ div.desc {
         <div class="container footer-shadow">
             <div class="row">
                 <div class="col-sm-12 text-center">
-                    <div class="social-links">
+                    <div class="social-links footer-links">
                         <ul>
                             <li><a href=""><i class="fa fa-facebook footer-link"></i></a></li>
                             <li><a href=""><i class="fa fa-instagram footer-link"></i></a></li>
