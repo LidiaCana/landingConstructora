@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- META -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- PAGE TITLE -->
+    <title>RUIZ & BETANCOURT CONSTRUCTORES S.A. DE C.V.</title>
+
+    <!-- BOOTSTRAP CSS -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+
+    <!-- ALL GOOGLE FONTS -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Raleway:400,500,600,700"
+      rel="stylesheet"
+    />
+
+    <!-- FONT AWESOME CSS -->
+    <link rel="stylesheet" href="../css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="../css/pe-icon-7-stroke.css" />
+
+    <!-- OWL CAROSEL CSS -->
+    <link rel="stylesheet" href="../css/owl.carousel.css" />
+    <link rel="stylesheet" href="../css/owl.theme.css" />
+
+    <!-- MAGNIFIC CSS -->
+    <link rel="stylesheet" href="../css/magnific-popup.css" />
+
+    <!-- Circliful CSS -->
+    <link rel="stylesheet" href="../css/jquery.circliful.css" />
+
+    <!-- ANIMATE CSS -->
+    <link rel="stylesheet" href="../css/animate.min.css" />
+    <link rel="stylesheet" href="../css/effects.css" />
+    <link rel="stylesheet" href="../css/YTPlayer.css" />
+
+    <!-- MAIN STYLE CSS -->
+    <link rel="stylesheet" href="../css/style.css" />
+    <style>
+      img.logo-navbar {
+        width: 22rem !important;
+        height: 8rem !important;
+        margin: 2rem !important;
+      }
+      body {
+        font-size: 15px;
+        line-height: 24px;
+        height: 100%;
+        font-family: "sans-serif" !important ;
+        color: #333;
+        background: #f5f5f5;
+        overflow-x: hidden;
+      }
+      .list-links ul li a:hover {
+        color: #41b548;
+      }
+
+      div.desc {
+        padding: 15px;
+        text-align: center;
+      }
+
+      .filterDiv {
+        float: left;
+        color: #363535;
+        text-align: justify;
+        margin: 2px;
+        display: none;
+      }
+
+      .show {
+        display: block;
+      }
+
+      .container {
+        margin-top: 8px;
+        overflow: hidden;
+      }
+
+      /* Style the buttons */
+      .btn-client {
+        border: none;
+        outline: none;
+        padding: 12px 16px;
+        background-color: #f1f1f1;
+        cursor: pointer;
+      }
+
+      .btn-client:hover {
+        background-color: #ddd;
+      }
+
+      .btn-client.active.active {
+        background-color: #666;
+        color: white;
+      }
+      .border-list {
+        border-left: 4px solid #41b548;
+        padding-left: 6px;
+      }
+
+      .dropdown li:hover {
+        background: #555;
+        color: #fff;
+      }
+      .open > .nav-Sub:active {
+        background: #555;
+        color: rgb(99, 10, 10);
+      }
+
+      .open > .dropdown-toggle {
+        color: rgb(252, 252, 252) !important;
+        background-color: #314050 !important;
+        border-color: #adadad !important;
+      }
+
+      .hero-text {
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+      }
+      .dropdown-menu > .active > a,
+      .dropdown-menu > .active > a:focus,
+      .dropdown-menu > .active > a:hover {
+        color: #fff;
+        text-decoration: none;
+        background-color: #535050 !important;
+        outline: 0;
+      }
+      .mainmenu .navbar-nav li a {
+        padding: 11px 15px !important;
+      }
+      .bg-none {
+        background-color: transparent !important;
+        border: none;
+        width: 90% !important;
+        margin-left: 10%;
+        margin-top: -20px;
+      }
+
+      .shading {
+        border: 1px solid #bfbfbf;
+        background-color: white;
+        box-shadow: 10px 10px 5px #aaaaaa;
+      }
+
+      .rotate_right {
+        float: left;
+        -ms-transform: rotate(7deg); /* IE 9 */
+        -webkit-transform: rotate(7deg); /* Safari */
+        transform: rotate(7deg);
+      }
+      .rotate_left {
+        float: left;
+        -ms-transform: rotate(-8deg); /* IE 9 */
+        -webkit-transform: rotate(-8deg); /* Safari */
+        transform: rotate(-8deg);
+      }
+
+      .shading-transparent {
+        border: 1px solid #bfbfbf;
+        background-color: transparent !important;
+        box-shadow: 10px 10px 5px #aaaaaa;
+      }
+      .shading-transparent-sm {
+        border: 1px solid #bfbfbf;
+        background-color: transparent !important;
+        box-shadow: 5px 5px 2px #aaaaaa;
+      }
+      .header-top-area {
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        z-index: 999;
+        -webkit-transition: all 0.4s ease-out;
+        transition: all 0.4s ease-out;
+        background-color: #f3f3f3;
+        border-bottom: 2px solid #212b36;
+      }
+      /* Styles */
+      .mainmenu .navbar-nav li a {
+        color: #212b36;
+        font-size: 15px;
+        padding: 5px 2px;
+        -webkit-transition: 0.3s;
+        transition: 0.3s;
+        font-weight: 600;
+        text-transform: uppercase;
+      }
+
+      .mainmenu .navbar-nav li a:hover {
+        color: #41b548;
+        -webkit-transition: all 0.3s ease-out;
+        transition: all 0.3s ease-out;
+      }
+
+      .menu-bg .mainmenu .navbar-nav li.active a {
+        color: #41b548;
+        -webkit-transition: all 0.3s ease-out;
+        transition: all 0.3s ease-out;
+      }
+
+      .nav li a:focus,
+      .nav li a:hover {
+        background: none;
+        color: #41b548;
+        -webkit-transition: all 0.3s ease-out;
+        transition: all 0.3s ease-out;
+      }
+
+      .navbar {
+        margin: 0;
+      }
+
+      .menu-bg {
+        -webkit-transition: all 0.3s ease-out;
+        transition: all 0.3s ease-out;
+      }
+
+      .menu-bg .logo {
+        padding-top: 20px;
+        -webkit-transition: all 0.3s ease-out;
+        transition: all 0.3s ease-out;
+      }
+
+      .menu-bg .mainmenu .navbar-nav li a {
+        padding: 20px 15px;
+        -webkit-transition: 0.3s;
+        transition: 0.3s;
+      }
+      .cover-img {
+        height: 500px;
+      }
+      .profile-container {
+        border: solid 1px black;
+        height: 100%;
+      }
+      .circle {
+        border-radius: 50%;
+        position: absolute;
+        z-index: 1;
+        top: 325px;
+        height: 350px;
+        width: 300px;
+        background-image: url("../images/7.jpg");
+        border: solid 2px white;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="header-top-area">
+        <nav class="navbar navbar-expand-lg navbar-white bg-white static-top">
+          <div class="">
+            <div class="row">
+              <div class="col-md-3 col-sm-12">
+                <a href="index.html">
+                  <img
+                    class="logo-navbar"
+                    src="../images/logoV3.png"
+                    alt="Ruiz&Betancourt"
+                  />
+                </a>
+              </div>
+
+              <div class="col-md-9 col-sm-12">
+                <!-- START MENU   -->
+                <div class="mainmenu">
+                  <div class="navbar navbar-nobg">
+                    <div class="navbar-header">
+                      <button
+                        type="button"
+                        class="navbar-toggle"
+                        data-toggle="collapse"
+                        data-target=".navbar-collapse"
+                      >
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                      </button>
+                    </div>
+                    <div class="navbar-collapse collapse">
+                      <ul class="nav navbar-nav navbar-right">
+                        <li role="presentation" class="dropdown">
+                          <a
+                            class="dropdown-toggle"
+                            data-toggle="dropdown"
+                            href="#"
+                            role="button"
+                            aria-haspopup="true"
+                            aria-expanded="false"
+                            >Inicio <span class="caret"></span>
+                            <div class="ripple-wrapper"></div
+                          ></a>
+                          <ul class="dropdown-menu">
+                            <li>
+                              <a
+                                style="padding: 10px 5px; color: #41b548"
+                                href="#about"
+                                >INICIO
+                              </a>
+                            </li>
+                            <li>
+                              <a
+                                style="padding: 10px 5px; color: #41b548"
+                                href="#mition"
+                                >SERVICIOS</a
+                              >
+                            </li>
+                            <li>
+                              <a
+                                style="padding: 10px 5px; color: #41b548"
+                                href="#institutions"
+                                >PROYECTOS
+                              </a>
+                            </li>
+                          </ul>
+                        </li>
+                        <li>
+                          <a class="smoth-scroll" href="#contact"
+                            >Contactános</a
+                          >
+                        </li>
+                      </ul>
+                    </div>
+                    <br />
+                  </div>
+                </div>
+                <!-- END MENU   -->
+              </div>
+            </div>
+            <!--end row-->
+          </div>
+        </nav>
+        <!--end container-->
+      </div>
+    </header>
+    <div class="container profile-container">
+      <div class="bg-overly"></div>
+      <div class="cover">
+        <img src="../images/6.jpeg" alt="cover" class="cover-img" />
+      </div>
+      <div class="circle"></div>
+      <div class="row">
+        <div class="right">
+          <p>Contactame</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 col-sm-12">
+          <h3>Lic. Juana</h3>
+          <p>Supervisora de Proyecto</p>
+        </div>
+        <div class="col-md-6 col-sm-12"></div>
+      </div>
+    </div>
+  </body>
+</html>
