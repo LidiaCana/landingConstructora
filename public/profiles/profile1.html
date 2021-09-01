@@ -235,22 +235,84 @@
         -webkit-transition: 0.3s;
         transition: 0.3s;
       }
+      .cover{
+        background: linear-gradient(blue, pink);
+      }
       .cover-img {
         height: 500px;
       }
       .profile-container {
-        border: solid 1px black;
-        height: 100%;
+        border: solid 1px rgb(180, 179, 179);
       }
       .circle {
         border-radius: 50%;
         position: absolute;
         z-index: 1;
         top: 325px;
-        height: 350px;
+        left: 100px;
+        height: 330px;
         width: 300px;
         background-image: url("../images/7.jpg");
         border: solid 2px white;
+      }
+      /* Cover header */
+      .bg-overly{
+
+      }
+
+      /* Profile */
+      .right {
+        display: flex;
+        justify-content: center;
+        height: 150px;
+      }
+      .right p {
+        height: 45px;
+        width: 205px;
+        margin: auto;
+        background-color: #4677B0;
+        text-align: center;
+        color: white;
+        font-size: 22px;
+        padding-top: 10px;
+      }
+      .right p i{
+        margin-right: 10px;
+      }
+      .border-container {
+        box-shadow: 5px 5px 5px #aaaaaa;
+        border: solid 1px #aaaaaa;
+        border-radius: 5px;
+        margin-bottom: 50px;
+      }
+      .container-small {
+        height: 150px;
+      }
+      .name-profile {
+        margin-top: 150px;
+        padding-left: 80px;
+      }
+      .name-profile h3{
+        font-size: 28px;
+        font-weight: 700;
+        color: #75888E;
+      }
+      .name-profile p{
+        color: #039C40;
+        font-size: 23px;
+        font-weight: 500;
+      }
+      .profile-social-media i{
+        color: white;
+        background-color: #4677B0;;
+        padding: 8px;
+        border-radius: 52px;
+        margin-right: 10px;
+      }
+      .profile-social-media li{
+        font-size: 22px;
+        margin-left: 10px;
+        margin-bottom: 10px;
       }
     </style>
   </head>
@@ -345,22 +407,63 @@
     </header>
     <div class="container profile-container">
       <div class="bg-overly"></div>
-      <div class="cover">
-        <img src="../images/6.jpeg" alt="cover" class="cover-img" />
-      </div>
-      <div class="circle"></div>
-      <div class="row">
-        <div class="right">
-          <p>Contactame</p>
+      <div class="border-container">
+        <div class="cover">
+          <img src="../images/6.jpeg" alt="cover" class="cover-img" />
+        </div>
+        <div class="circle"></div>
+        <div class="row">
+          <div class="col-md-6 col-sm-12 name-profile">
+            <h3>Lic. Juana</h3>
+            <p>Supervisora de Proyecto</p>
+          </div>
+          <div class="col-md-6 col-sm-12 container-small">
+            <div class="row right">
+              <p><i class="fa fa-whatsapp fa-lg"></i>Contactame</p>
+            </div>
+            <div class="row profile-social-media">
+              <ul>
+                <li>
+                  <a href=""
+                    ><span><i class="fa fa-google fa-lg"></i></span> correo@gmail.com</a
+                  >
+                </li>
+                <li>
+                  <a href=""
+                    ><i class="fa fa-linkedin fa-lg"></i>wwww.linkedin.com</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="row">
-        <div class="col-md-6 col-sm-12">
-          <h3>Lic. Juana</h3>
-          <p>Supervisora de Proyecto</p>
-        </div>
-        <div class="col-md-6 col-sm-12"></div>
+      <div class="border-container">
+        <h2><i class="fa fa-google fa-lg"></i>Experiencia</h2>
+        <p>
+          Un texto es una composición de signos codificados en un sistema de
+          escritura que forma una unidad de sentido. ... En otras palabras, un
+          texto es un entramado de signos con una intención comunicativa que
+          adquiere sentido en determinado contexto.
+        </p>
       </div>
     </div>
+    <footer class="footer-area">
+      <div class="container footer-shadow">
+          <div class="row">
+              <div class="col-sm-12 text-center">
+                  <div class="social-links footer-links">
+                      <ul>
+                          <li><a href=""><i class="fa fa-facebook footer-link"></i></a></li>
+                          <li><a href=""><i class="fa fa-instagram footer-link"></i></a></li>
+                          <li><a href=""><i class="fa fa-google footer-link"></i></a></li>
+                          <li><a href=""><i class="fa fa-whatsapp footer-link"></i></a></li>
+                      </ul>
+                  </div>
+              </div>
+          </div>
+      </div>
+      </div>
+  </footer>
   </body>
 </html>
