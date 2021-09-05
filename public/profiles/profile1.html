@@ -236,7 +236,13 @@
         transition: 0.3s;
       }
       .cover{
-        background: linear-gradient(blue, pink);
+        height: 500px;
+        background-image:url('../images/6.jpeg'), linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
+        background-blend-mode: overlay;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+
       }
       .cover-img {
         height: 500px;
@@ -248,8 +254,8 @@
         border-radius: 50%;
         position: absolute;
         z-index: 1;
-        top: 325px;
-        left: 100px;
+        left: 10%;
+        top: 43%;
         height: 330px;
         width: 300px;
         background-image: url("../images/7.jpg");
@@ -257,7 +263,11 @@
       }
       /* Cover header */
       .bg-overly{
-
+        height: 500px;
+        background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
+        position: fixed; 
+        width: 100%;
+        cursor: pointer; /* Add a pointer on hover */
       }
 
       /* Profile */
@@ -284,6 +294,8 @@
         border: solid 1px #aaaaaa;
         border-radius: 5px;
         margin-bottom: 50px;
+        padding: 10px;
+        padding-bottom: 25px;
       }
       .container-small {
         height: 150px;
@@ -302,17 +314,112 @@
         font-size: 23px;
         font-weight: 500;
       }
+      .profile-social-media{
+        padding-left: 100px;
+      }
       .profile-social-media i{
         color: white;
         background-color: #4677B0;;
-        padding: 8px;
+        padding: 11px;
         border-radius: 52px;
         margin-right: 10px;
+
       }
       .profile-social-media li{
         font-size: 22px;
         margin-left: 10px;
         margin-bottom: 10px;
+      }
+      /* Expirience */
+      .expirience{
+        padding: 20px 70px;
+      }
+      .expirience p{
+        margin-top: 40px;
+        font-size: 22px;
+      }
+      .expirience h2{
+        font-size: 28px;
+        font-weight: 700;
+        color: #75888E;
+      }
+      .expirience h2 i{
+        color: #4677B0;
+        margin-right: 10px;
+      }
+      .footer-area{
+        background-color: #212b36;
+        padding: 20px;
+      }
+      .footer-link{
+        font-size: 40px;
+      }
+      .footer-logo{
+        width: 60%;
+      }
+      .footer-links{
+        display: flex;
+      }
+      .footer-links a{
+        color: white;
+        font-size: 14px;
+      }
+      .footer-links li{
+        margin: 10px;
+        font-size: 2.1rem;
+      }
+      /* add media query */
+      @media (max-width: 992px) {
+        .circle {
+          position: absolute;
+          top: 70%;
+          left: 50%;
+          transform: translate(-50%,-50%);
+        }
+        .border-container{
+          height: 1125px;
+        }
+        .name-profile{
+          margin-top: 13%;
+          padding: 0;
+          transform: translate(-50%, -50%);
+          position: absolute;
+          left: 50%;
+          top: 92%;
+        }
+        .container-small{
+          transform: translate(-50%, -50%);
+          position: absolute;
+          left: 20%;
+          top: 92%;
+          margin-top: 30%;
+        }
+      }
+      @media (max-width: 403px) {
+        .circle {
+          position: absolute;
+          top: 70%;
+          left: 50%;
+          transform: translate(-50%,-50%);
+        }
+        .border-container{
+          height: 1125px;
+        }
+        .name-profile{
+          margin-top: 13%;
+          padding: 0;
+          transform: translate(-50%, -50%);
+          position: absolute;
+          left: 50%;
+          top: 92%;
+        }
+        .container-small{
+          transform: translate(-50%, -50%);
+          position: absolute;
+          left: 20%;
+          top: 92%;
+          margin-top: 30%;
+        }
       }
     </style>
   </head>
@@ -322,19 +429,16 @@
         <nav class="navbar navbar-expand-lg navbar-white bg-white static-top">
           <div class="">
             <div class="row">
-              <div class="col-md-3 col-sm-12">
-                <a href="index.html">
-                  <img
-                    class="logo-navbar"
-                    src="../images/logoV3.png"
-                    alt="Ruiz&Betancourt"
-                  />
-                </a>
-              </div>
-
               <div class="col-md-9 col-sm-12">
                 <!-- START MENU   -->
                 <div class="mainmenu">
+                  <a href="index.html">
+                    <img
+                      class="logo-navbar"
+                      src="../images/logoV3.png"
+                      alt="Ruiz&Betancourt"
+                    />
+                  </a>
                   <div class="navbar navbar-nobg">
                     <div class="navbar-header">
                       <button
@@ -351,44 +455,9 @@
                     </div>
                     <div class="navbar-collapse collapse">
                       <ul class="nav navbar-nav navbar-right">
-                        <li role="presentation" class="dropdown">
-                          <a
-                            class="dropdown-toggle"
-                            data-toggle="dropdown"
-                            href="#"
-                            role="button"
-                            aria-haspopup="true"
-                            aria-expanded="false"
-                            >Inicio <span class="caret"></span>
-                            <div class="ripple-wrapper"></div
-                          ></a>
-                          <ul class="dropdown-menu">
-                            <li>
-                              <a
-                                style="padding: 10px 5px; color: #41b548"
-                                href="#about"
-                                >INICIO
-                              </a>
-                            </li>
-                            <li>
-                              <a
-                                style="padding: 10px 5px; color: #41b548"
-                                href="#mition"
-                                >SERVICIOS</a
-                              >
-                            </li>
-                            <li>
-                              <a
-                                style="padding: 10px 5px; color: #41b548"
-                                href="#institutions"
-                                >PROYECTOS
-                              </a>
-                            </li>
-                          </ul>
-                        </li>
                         <li>
                           <a class="smoth-scroll" href="#contact"
-                            >Contactános</a
+                            >Inicio</a
                           >
                         </li>
                       </ul>
@@ -406,10 +475,8 @@
       </div>
     </header>
     <div class="container profile-container">
-      <div class="bg-overly"></div>
       <div class="border-container">
         <div class="cover">
-          <img src="../images/6.jpeg" alt="cover" class="cover-img" />
         </div>
         <div class="circle"></div>
         <div class="row">
@@ -439,7 +506,8 @@
         </div>
       </div>
       <div class="border-container">
-        <h2><i class="fa fa-google fa-lg"></i>Experiencia</h2>
+        <div class="expirience">
+        <h2><i class="fa fa-briefcase fa-lg"></i>Experiencia</h2>
         <p>
           Un texto es una composición de signos codificados en un sistema de
           escritura que forma una unidad de sentido. ... En otras palabras, un
@@ -447,19 +515,21 @@
           adquiere sentido en determinado contexto.
         </p>
       </div>
+      </div>
     </div>
     <footer class="footer-area">
       <div class="container footer-shadow">
           <div class="row">
-              <div class="col-sm-12 text-center">
-                  <div class="social-links footer-links">
-                      <ul>
-                          <li><a href=""><i class="fa fa-facebook footer-link"></i></a></li>
-                          <li><a href=""><i class="fa fa-instagram footer-link"></i></a></li>
-                          <li><a href=""><i class="fa fa-google footer-link"></i></a></li>
-                          <li><a href=""><i class="fa fa-whatsapp footer-link"></i></a></li>
-                      </ul>
-                  </div>
+            <div class="col-md-6 col-sm-12">
+              <div class="logo-footer">
+                <img src="../images/logoV4.png" alt="Ruiz y Betancourt" class="footer-logo">
+              </div>
+            </div>
+              <div class="col-md-6 col-sm-12 footer-links">
+                <ul>
+                    <li><a href=""><i class="fa fa-google footer-link"></i>Info@gmail.com</a></li>
+                    <li><a href=""><i class="fa fa-whatsapp footer-link"></i>+5049999999</a></li>
+                </ul>
               </div>
           </div>
       </div>
