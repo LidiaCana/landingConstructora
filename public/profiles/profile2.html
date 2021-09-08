@@ -79,24 +79,6 @@
         margin-top: 8px;
         overflow: hidden;
       }
-
-      /* Style the buttons */
-      .btn-client {
-        border: none;
-        outline: none;
-        padding: 12px 16px;
-        background-color: #f1f1f1;
-        cursor: pointer;
-      }
-
-      .btn-client:hover {
-        background-color: #ddd;
-      }
-
-      .btn-client.active.active {
-        background-color: #666;
-        color: white;
-      }
       .border-list {
         border-left: 4px solid #41b548;
         padding-left: 6px;
@@ -124,14 +106,6 @@
         left: 50%;
         transform: translate(-50%, -50%);
         color: white;
-      }
-      .dropdown-menu > .active > a,
-      .dropdown-menu > .active > a:focus,
-      .dropdown-menu > .active > a:hover {
-        color: #fff;
-        text-decoration: none;
-        background-color: #535050 !important;
-        outline: 0;
       }
       .mainmenu .navbar-nav li a {
         padding: 11px 15px !important;
@@ -237,10 +211,15 @@
       }
       .mainmenu {
         display: flex;
+        margin: 5px 60px;
+      }
+      .mainmenu .navbar-nobg{
+        justify-content: flex-end;
+        flex: 1;
       }
       .cover{
         height: 500px;
-        background-image:url('../images/6.jpeg'), linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
+        background-image:url('../images/cover/civil3.jpg'), linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
         background-blend-mode: overlay;
         background-repeat: no-repeat;
         background-size: cover;
@@ -253,23 +232,20 @@
       .profile-container {
         border: solid 1px rgb(180, 179, 179);
       }
-      .container-small{
-        margin-top: -70px;
-      }
       .circle {
-        /* transform: translate(-50%,-50%); */
-        /* top: 45%; */
-        /* left: 35%; */
         border-radius: 50%;
-        /* position: absolute; */
+        margin-left: 50px;
         z-index: 1;
         height: 330px;
         width: 300px;
-        background-image: url("../images/7.jpg");
+        background-image: url("../images/team/astridGutierrez3.png");
         border: solid 2px white;
-        margin-top: 140px;
+      }
+      .general-info{
+        margin-top: -250px;
       }
       /* Cover header */
+    
       .bg-overly{
         height: 500px;
         background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
@@ -282,6 +258,8 @@
       .right {
         display: flex;
         justify-content: center;
+        margin-top: -20px;
+        margin-bottom: 17px;
       }
       .right p {
         height: 45px;
@@ -292,6 +270,9 @@
         color: white;
         font-size: 22px;
         padding-top: 10px;
+      }
+      .right p a{
+        color: white;
       }
       .right p i{
         margin-right: 10px;
@@ -304,10 +285,9 @@
         padding: 10px;
         padding-bottom: 25px;
       }
-      .general-info{
-        margin-top: -250px;
+      .container-small {
+        height: 150px;
       }
-  
       .name-profile {
         padding-left: 80px;
       }
@@ -321,12 +301,9 @@
         font-size: 23px;
         font-weight: 500;
       }
-      .profile-social-media{
-        padding-left: 100px;
-      }
       .profile-social-media i{
         color: white;
-        background-color: #4677B0;;
+        background-color: #4677B0;
         padding: 11px;
         border-radius: 52px;
         margin-right: 10px;
@@ -337,6 +314,9 @@
         margin-left: 10px;
         margin-bottom: 10px;
       }
+      .profile-social-media li a:hover{
+        color: #4677B0;
+      }
       /* Expirience */
       .expirience{
         padding: 20px 70px;
@@ -344,6 +324,13 @@
       .expirience p{
         margin-top: 40px;
         font-size: 22px;
+      }
+      .expirience li{
+        margin-top: 40px;
+        font-size: 22px;
+      }
+      .expirience li{
+        margin-left: 20px;
       }
       .expirience h2{
         font-size: 28px;
@@ -378,129 +365,53 @@
       .navbar-nobg{
         display: flex;
       }
+      .profile-social-media li{}
       /* add media query */
-      @media (max-width: 1440px) {
-        /* .circle{
-          left: 25%;
-        } */
-      }
-      @media (max-width: 1024px) {
-        /* .circle{
-          left: 22%;
-        } */
-      }
-      @media (max-width: 993px) {
-   
-        /* .circle {
-          position: absolute;
-          top: 70%;
-          left: 50%;
-          transform: translate(-50%,-50%);
-        } */
-        .border-container{
-          height: 1125px;
+  
+      @media (max-width:768px){
+        .mainmenu{
+          margin: auto;
         }
-        .name-profile{
-          margin-top: 13%;
-          padding: 0;
-          transform: translate(-50%, -50%);
-          position: absolute;
-          left: 50%;
-          top: 92%;
-        }
-        .container-small{
-          transform: translate(-50%, -50%);
-          position: absolute;
-          left: 20%;
-          top: 92%;
-          margin-top: 30%;
-        }
-      }
-      @media (max-width: 775px) {
-        .cover{
-          display: none;
-        }
-        /* .circle{
+        .circle{
           top: 35%;
           width: 270px;
           height: 300px;
-        } */
+          margin: auto;
+        }
+        .general-info{
+          display: flex;
+          flex-direction: column;
+        }
         .name-profile{
-          font-size: 3.7rem;
+          display: flex;
+          flex-direction: column;
+          padding: 0;
         }
         .name-profile h3{
-          font-size: 4.7rem;
+          margin: auto;
+        }
+        .name-profile p{
+          margin: auto;
         }
         .container-small{
-          top: 60%;
-          left: 50%;
+          margin-top: 40px;
         }
         .profile-social-media{
-          padding-left: 0;
+          margin-left: 20px;
         }
-        .profile-social-media li{
-          font-size: 2.7rem;
-          text-align: center;
-          margin-top: 20px;
-        }
-        .profile-social-media i{
-          margin-top: 10px;
-          margin-bottom: 10px;
-        }
-        .right p{
-          height: 50px;
-          width: 264px;
-          font-size: 2.5rem;
-        }
-        .expirience{
-          height: 320px;
-        }
-   
-      }
-      @media (max-width: 775px) and (min-width: 426px){
-        .name-profile{
-          top: 55%;
-          left: 84%;
-        }
-      }
-      @media (max-width:768px){
-        /* .circle{
-          top: 35%;
-          width: 270px;
-          height: 300px;
-        } */
       }
       @media (max-width:425px){
-        /* .circle{
-          top: 30%;
-          left: 50%;
-          width: 270px;
-          height: 300px;
-        } */
-        .name-profile{
-          left: 50%;
-          top: 50%;
-          text-align: center;
+        .profile-social-media li{
+          font-size: 16px;
         }
-        .expirience p{
-          overflow-y: scroll;
-          height: 185px;
+        .name-profile h3{
+          font-size: 20px;
+        }
+        .name-profile p {
+          font-size: 18px;
         }
       }
-      /* @media (max-width:375px){
-        .circle{
-          top: 35%;
-          width: 270px;
-          height: 300px;
-        }
-      } */
-      /* @media (max-width:320px){
-        .circle{
-          top: 35%;
-          width: 270px;
-          height: 300px;
-        }
-      } */
+
     </style>
   </head>
   <body>
@@ -509,10 +420,10 @@
         <nav class="navbar navbar-expand-lg navbar-white bg-white static-top">
           <div class="">
             <div class="row">
-              <div class="col-md-9 col-sm-12">
+              <!-- <div class="col-md-9 col-sm-12"> -->
                 <!-- START MENU   -->
                 <div class="mainmenu">
-                  <a href="index.html">
+                  <a href="../index.html">
                     <img
                       class="logo-navbar"
                       src="../images/logoV3.png"
@@ -536,7 +447,7 @@
                     <div class="navbar-collapse collapse">
                       <ul class="nav navbar-nav navbar-right">
                         <li>
-                          <a class="smoth-scroll" href="#contact"
+                          <a class="smoth-scroll" href="/public/"
                             >Inicio</a
                           >
                         </li>
@@ -546,7 +457,7 @@
                   </div>
                 </div>
                 <!-- END MENU   -->
-              </div>
+              <!-- </div> -->
             </div>
             <!--end row-->
           </div>
@@ -561,22 +472,22 @@
         <div class="row general-info">
           <div class="circle"></div>
           <div class="col-md-6 col-sm-12 name-profile">
-            <h3>Lic. Juana</h3>
-            <p>Supervisora de Proyecto</p>
+            <h3>Ing. Astrid Guifarro</h3>
+            <p>Ingeniero Civil</p>
           </div>
           <div class="col-md-6 col-sm-12 container-small">
             <div class="row right">
-              <p><i class="fa fa-whatsapp fa-lg"></i>Contactame</p>
+              <p><a href="intent://send/07187839#Intent;scheme=smsto;package=com.whatsapp;action=android.intent.action.SENDTO;end"><i class="fa fa-whatsapp fa-lg"></i>Contactame</a></p>
             </div>
             <div class="row profile-social-media">
               <ul>
                 <li>
-                  <a href=""
-                    ><span><i class="fa fa-google fa-lg"></i></span> correo@gmail.com</a
+                  <a href="mailto:astrid.guifarro@gruporybco.com"
+                    ><span><i class="fa fa-google fa-lg"></i></span> astrid.guifarro@gruporybco.com</a
                   >
                 </li>
                 <li>
-                  <a href=""
+                  <a href="https://www.linkedin.com/feed/"  target="_blank"
                     ><i class="fa fa-linkedin fa-lg"></i>wwww.linkedin.com</a
                   >
                 </li>
@@ -588,11 +499,27 @@
       <div class="border-container expirience">
         <h2><i class="fa fa-briefcase fa-lg"></i>Experiencia</h2>
         <p>
-          Un texto es una composición de signos codificados en un sistema de
-          escritura que forma una unidad de sentido. ... En otras palabras, un
-          texto es un entramado de signos con una intención comunicativa que
-          adquiere sentido en determinado contexto.
+          Ingeniero civil con más de cinco años de experiencia en 
+          supervisión civil. Amplios conocimientos en presupuestos, 
+          materiales de construcción y manejo de personal.
         </p>
+      </div>
+      <div class="border-container expirience competencia">
+        <h2><i class="fa fa-cogs fa-lg"></i>Competencias</h2>
+        <ul>
+          <li><i class="fa fa-caret-right fa-lg"></i> Habilidad de Liderazgo</li>
+          <li><i class="fa fa-caret-right fa-lg"></i> Pensamiento Critico</li>
+          <li><i class="fa fa-caret-right fa-lg"></i> Visualizacion de ideas</li>
+          <li><i class="fa fa-caret-right fa-lg"></i> Interes por la tecnología y ciencia</li>
+          <li><i class="fa fa-caret-right fa-lg"></i> Capacidad de análisis y resolución de problemas</li>
+        </ul>
+      </div>
+      <div class="border-container expirience studies">
+        <h2><i class="fa fa-graduation-cap fa-lg"></i>Estudios Realizados</h2>
+        <ul>
+          <li>UNITEC: <span>Ingenieria Civil</span></li>
+          <li>INFOP:<span>Diplomado de Albañileria.</span></li>
+        </ul>
       </div>
     </div>
     <footer class="footer-area">
@@ -605,8 +532,8 @@
             </div>
               <div class="col-md-6 col-sm-4 footer-links">
                 <ul>
-                    <li><a href=""><i class="fa fa-google footer-link"></i>Info@gmail.com</a></li>
-                    <li><a href=""><i class="fa fa-whatsapp footer-link"></i>+5049999999</a></li>
+                    <li><a href="www.gruporybco.com"><i class="fa fa-globe  footer-link"></i>  www.gruporybco.com</a></li>
+                    <li><a href=""><i class="fa fa-whatsapp footer-link"></i>  + (504) 2554-5679</a></li>
                 </ul>
               </div>
           </div>
