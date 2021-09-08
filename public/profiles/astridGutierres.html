@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- META -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- PAGE TITLE -->
+    <title>RUIZ & BETANCOURT CONSTRUCTORES S.A. DE C.V.</title>
+
+    <!-- BOOTSTRAP CSS -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+
+    <!-- ALL GOOGLE FONTS -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Raleway:400,500,600,700"
+      rel="stylesheet"
+    />
+
+    <!-- FONT AWESOME CSS -->
+    <link rel="stylesheet" href="../css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="../css/pe-icon-7-stroke.css" />
+
+    <!-- OWL CAROSEL CSS -->
+    <link rel="stylesheet" href="../css/owl.carousel.css" />
+    <link rel="stylesheet" href="../css/owl.theme.css" />
+
+    <!-- MAGNIFIC CSS -->
+    <link rel="stylesheet" href="../css/magnific-popup.css" />
+
+    <!-- Circliful CSS -->
+    <link rel="stylesheet" href="../css/jquery.circliful.css" />
+
+    <!-- ANIMATE CSS -->
+    <link rel="stylesheet" href="../css/animate.min.css" />
+    <link rel="stylesheet" href="../css/effects.css" />
+    <link rel="stylesheet" href="../css/YTPlayer.css" />
+
+    <!-- MAIN STYLE CSS -->
+    <link rel="stylesheet" href="../css/style.css" />
+    <style>
+      img.logo-navbar {
+        width: 22rem !important;
+        height: 8rem !important;
+        margin: 2rem !important;
+      }
+      body {
+        font-size: 15px;
+        line-height: 24px;
+        height: 100%;
+        font-family: "sans-serif" !important ;
+        color: #333;
+        background: #f5f5f5;
+        overflow-x: hidden;
+      }
+      .list-links ul li a:hover {
+        color: #41b548;
+      }
+
+      div.desc {
+        padding: 15px;
+        text-align: center;
+      }
+
+      .filterDiv {
+        float: left;
+        color: #363535;
+        text-align: justify;
+        margin: 2px;
+        display: none;
+      }
+
+      .show {
+        display: block;
+      }
+
+      .container {
+        margin-top: 8px;
+        overflow: hidden;
+      }
+      .border-list {
+        border-left: 4px solid #41b548;
+        padding-left: 6px;
+      }
+
+      .dropdown li:hover {
+        background: #555;
+        color: #fff;
+      }
+      .open > .nav-Sub:active {
+        background: #555;
+        color: rgb(99, 10, 10);
+      }
+
+      .open > .dropdown-toggle {
+        color: rgb(252, 252, 252) !important;
+        background-color: #314050 !important;
+        border-color: #adadad !important;
+      }
+
+      .hero-text {
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+      }
+      .mainmenu .navbar-nav li a {
+        padding: 11px 15px !important;
+      }
+      .bg-none {
+        background-color: transparent !important;
+        border: none;
+        width: 90% !important;
+        margin-left: 10%;
+        margin-top: -20px;
+      }
+
+      .shading {
+        border: 1px solid #bfbfbf;
+        background-color: white;
+        box-shadow: 10px 10px 5px #aaaaaa;
+      }
+
+      .rotate_right {
+        float: left;
+        -ms-transform: rotate(7deg); /* IE 9 */
+        -webkit-transform: rotate(7deg); /* Safari */
+        transform: rotate(7deg);
+      }
+      .rotate_left {
+        float: left;
+        -ms-transform: rotate(-8deg); /* IE 9 */
+        -webkit-transform: rotate(-8deg); /* Safari */
+        transform: rotate(-8deg);
+      }
+
+      .shading-transparent {
+        border: 1px solid #bfbfbf;
+        background-color: transparent !important;
+        box-shadow: 10px 10px 5px #aaaaaa;
+      }
+      .shading-transparent-sm {
+        border: 1px solid #bfbfbf;
+        background-color: transparent !important;
+        box-shadow: 5px 5px 2px #aaaaaa;
+      }
+      .header-top-area {
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        z-index: 999;
+        -webkit-transition: all 0.4s ease-out;
+        transition: all 0.4s ease-out;
+        background-color: #f3f3f3;
+        border-bottom: 2px solid #212b36;
+      }
+      /* Styles */
+      .mainmenu .navbar-nav li a {
+        color: #212b36;
+        font-size: 15px;
+        padding: 5px 2px;
+        -webkit-transition: 0.3s;
+        transition: 0.3s;
+        font-weight: 600;
+        text-transform: uppercase;
+      }
+
+      .mainmenu .navbar-nav li a:hover {
+        color: #41b548;
+        -webkit-transition: all 0.3s ease-out;
+        transition: all 0.3s ease-out;
+      }
+
+      .menu-bg .mainmenu .navbar-nav li.active a {
+        color: #41b548;
+        -webkit-transition: all 0.3s ease-out;
+        transition: all 0.3s ease-out;
+      }
+
+      .nav li a:focus,
+      .nav li a:hover {
+        background: none;
+        color: #41b548;
+        -webkit-transition: all 0.3s ease-out;
+        transition: all 0.3s ease-out;
+      }
+
+      .navbar {
+        margin: 0;
+      }
+
+      .menu-bg {
+        -webkit-transition: all 0.3s ease-out;
+        transition: all 0.3s ease-out;
+      }
+
+      .menu-bg .logo {
+        padding-top: 20px;
+        -webkit-transition: all 0.3s ease-out;
+        transition: all 0.3s ease-out;
+      }
+
+      .menu-bg .mainmenu .navbar-nav li a {
+        padding: 20px 15px;
+        -webkit-transition: 0.3s;
+        transition: 0.3s;
+      }
+      .mainmenu {
+        display: flex;
+        margin: 5px 60px;
+      }
+      .mainmenu .navbar-nobg{
+        justify-content: flex-end;
+        flex: 1;
+      }
+      .cover{
+        height: 500px;
+        background-image:url('../images/cover/civil3.jpg'), linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
+        background-blend-mode: overlay;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+
+      }
+      .cover-img {
+        height: 500px;
+      }
+      .profile-container {
+        border: solid 1px rgb(180, 179, 179);
+      }
+      .circle {
+        border-radius: 50%;
+        margin-left: 50px;
+        z-index: 1;
+        height: 330px;
+        width: 300px;
+        background-image: url("../images/team/astridGutierrez3.png");
+        border: solid 2px white;
+      }
+      .general-info{
+        margin-top: -250px;
+      }
+      /* Cover header */
+    
+      .bg-overly{
+        height: 500px;
+        background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
+        position: fixed; 
+        width: 100%;
+        cursor: pointer; /* Add a pointer on hover */
+      }
+
+      /* Profile */
+      .right {
+        display: flex;
+        justify-content: center;
+        margin-top: -20px;
+        margin-bottom: 17px;
+      }
+      .right p {
+        height: 45px;
+        width: 205px;
+        margin: auto;
+        background-color: #4677B0;
+        text-align: center;
+        color: white;
+        font-size: 22px;
+        padding-top: 10px;
+      }
+      .right p a{
+        color: white;
+      }
+      .right p i{
+        margin-right: 10px;
+      }
+      .border-container {
+        box-shadow: 5px 5px 5px #aaaaaa;
+        border: solid 1px #aaaaaa;
+        border-radius: 5px;
+        margin-bottom: 50px;
+        padding: 10px;
+        padding-bottom: 25px;
+      }
+      .container-small {
+        height: 150px;
+      }
+      .name-profile {
+        padding-left: 80px;
+      }
+      .name-profile h3{
+        font-size: 28px;
+        font-weight: 700;
+        color: #75888E;
+      }
+      .name-profile p{
+        color: #039C40;
+        font-size: 23px;
+        font-weight: 500;
+      }
+      .profile-social-media i{
+        color: white;
+        background-color: #4677B0;
+        padding: 11px;
+        border-radius: 52px;
+        margin-right: 10px;
+
+      }
+      .profile-social-media li{
+        font-size: 22px;
+        margin-left: 10px;
+        margin-bottom: 10px;
+      }
+      .profile-social-media li a:hover{
+        color: #4677B0;
+      }
+      /* Expirience */
+      .expirience{
+        padding: 20px 70px;
+      }
+      .expirience p{
+        margin-top: 40px;
+        font-size: 22px;
+      }
+      .expirience li{
+        margin-top: 40px;
+        font-size: 22px;
+      }
+      .expirience li{
+        margin-left: 20px;
+      }
+      .expirience h2{
+        font-size: 28px;
+        font-weight: 700;
+        color: #75888E;
+      }
+      .expirience h2 i{
+        color: #4677B0;
+        margin-right: 10px;
+      }
+      .footer-area{
+        background-color: #212b36;
+        padding: 20px;
+      }
+      .footer-link{
+        font-size: 40px;
+      }
+      .footer-logo{
+        width: 60%;
+      }
+      .footer-links{
+        display: flex;
+      }
+      .footer-links a{
+        color: white;
+        font-size: 14px;
+      }
+      .footer-links li{
+        margin: 10px;
+        font-size: 2.1rem;
+      }
+      .navbar-nobg{
+        display: flex;
+      }
+      .profile-social-media li{}
+      /* add media query */
+  
+      @media (max-width:768px){
+        .mainmenu{
+          margin: auto;
+        }
+        .circle{
+          top: 35%;
+          width: 270px;
+          height: 300px;
+          margin: auto;
+        }
+        .general-info{
+          display: flex;
+          flex-direction: column;
+        }
+        .name-profile{
+          display: flex;
+          flex-direction: column;
+          padding: 0;
+        }
+        .name-profile h3{
+          margin: auto;
+        }
+        .name-profile p{
+          margin: auto;
+        }
+        .container-small{
+          margin-top: 40px;
+        }
+        .profile-social-media{
+          margin-left: 20px;
+        }
+      }
+      @media (max-width:425px){
+        .profile-social-media li{
+          font-size: 16px;
+        }
+        .name-profile h3{
+          font-size: 20px;
+        }
+        .name-profile p {
+          font-size: 18px;
+        }
+      }
+
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="header-top-area">
+        <nav class="navbar navbar-expand-lg navbar-white bg-white static-top">
+          <div class="">
+            <div class="row">
+              <!-- <div class="col-md-9 col-sm-12"> -->
+                <!-- START MENU   -->
+                <div class="mainmenu">
+                  <a href="../index.html">
+                    <img
+                      class="logo-navbar"
+                      src="../images/logoV3.png"
+                      alt="Ruiz&Betancourt"
+                    />
+                  </a>
+                  <div class="navbar navbar-nobg">
+                    <div class="navbar-header">
+                      <button
+                        type="button"
+                        class="navbar-toggle"
+                        data-toggle="collapse"
+                        data-target=".navbar-collapse"
+                      >
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                      </button>
+                    </div>
+                    <div class="navbar-collapse collapse">
+                      <ul class="nav navbar-nav navbar-right">
+                        <li>
+                          <a class="smoth-scroll" href="/public/"
+                            >Inicio</a
+                          >
+                        </li>
+                      </ul>
+                    </div>
+                    <br />
+                  </div>
+                </div>
+                <!-- END MENU   -->
+              <!-- </div> -->
+            </div>
+            <!--end row-->
+          </div>
+        </nav>
+        <!--end container-->
+      </div>
+    </header>
+    <div class="container profile-container">
+      <div class="border-container">
+        <div class="cover">
+        </div>
+        <div class="row general-info">
+          <div class="circle"></div>
+          <div class="col-md-6 col-sm-12 name-profile">
+            <h3>Ing. Astrid Guifarro</h3>
+            <p>Ingeniero Civil</p>
+          </div>
+          <div class="col-md-6 col-sm-12 container-small">
+            <div class="row right">
+              <p><a href="intent://send/94460939#Intent;scheme=smsto;package=com.whatsapp;action=android.intent.action.SENDTO;end"><i class="fa fa-whatsapp fa-lg"></i>Contáctame</a></p>
+            </div>
+            <div class="row profile-social-media">
+              <ul>
+                <li>
+                  <a href="mailto:astrid.guifarro@gruporybco.com"
+                    ><span><i class="fa fa-google fa-lg"></i></span> astrid.guifarro@gruporybco.com</a
+                  >
+                </li>
+                <li>
+                  <a href="https://www.linkedin.com/feed/"  target="_blank"
+                    ><i class="fa fa-linkedin fa-lg"></i>wwww.linkedin.com</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="border-container expirience">
+        <h2><i class="fa fa-briefcase fa-lg"></i>Experiencia</h2>
+        <p>
+          Ingeniero civil con más de cinco años de experiencia en 
+          supervisión civil. Amplios conocimientos en presupuestos, 
+          materiales de construcción y manejo de personal.
+        </p>
+      </div>
+      <div class="border-container expirience competencia">
+        <h2><i class="fa fa-cogs fa-lg"></i>Competencias</h2>
+        <ul>
+          <li><i class="fa fa-caret-right fa-lg"></i> Habilidad de Liderazgo</li>
+          <li><i class="fa fa-caret-right fa-lg"></i> Pensamiento Critico</li>
+          <li><i class="fa fa-caret-right fa-lg"></i> Visualizacion de ideas</li>
+          <li><i class="fa fa-caret-right fa-lg"></i> Interes por la tecnología y ciencia</li>
+          <li><i class="fa fa-caret-right fa-lg"></i> Capacidad de análisis y resolución de problemas</li>
+        </ul>
+      </div>
+      <div class="border-container expirience studies">
+        <h2><i class="fa fa-graduation-cap fa-lg"></i>Estudios Realizados</h2>
+        <ul>
+          <li>UNITEC: <span>Ingenieria Civil</span></li>
+          <li>INFOP:<span>Diplomado de Albañileria.</span></li>
+        </ul>
+      </div>
+    </div>
+    <footer class="footer-area">
+      <div class="container footer-shadow">
+          <div class="row">
+            <div class="col-md-6 col-sm-8">
+              <div class="logo-footer">
+                <img src="../images/logoV4.png" alt="Ruiz y Betancourt" class="footer-logo">
+              </div>
+            </div>
+              <div class="col-md-6 col-sm-4 footer-links">
+                <ul>
+                    <li><a href="www.gruporybco.com"><i class="fa fa-globe  footer-link"></i>  www.gruporybco.com</a></li>
+                    <li><a href=""><i class="fa fa-whatsapp footer-link"></i>  + (504) 2554-5679</a></li>
+                </ul>
+              </div>
+          </div>
+      </div>
+      </div>
+  </footer>
+  </body>
+</html>
