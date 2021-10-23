@@ -367,11 +367,11 @@
       }
       .profile-social-media li{}
       /* add media query */
-  
       @media (max-width:768px){
         .mainmenu{
           margin: auto;
         }
+
         .circle{
           top: 35%;
           width: 270px;
@@ -401,14 +401,53 @@
         }
       }
       @media (max-width:425px){
+        .mainmenu{
+          margin: auto;
+        }
+        .mainmenu a{
+          width: 100%;
+          text-align: center;
+        }
+        .navbar-nobg{
+          display: none;
+        }
+        .cover{
+          height: 350px;
+        }
+        .circle{
+          margin-top: 50px;
+          margin-bottom: 10px;
+        }
+        .profile-social-media{
+          margin-left: 0px
+        }
         .profile-social-media li{
           font-size: 16px;
+        }
+        .profile-social-media .fa-lg{
+          font-size: 0.8em;
+          padding: 8px;
         }
         .name-profile h3{
           font-size: 20px;
         }
         .name-profile p {
           font-size: 18px;
+        }
+        .expirience {
+        padding: 5px 15px;
+        }
+        .expirience p{
+          margin-top: 20px;
+        }
+        .expirience h2{
+          font-size: 24px;
+          font-weight: 600;
+        }
+      }
+      @media (max-width:375px){
+        .profile-social-media .fa-lg{
+        display: none;
         }
       }
 
